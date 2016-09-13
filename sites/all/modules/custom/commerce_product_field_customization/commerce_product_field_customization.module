@@ -1,0 +1,67 @@
+<?php
+
+function commerce_product_field_customization_views_pre_render(&$view) {
+  if($view->name == 'product_display_products_table') {
+    if(arg(0) == 'node' && is_numeric(arg(1))) {
+      $node = node_load(arg(1)); 
+      $parents = taxonomy_get_parents_all($node->field_product_category['und'][0]['tid']);
+      $main_parent = end($parents);
+      /*$term = taxonomy_term_load($node->field_product_category['und'][0]['tid']);*/
+      if(isset($view->field['field_bdl']) && $view->field['field_bdl']): $view->field['field_bdl']->options['label'] = 'Bundle Quantity'; endif;
+      if(isset($view->field['field_plt']) && $view->field['field_plt']): $view->field['field_plt']->options['label'] = 'Pallet Quantity'; endif;
+
+      if($main_parent->name == 'Bubble Wrap') {
+        $fields = array('field_bubble_size','field_bundle_size','field_cut','field_perforation');
+          foreach($fields as $field) {
+            $view->field[$field]->options['label'] = $view->field[$field]->options['label'] . ' (inch)';
+          }
+      } elseif($main_parent->name == 'Boxes') {
+        $view->field['field_physical_dimension']->options['label'] = 'Length x Width x Depth';
+        foreach($view->result as $r=>&$result) {
+          $values = explode(' ',$result->field_field_physical_dimension[0]['rendered']['#markup']);
+          $remove_elem = array_pop($values);
+          $result->field_field_physical_dimension[0]['rendered']['#markup'] = implode(' ',$values);
+        }
+      } elseif ($main_parent->name == 'Chipboard') {
+        $view->field['field_weight_per_bundle']->options['label'] = $view->field['field_weight_per_bundle']->options['label'] . ' (Pounds)'; 
+        $view->field['field_physical_dimension']->options['label'] = 'Length x Width x Thickness';     
+      } elseif ($main_parent->name == 'Hangers') {        
+        if($view->field['field_size']): $view->field['field_size']->options['label'] = $view->field['field_size']->options['label'] . ' (inches)'; endif;
+        if($view->field['field_qty_per_uom']): $view->field['field_qty_per_uom']->options['label'] = 'Hangers/Case'; endif;
+      } elseif ($main_parent->name == 'Labels') {
+        if($view->field['field_size_of_sheet']): $view->field['field_size_of_sheet']->options['label'] = $view->field['field_size_of_sheet']->options['label'] . ' (inches)'; endif;
+        if($view->field['field_size_of_labels']): $view->field['field_size_of_labels']->options['label'] = $view->field['field_size_of_labels']->options['label'] . ' (inches)'; endif;
+        $view->field['field_physical_dimension']->options['label'] = 'Length x Width';
+        foreach($view->result as $r=>&$result) {
+          if($result->field_field_physical_dimension) {
+            $values = explode('&times;',$result->field_field_physical_dimension[0]['rendered']['#markup']);
+            $remove_elem = array_pop($values);
+            $result->field_field_physical_dimension[0]['rendered']['#markup'] = implode('&times;',$values) . ' (in)';
+          }          
+        }  
+      } elseif ($main_parent->name == 'Mailers') {
+        $view->field['field_physical_dimension']->options['label'] = 'Width x Length';
+        foreach($view->result as $r=>&$result) {
+          $values = explode('&times;',$result->field_field_physical_dimension[0]['rendered']['#markup']);
+          $remove_elem = array_pop($values);
+          $result->field_field_physical_dimension[0]['rendered']['#markup'] = implode('&times;',$values);
+        }
+      } elseif ($main_parent->name == 'Stretch Film') {
+        $view->field['field_thickness']->options['label'] = 'Thickness (Gauge)';
+        $view->field['field_physical_dimension']->options['label'] = 'Length (feet)';
+        foreach($view->result as $r=>&$result) {
+          $values = explode('&times;',$result->field_field_physical_dimension[0]['rendered']['#markup']);
+          $result->field_field_physical_dimension[0]['rendered']['#markup'] = array_shift($values);
+        } 
+      } elseif ($main_parent->name == 'Tape') {
+        $view->field['field_physical_dimension']->options['label'] = 'Length (feet)';
+        foreach($view->result as $r=>&$result) {
+          if($result->field_field_physical_dimension) {
+          $values = explode('&times;',$result->field_field_physical_dimension[0]['rendered']['#markup']);
+          $result->field_field_physical_dimension[0]['rendered']['#markup'] = array_shift($values);
+          }          
+        }          
+      }
+    }
+  }
+}

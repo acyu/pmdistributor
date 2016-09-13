@@ -1,0 +1,110 @@
+<?php
+/**
+ * @file
+ * Code for the Commerce Reference Widget module.
+ */
+
+/**
+ * Implements hook_field_widget_info().
+ */
+function commerce_reference_widget_field_widget_info() {
+  return array(
+    'commerce_reference_widget_commerce_product_autocomplete' => array(
+      'label' => t('Product autocomplete multiple field'),
+      'description' => t('Display the list of referenceable products as a textfield with autocomplete and sortable behaviours.'),
+      'field types' => array('commerce_product_reference'),
+      'settings' => array(
+        'autocomplete_match' => 'contains',
+        'size' => 60,
+        'autocomplete_path' => 'commerce_product/autocomplete',
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_field_widget_settings_form().
+ */
+function commerce_reference_widget_field_widget_settings_form($field, $instance) {
+  $widget = $instance['widget'];
+  $defaults = field_info_widget_settings($widget['type']);
+  $settings = array_merge($defaults, $widget['settings']);
+
+  $form = array();
+
+  // Build the settings for the commerce reference widget commerce product
+  // reference autocomplete widget.
+  if ($widget['type'] == 'commerce_reference_widget_commerce_product_autocomplete') {
+    $form['autocomplete_match'] = array(
+      '#type' => 'select',
+      '#title' => t('Autocomplete matching'),
+      '#default_value' => $settings['autocomplete_match'],
+      '#options' => array(
+        'starts_with' => t('Starts with'),
+        'contains' => t('Contains'),
+      ),
+      '#description' => t('Select the method used to collect autocomplete suggestions. Note that <em>Contains</em> can cause performance issues on sites with thousands of products.'),
+    );
+    $form['size'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Size of textfield'),
+      '#default_value' => $settings['size'],
+      '#element_validate' => array('_element_validate_integer_positive'),
+      '#required' => TRUE,
+    );
+  }
+
+  return $form;
+}
+
+/**
+ * Implements hook_field_widget_form().
+ */
+function commerce_reference_widget_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $element) {
+  // Define the autocomplete and sortable textfield for commerce products.
+  if ($instance['widget']['type'] == 'commerce_reference_widget_commerce_product_autocomplete') {
+    $commerce_product = array(
+      '#type' => 'textfield',
+      '#default_value' => '',
+      // Use the commerce core autocomplete path.
+      '#autocomplete_path' => $instance['widget']['settings']['autocomplete_path'] . '/' . $instance['entity_type'] . '/' . $field['field_name'] . '/' . $instance['bundle'],
+      '#size' => $instance['widget']['settings']['size'],
+      '#maxlength' => 255,
+    );
+
+    // Load this product and extract its SKU.
+    if (isset($items[$delta])) {
+      $product = isset($items[$delta]['commerce_product']) ? $items[$delta]['commerce_product'] : commerce_product_load($items[$delta]['product_id']);
+      $commerce_product['#default_value'] = $product->sku;
+    }
+
+    $element['commerce_product'] = $commerce_product;
+    $element['#element_validate'] = array('commerce_reference_widget_commerce_product_autocomplete_validate');
+
+    return $element;
+  }
+}
+
+/**
+ * Form element validate handler for Commerce Product autocomplete element.
+ */
+function commerce_reference_widget_commerce_product_autocomplete_validate($element, &$form_state) {
+  $value = array();
+  // If a value was entered into the autocomplete...
+  if (!empty($element['commerce_product']['#value'])) {
+    // Translate SKU into product ID.
+    $product_sku = $element['commerce_product']['#value'];
+
+    // Check if the product actually exists...
+    if ($product = commerce_product_load_by_sku(trim($product_sku))) {
+      // And store its product ID for later validation.
+      $value = array('product_id' => $product->product_id);
+    }
+    else {
+      form_error($element, t('Product SKU %sku does not exist.', array('%sku' => $product_sku)));
+    }
+  }
+
+  // Update the value of this element so the field can validate the product IDs.
+  form_set_value($element, $value, $form_state);
+}

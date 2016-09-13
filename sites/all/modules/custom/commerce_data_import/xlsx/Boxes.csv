@@ -1,0 +1,668 @@
+ITEM CLASS,ITEM NUMBER,Display Title,Category,LENGTH,WIDTH,DEPTH,DESCRIPTION,PRINT,COLOR,STRENGTH,FLUTE,STYLE,LENGTH,WIDTH,DEPTH,WEIGHT/PALLET,WEIGHT/M ,BUNDLE QTY,PALLET QTY,UNIT OF MEASURE,COST
+CB,10303031,Corrugated Box,Corrugated Boxes,3,3,3,Corrugated Box 3 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,76,25,3600,Each,0.283
+CB,10303041,Corrugated Box,Corrugated Boxes,3,3,4,Corrugated Box 3 X 3 X 4  ,Plain,Kraft,200#,C,RSC,,,,,87,25,3600,Each,0.287
+CB,10303071,Corrugated Box,Corrugated Boxes,3,3,7,Corrugated Box 3 X 3 X 7  ,Plain,Kraft,200#,C,RSC,,,,,120,25,2000,Each,0.317
+CB,10404031,Corrugated Box,Corrugated Boxes,4,4,3,Corrugated Box 4 X 4 X 3  ,Plain,Kraft,200#,C,RSC,,,,,114,25,3000,Each,0.24
+CB,10404041,Corrugated Box,Corrugated Boxes,4,4,4,Corrugated Box 4 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,128,25,3000,Each,0.195
+CB,10404051,Corrugated Box,Corrugated Boxes,4,4,5,Corrugated Box 4 X 4 X 5  ,Plain,Kraft,200#,C,RSC,,,,,143,25,2500,Each,0.257
+CB,10404081,Corrugated Box,Corrugated Boxes,4,4,8,Corrugated Box 4 X 4 X 8  ,Plain,Kraft,200#,C,RSC,,,,,180,25,2500,Each,0.243
+CB,10404091,Corrugated Box,Corrugated Boxes,4,4,9,Corrugated Box 4 X 4 X 9  ,Plain,Kraft,200#,C,RSC,,,,,200,25,1500,Each,0.348
+CB,10404121,Corrugated Box,Corrugated Boxes,4,4,12,Corrugated Box 4 X 4 X 12  ,Plain,Kraft,200#,C,RSC,,,,,242,25,1200,Each,0.404
+CB,10404181,Corrugated Box,Corrugated Boxes,4,4,18,Corrugated Box 4 X 4 X 18  ,Plain,Kraft,200#,C,RSC,,,,,328,25,1000,Each,0.662
+CB,10404201,Corrugated Box,Corrugated Boxes,4,4,20,Corrugated Box 4 X 4 X 20  ,Plain,Kraft,200#,C,RSC,,,,,357,25,1000,Each,0.521
+CB,10404241,Corrugated Box,Corrugated Boxes,4,4,24,Corrugated Box 4 X 4 X 24  ,Plain,Kraft,200#,C,RSC,,,,,414,25,1000,Each,0.656
+CB,10404281,Corrugated Box,Corrugated Boxes,4,4,28,Corrugated Box 4 X 4 X 28  ,Plain,Kraft,200#,C,RSC,,,,,471,25,1200,Each,0.696
+CB,10404321,Corrugated Box,Corrugated Boxes,4,4,32,Corrugated Box 4 X 4 X 32  ,Plain,Kraft,200#,C,RSC,,,,,528,25,750,Each,0.919
+CB,10404361,Corrugated Box,Corrugated Boxes,4,4,36,Corrugated Box 4 X 4 X 36  ,Plain,Kraft,200#,C,RSC,,,,,585,25,600,Each,0.835
+CB,10404401,Corrugated Box,Corrugated Boxes,4,4,40,Corrugated Box 4 X 4 X 40  ,Plain,Kraft,200#,C,RSC,,,,,642,25,750,Each,0.788
+CB,10404481,Corrugated Box,Corrugated Boxes,4,4,48,Corrugated Box 4 X 4 X 48  ,Plain,Kraft,200#,C,RSC,,,,,757,25,500,Each,0.96
+CB,10404042,Corrugated Box,Corrugated Boxes,4,4,4,Corrugated Box 4-1/2 X 4-1/2 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,159,25,2500,Each,0.414
+CB,10503041,Corrugated Box,Corrugated Boxes,5,3,4,Corrugated Box 5 X 3 X 4  ,Plain,Kraft,200#,C,RSC,,,,,114,25,2500,Each,0.427
+CB,10505031,Corrugated Box,Corrugated Boxes,5,5,3,Corrugated Box 5 X 5 X 3  ,Plain,Kraft,200#,C,RSC,,,,,158,25,2500,Each,0.25
+CB,10505041,Corrugated Box,Corrugated Boxes,5,5,4,Corrugated Box 5 X 5 X 4  ,Plain,Kraft,200#,C,RSC,,,,,176,25,2000,Each,0.213
+CB,10505051,Corrugated Box,Corrugated Boxes,5,5,5,Corrugated Box 5 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,195,25,2000,Each,0.18
+CB,10505101,Corrugated Box,Corrugated Boxes,5,5,10,Corrugated Box 5 X 5 X 10  ,Plain,Kraft,200#,C,RSC,,,,,282,25,1500,Each,0.339
+CB,10505052,Corrugated Box,Corrugated Boxes,5,5,5,Corrugated Box 5-1/2 X 5-1/2 X 5-1/2  ,Plain,Kraft,200#,C,RSC,,,,,231,25,2000,Each,0.367
+CB,10603031,Corrugated Box,Corrugated Boxes,6,3,3,Corrugated Box 6 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,111,25,3000,Each,0.245
+CB,10604021,Corrugated Box,Corrugated Boxes,6,4,2,Corrugated Box 6 X 4 X 2  ,Plain,Kraft,200#,C,RSC,,,,,104,25,3500,Each,0.323
+CB,10604031,Corrugated Box,Corrugated Boxes,6,4,3,Corrugated Box 6 X 4 X 3  ,Plain,Kraft,200#,C,RSC,,,,,140,25,3000,Each,0.21
+CB,10604032,Corrugated Box,Corrugated Boxes,6,4,3,Corrugated Box 6 X 4 X 3-1/2  ,Plain,Kraft,200#,C,RSC,,,,,150,25,2500,Each,0.361
+CB,10604041,Corrugated Box,Corrugated Boxes,6,4,4,Corrugated Box 6 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,158,25,2500,Each,0.165
+CB,10604043,Corrugated Box,Corrugated Boxes,6,4,4,Corrugated Box 6 X 4 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,170,25,2500,Each,0.361
+CB,10605041,Corrugated Box,Corrugated Boxes,6,5,4,Corrugated Box 6 X 5 X 4  ,Plain,Kraft,200#,C,RSC,,,,,193,25,2500,Each,0.254
+CB,10605042,Corrugated Box,Corrugated Boxes,6,5,4,Corrugated Box 6 X 5 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,190,25,2500,Each,0.334
+CB,10605051,Corrugated Box,Corrugated Boxes,6,5,5,Corrugated Box 6 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,212,25,1500,Each,0.263
+CB,10606021,Corrugated Box,Corrugated Boxes,6,6,2,Corrugated Box 6 X 6 X 2  ,Plain,Kraft,200#,C,RSC,,,,,189,25,3000,Each,0.255
+CB,10606031,Corrugated Box,Corrugated Boxes,6,6,3,Corrugated Box 6 X 6 X 3  ,Plain,Kraft,200#,C,RSC,,,,,210,25,2500,Each,0.268
+CB,10606041,Corrugated Box,Corrugated Boxes,6,6,4,Corrugated Box 6 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,231,25,2000,Each,0.168
+CB,10606051,Corrugated Box,Corrugated Boxes,6,6,5,Corrugated Box 6 X 6 X 5  ,Plain,Kraft,200#,C,RSC,,,,,252,25,1500,Each,0.307
+CB,10606061,Corrugated Box,Corrugated Boxes,6,6,6,Corrugated Box 6 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,273,25,1500,Each,0.187
+CB,10606101,Corrugated Box,Corrugated Boxes,6,6,10,Corrugated Box 6 X 6 X 10  ,Plain,Kraft,200#,C,RSC,,,,,333,25,1000,Each,0.476
+CB,10606361,Corrugated Box,Corrugated Boxes,6,6,36,Corrugated Box 6 X 6 X 36  ,Plain,Kraft,200#,C,RSC,,,,,903,25,600,Each,1.2
+CB,10606401,Corrugated Box,Corrugated Boxes,6,6,40,Corrugated Box 6 X 6 X 40  ,Plain,Kraft,200#,C,RSC,,,,,987,25,500,Each,1.432
+CB,10606481,Corrugated Box,Corrugated Boxes,6,6,48,Corrugated Box 6 X 6 X 48  ,Plain,Kraft,200#,C,RSC,,,,,1155,25,500,Each,1.295
+CB,10705031,Corrugated Box,Corrugated Boxes,7,5,3,Corrugated Box 7 X 5 X 3  ,Plain,Kraft,200#,C,RSC,,,,,189,25,2500,Each,0.231
+CB,10705051,Corrugated Box,Corrugated Boxes,7,5,5,Corrugated Box 7 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,231,25,2500,Each,0.249
+CB,10706041,Corrugated Box,Corrugated Boxes,7,6,4,Corrugated Box 7 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,249,25,1500,Each,0.315
+CB,10706061,Corrugated Box,Corrugated Boxes,7,6,6,Corrugated Box 7 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,294,25,1500,Each,0.345
+CB,10707031,Corrugated Box,Corrugated Boxes,7,7,3,Corrugated Box 7 X 7 X 3  ,Plain,Kraft,200#,C,RSC,,,,,268,25,1000,Each,0.278
+CB,10707041,Corrugated Box,Corrugated Boxes,7,7,4,Corrugated Box 7 X 7 X 4  ,Plain,Kraft,200#,C,RSC,,,,,292,25,1500,Each,0.26
+CB,10707051,Corrugated Box,Corrugated Boxes,7,7,5,Corrugated Box 7 X 7 X 5  ,Plain,Kraft,200#,C,RSC,,,,,316,25,1500,Each,0.322
+CB,10707061,Corrugated Box,Corrugated Boxes,7,7,6,Corrugated Box 7 X 7 X 6  ,Plain,Kraft,200#,C,RSC,,,,,341,25,1125,Each,0.377
+CB,10707071,Corrugated Box,Corrugated Boxes,7,7,7,Corrugated Box 7 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,365,25,1125,Each,0.25
+CB,10707081,Corrugated Box,Corrugated Boxes,7,7,8,Corrugated Box 7 X 7 X 8  ,Plain,Kraft,200#,C,RSC,,,,,389,25,1125,Each,0.438
+CB,10707101,Corrugated Box,Corrugated Boxes,7,7,10,Corrugated Box 7 X 7 X 10  ,Plain,Kraft,200#,C,RSC,,,,,438,25,750,Each,0.38
+CB,10707121,Corrugated Box,Corrugated Boxes,7,7,12,Corrugated Box 7 X 7 X 12  ,Plain,Kraft,200#,C,RSC,,,,,489,25,1000,Each,0.474
+CB,10803031,Corrugated Box,Corrugated Boxes,8,3,3,Corrugated Box 8 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,135,25,3000,Each,0.285
+CB,10804041,Corrugated Box,Corrugated Boxes,8,4,4,Corrugated Box 8 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,189,25,2250,Each,0.16
+CB,10805041,Corrugated Box,Corrugated Boxes,8,5,4,Corrugated Box 8 X 5 X 4  ,Plain,Kraft,200#,C,RSC,,,,,226,25,1500,Each,0.2
+CB,10805051,Corrugated Box,Corrugated Boxes,8,5,5,Corrugated Box 8 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,249,25,1500,Each,0.278
+CB,10806031,Corrugated Box,Corrugated Boxes,8,6,3,Corrugated Box 8 X 6 X 3  ,Plain,Kraft,200#,C,RSC,,,,,243,25,1200,Each,0.212
+CB,10806041,Corrugated Box,Corrugated Boxes,8,6,4,Corrugated Box 8 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,268,25,1500,Each,0.175
+CB,10806051,Corrugated Box,Corrugated Boxes,8,6,5,Corrugated Box 8 X 6 X 5  ,Plain,Kraft,200#,C,RSC,,,,,292,25,1500,Each,0.209
+CB,10806061,Corrugated Box,Corrugated Boxes,8,6,6,Corrugated Box 8 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,316,25,1500,Each,0.207
+CB,10808031,Corrugated Box,Corrugated Boxes,8,8,3,Corrugated Box 8 X 8 X 3  ,Plain,Kraft,200#,C,RSC,,,,,332,25,1500,Each,0.362
+CB,10808041,Corrugated Box,Corrugated Boxes,8,8,4,Corrugated Box 8 X 8 X 4  ,Plain,Kraft,200#,C,RSC,,,,,360,25,1500,Each,0.265
+CB,10808051,Corrugated Box,Corrugated Boxes,8,8,5,Corrugated Box 8 X 8 X 5  ,Plain,Kraft,200#,C,RSC,,,,,388,25,1125,Each,0.389
+CB,10808061,Corrugated Box,Corrugated Boxes,8,8,6,Corrugated Box 8 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,415,25,1125,Each,0.242
+CB,10808081,Corrugated Box,Corrugated Boxes,8,8,8,Corrugated Box 8 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,471,25,1125,Each,0.293
+CB,10808131,Corrugated Box,Corrugated Boxes,8,8,13,Corrugated Box 8 X 8 X 13-1/4  ,Plain,Kraft,200#,C,RSC,,,,,616,25,1000,Each,0.437
+CB,10808171,Corrugated Box,Corrugated Boxes,8,8,17,Corrugated Box 8 X 8 X 17  ,Plain,Kraft,200#,C,RSC,,,,,464,25,500,Each,0.63
+CB,10808241,Corrugated Box,Corrugated Boxes,8,8,24,Corrugated Box 8-1/2 X 8-1/2 X 24  ,Plain,Kraft,200#,C,RSC,,,,,985,20,480,Each,1.123
+CB,10808101,Corrugated Box,Corrugated Boxes,8,8,10,Corrugated Box 8-3/4 X 8 X 10-1/4  ,Plain,Kraft,200#,C,RSC,,,,,558,25,750,Each,0.806
+CB,10904031,Corrugated Box,Corrugated Boxes,9,4,3,Corrugated Box 9 X 4 X 3  ,Plain,Kraft,200#,C,RSC,,,,,181,25,1500,Each,0.399
+CB,10904041,Corrugated Box,Corrugated Boxes,9,4,4,Corrugated Box 9 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,205,25,2500,Each,0.278
+CB,10905031,Corrugated Box,Corrugated Boxes,9,5,3,Corrugated Box 9 X 5 X 3  ,Plain,Kraft,200#,C,RSC,,,,,219,25,1500,Each,0.278
+CB,10905051,Corrugated Box,Corrugated Boxes,9,5,5,Corrugated Box 9 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,268,25,1500,Each,0.27
+CB,10906041,Corrugated Box,Corrugated Boxes,9,6,4,Corrugated Box 9 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,286,25,1500,Each,0.17
+CB,10906051,Corrugated Box,Corrugated Boxes,9,6,5,Corrugated Box 9 X 6 X 5,Plain,Kraft,200#,C,RSC,,,,,312,25,1000,Each,0.353
+CB,10906052,Corrugated Box,Corrugated Boxes,9,6,5,Corrugated Box 9 X 6 X 5-1/2  ,Plain,Kraft,200#,C,RSC,,,,,325,25,1125,Each,0.495
+CB,10906061,Corrugated Box,Corrugated Boxes,9,6,6,Corrugated Box 9 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,338,25,1500,Each,0.235
+CB,10907041,Corrugated Box,Corrugated Boxes,9,7,4,Corrugated Box 9 X 7 X 4  ,Plain,Kraft,200#,C,RSC,,,,,332,25,1125,Each,0.309
+CB,10907051,Corrugated Box,Corrugated Boxes,9,7,5,Corrugated Box 9 X 7 X 5  ,Plain,Kraft,200#,C,RSC,,,,,360,25,1125,Each,0.307
+CB,10907071,Corrugated Box,Corrugated Boxes,9,7,7,Corrugated Box 9 X 7 X 7,Plain,Kraft,200#,C,RSC,,,,,415,25,750,Each,0.408
+CB,10908041,Corrugated Box,Corrugated Boxes,9,8,4,Corrugated Box 9 X 8 X 4  ,Plain,Kraft,200#,C,RSC,,,,,382,25,750,Each,0.364
+CB,10908061,Corrugated Box,Corrugated Boxes,9,8,6,Corrugated Box 9 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,441,25,1125,Each,0.402
+CB,10908081,Corrugated Box,Corrugated Boxes,9,8,8,Corrugated Box 9 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,499,25,750,Each,0.486
+CB,10909041,Corrugated Box,Corrugated Boxes,9,9,4,Corrugated Box 9 X 9 X 4  ,Plain,Kraft,200#,C,RSC,,,,,435,25,1000,Each,0.31
+CB,10909051,Corrugated Box,Corrugated Boxes,9,9,5,Corrugated Box 9 X 9 X 5  ,Plain,Kraft,200#,C,RSC,,,,,466,25,750,Each,0.439
+CB,10909061,Corrugated Box,Corrugated Boxes,9,9,6,Corrugated Box 9 X 9 X 6  ,Plain,Kraft,200#,C,RSC,,,,,497,25,750,Each,0.35
+CB,10909071,Corrugated Box,Corrugated Boxes,9,9,7,Corrugated Box 9 X 9 X 7  ,Plain,Kraft,200#,C,RSC,,,,,528,25,750,Each,0.424
+CB,10909091,Corrugated Box,Corrugated Boxes,9,9,9,Corrugated Box 9 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,590,25,750,Each,0.41
+CB,10909251,Corrugated Box,Corrugated Boxes,9,9,25,Corrugated Box 9 X 9 X 25  ,Plain,Kraft,200#,C,RSC,,,,,1088,15,480,Each,1.117
+CB,10909141,Corrugated Box,Corrugated Boxes,9,9,14,Corrugated Box 9-1/2 X 9-1/2 X 14-1/4  ,Plain,Kraft,200#,C,RSC,,,,,811,25,750,Each,0.762
+CB,11003031,Corrugated Box,Corrugated Boxes,10,3,3,Corrugated Box 10 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,158,25,1800,Each,0.383
+CB,11004041,Corrugated Box,Corrugated Boxes,10,4,4,Corrugated Box 10 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,219,25,1500,Each,0.294
+CB,11005041,Corrugated Box,Corrugated Boxes,10,5,4,Corrugated Box 10 X 5 X 4  ,Plain,Kraft,200#,C,RSC,,,,,260,25,1500,Each,0.376
+CB,11005051,Corrugated Box,Corrugated Boxes,10,5,5,Corrugated Box 10 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,286,25,1500,Each,0.278
+CB,11006031,Corrugated Box,Corrugated Boxes,10,6,3,Corrugated Box 10 X 6 X 3  ,Plain,Kraft,200#,C,RSC,,,,,277,25,1500,Each,0.322
+CB,11006041,Corrugated Box,Corrugated Boxes,10,6,4,Corrugated Box 10 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,304,25,1500,Each,0.251
+CB,11006051,Corrugated Box,Corrugated Boxes,10,6,5,Corrugated Box 10 X 6 X 5  ,Plain,Kraft,200#,C,RSC,,,,,332,25,1500,Each,0.26
+CB,11006061,Corrugated Box,Corrugated Boxes,10,6,6,Corrugated Box 10 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,360,25,1125,Each,0.233
+CB,11007041,Corrugated Box,Corrugated Boxes,10,7,4,Corrugated Box 10 X 7 X 4  ,Plain,Kraft,200#,C,RSC,,,,,352,25,1500,Each,0.322
+CB,11007051,Corrugated Box,Corrugated Boxes,10,7,5,Corrugated Box 10 X 7 X 5  ,Plain,Kraft,200#,C,RSC,,,,,382,25,1500,Each,0.397
+CB,11007071,Corrugated Box,Corrugated Boxes,10,7,7,Corrugated Box 10 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,420,25,1125,Each,0.448
+CB,11008041,Corrugated Box,Corrugated Boxes,10,8,4,Corrugated Box 10 X 8 X 4  ,Plain,Kraft,200#,C,RSC,,,,,404,25,1125,Each,0.343
+CB,11008051,Corrugated Box,Corrugated Boxes,10,8,5,Corrugated Box 10 X 8 X 5  ,Plain,Kraft,200#,C,RSC,,,,,435,25,1125,Each,0.36
+CB,11008061,Corrugated Box,Corrugated Boxes,10,8,6,Corrugated Box 10 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,465,25,1125,Each,0.28
+CB,11008071,Corrugated Box,Corrugated Boxes,10,8,7,Corrugated Box 10 X 8 X 7  ,Plain,Kraft,200#,C,RSC,,,,,497,25,750,Each,0.506
+CB,11008081,Corrugated Box,Corrugated Boxes,10,8,8,Corrugated Box 10 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,528,25,750,Each,0.33
+CB,11009031,Corrugated Box,Corrugated Boxes,10,9,3,Corrugated Box 10 X 9 X 3  ,Plain,Kraft,200#,C,RSC,,,,,438,25,1000,Each,0.614
+CB,11009061,Corrugated Box,Corrugated Boxes,10,9,6,Corrugated Box 10 X 9 X 6  ,Plain,Kraft,200#,C,RSC,,,,,524,25,750,Each,0.35
+CB,11009081,Corrugated Box,Corrugated Boxes,10,9,8,Corrugated Box 10 X 9 X 8  ,Plain,Kraft,200#,C,RSC,,,,,589,25,750,Each,0.617
+CB,11009091,Corrugated Box,Corrugated Boxes,10,9,9,Corrugated Box 10 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,622,25,750,Each,0.581
+CB,11010021,Corrugated Box,Corrugated Boxes,10,10,2,Corrugated Box 10 X 10 X 2  ,Plain,Kraft,200#,C,RSC,,,,,456,25,750,Each,0.531
+CB,11010031,Corrugated Box,Corrugated Boxes,10,10,3,Corrugated Box 10 X 10 X 3  ,Plain,Kraft,200#,C,RSC,,,,,482,25,750,Each,0.394
+CB,11010041,Corrugated Box,Corrugated Boxes,10,10,4,Corrugated Box 10 X 10 X 4  ,Plain,Kraft,200#,C,RSC,,,,,516,25,750,Each,0.363
+CB,11010051,Corrugated Box,Corrugated Boxes,10,10,5,Corrugated Box 10 X 10 X 5  ,Plain,Kraft,200#,C,RSC,,,,,551,25,750,Each,0.457
+CB,11010061,Corrugated Box,Corrugated Boxes,10,10,6,Corrugated Box 10 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,585,25,750,Each,0.39
+CB,11010071,Corrugated Box,Corrugated Boxes,10,10,7,Corrugated Box 10 X 10 X 7  ,Plain,Kraft,200#,C,RSC,,,,,620,25,750,Each,0.521
+CB,11010081,Corrugated Box,Corrugated Boxes,10,10,8,Corrugated Box 10 X 10 X 8  ,Plain,Kraft,200#,C,RSC,,,,,654,25,750,Each,0.448
+CB,11010091,Corrugated Box,Corrugated Boxes,10,10,9,Corrugated Box 10 X 10 X 9  ,Plain,Kraft,200#,C,RSC,,,,,688,25,750,Each,0.546
+CB,11010101,Corrugated Box,Corrugated Boxes,10,10,10,Corrugated Box 10 X 10 X 10,Plain,Kraft,200#,C,RSC,,,,,723,25,750,Each,0.499
+CB,11010121,Corrugated Box,Corrugated Boxes,10,10,12,Corrugated Box 10 X 10 X 12  ,Plain,Kraft,200#,C,RSC,,,,,841,25,500,Each,0.499
+CB,11010151,Corrugated Box,Corrugated Boxes,10,10,15,Corrugated Box 10 X 10 X 15  ,Plain,Kraft,200#,C,RSC,,,,,895,25,750,Each,0.55
+CB,11010052,Corrugated Box,Corrugated Boxes,10,10,5,Corrugated Box 10-1/2 X 10-1/2 X 5-1/2  ,Plain,Kraft,200#,C,RSC,,,,,614,25,750,Each,0.597
+CB,11010072,Corrugated Box,Corrugated Boxes,10,10,7,Corrugated Box 10-1/2 X 10-1/2 X 7-1/2  ,Plain,Kraft,200#,C,RSC,,,,,686,25,750,Each,0.656
+CB,11010082,Corrugated Box,Corrugated Boxes,10,10,8,Corrugated Box 10-1/2 X 10-1/2 X 8  ,Plain,Kraft,200#,C,RSC,,,,,727,25,750,Each,0.771
+CB,11010083,Corrugated Box,Corrugated Boxes,10,10,8,Corrugated Box 10-1/2 X 10-1/2 X 8-1/2  ,Plain,Kraft,200#,C,RSC,,,,,734,25,750,Each,1.007
+CB,11010103,Corrugated Box,Corrugated Boxes,10,10,10,Corrugated Box 10-1/2 X 10-1/2 X 10-1/2,Plain,Kraft,200#,C,RSC,,,,,794,25,750,Each,0.777
+CB,11010271,Corrugated Box,Corrugated Boxes,10,10,27,Corrugated Box 10-1/2 X 10-1/2 X 27  ,Plain,Kraft,200#,C,RSC,,,,,1455,25,250,Each,1.623
+CB,11106041,Corrugated Box,Corrugated Boxes,11,6,4,Corrugated Box 11 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,323,25,1250,Each,0.383
+CB,11106051,Corrugated Box,Corrugated Boxes,11,6,5,Corrugated Box 11 X 6 X 5-1/2,Plain,Kraft,200#,C,RSC,,,,,367,25,1500,Each,0.408
+CB,11107071,Corrugated Box,Corrugated Boxes,11,7,7,Corrugated Box 11 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,466,25,750,Each,0.497
+CB,11108062,Corrugated Box,Corrugated Boxes,11,8,6,Corrugated Box 11 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,491,25,750,Each,0.43
+CB,11108051,Corrugated Box,Corrugated Boxes,11,8,5,Corrugated Box 11 X 8-1/2 X 5  ,Plain,Kraft,200#,C,RSC,,,,,341,25,750,Each,0.496
+CB,11109091,Corrugated Box,Corrugated Boxes,11,9,9,Corrugated Box 11 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,654,25,750,Each,0.629
+CB,11111091,Corrugated Box,Corrugated Boxes,11,11,9,Corrugated Box 11 X 11 X 9  ,Plain,Kraft,200#,C,RSC,,,,,794,25,500,Each,0.684
+CB,11111111,Corrugated Box,Corrugated Boxes,11,11,11,Corrugated Box 11 X 11 X 11  ,Plain,Kraft,200#,C,RSC,,,,,869,25,500,Each,0.682
+CB,11105141,Corrugated Box,Corrugated Boxes,11,5,14,Corrugated Box 11-1/8 X 5-3/8 X 14-1/2,Plain,Kraft,ECT 32,C,RSC,,,,,,25,600,Each,0.29
+CB,11105121,Corrugated Box,Corrugated Boxes,11,5,12,Corrugated Box 11-1/4 X 5-1/4 X 12,Plain,Kraft,ECT 32,C,RSC,,,,,,25,900,Each,0.235
+CB,11108043,Corrugated Box,Corrugated Boxes,11,8,4,Corrugated Box 11-1/4 X 8-5/8 X 4-1/8       ,Plain,Kraft,200#,C,RSC,,,,,498,25,1000,Each,0.482
+CB,11108031,Corrugated Box,Corrugated Boxes,11,8,3,Corrugated Box 11-1/4 X 8-3/4 X 3,Plain,Kraft,200#,C,RSC,,,,,465,25,1000,Each,0.656
+CB,11108041,Corrugated Box,Corrugated Boxes,11,8,4,Corrugated Box 11-1/4 X 8-3/4 X 4,Plain,Kraft,200#,C,RSC,,,,,498,25,750,Each,0.415
+CB,11108044,Corrugated Box,Corrugated Boxes,11,8,4,Corrugated Box 11-1/4 X 8-3/4 X 4-3/4  ,Plain,Kraft,200#,C,RSC,,,,,499,25,1000,Each,0.433
+CB,11108061,Corrugated Box,Corrugated Boxes,11,8,6,Corrugated Box 11-1/4 X 8-3/4 X 6  ,Plain,Kraft,200#,C,RSC,,,,,571,25,750,Each,0.433
+CB,11108081,Corrugated Box,Corrugated Boxes,11,8,8,Corrugated Box 11-1/4 X 8-3/4 X 8  ,Plain,Kraft,200#,C,RSC,,,,,645,25,750,Each,0.4
+CB,11108101,Corrugated Box,Corrugated Boxes,11,8,10,Corrugated Box 11-1/4 X 8-3/4 X 10  ,Plain,Kraft,200#,C,RSC,,,,,720,25,750,Each,0.473
+CB,11108121,Corrugated Box,Corrugated Boxes,11,8,12,"Corrugated Box 11-1/4 X 8-3/4 X 12   W / 6"", 8"", 10"" SCORES",Plain,Kraft,200#,C,RSC,,,,,794,25,750,Each,0.604
+CB,11108122,Corrugated Box,Corrugated Boxes,11,8,12,Corrugated Box 11-1/4 x 8-3/4 x 12,Plain,Kraft,200#,C,RSC,,,,,760,25,750,Each,0.485
+CB,11107061,Corrugated Box,Corrugated Boxes,11,7,6,Corrugated Box 11-5/8 X 7 X 6-5/16,Plain,Kraft,200#,C,RSC,,,,,466,25,750,Each,0.607
+CB,11109051,Corrugated Box,Corrugated Boxes,11,9,5,Corrugated Box 11-5/8 X 9-1/8 X 5-1/4  ,Plain,Kraft,200#,C,RSC,,,,,554,25,750,Each,0.594
+CB,11203031,Corrugated Box,Corrugated Boxes,12,3,3,Corrugated Box 12 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,181,25,3000,Each,0.35
+CB,11204041,Corrugated Box,Corrugated Boxes,12,4,4,Corrugated Box 12 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,249,25,1875,Each,0.294
+CB,11204043,Corrugated Box,Corrugated Boxes,12,4,4,Corrugated Box 12 X 4 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,258,25,1500,Each,0.438
+CB,11205041,Corrugated Box,Corrugated Boxes,12,5,4,Corrugated Box 12 X 5 X 4  ,Plain,Kraft,200#,C,RSC,,,,,294,25,1500,Each,0.375
+CB,11206041,Corrugated Box,Corrugated Boxes,12,6,4,Corrugated Box 12 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,341,25,1500,Each,0.25
+CB,11206051,Corrugated Box,Corrugated Boxes,12,6,5,Corrugated Box 12 X 6 X 5  ,Plain,Kraft,200#,C,RSC,,,,,373,25,1000,Each,0.362
+CB,11206061,Corrugated Box,Corrugated Boxes,12,6,6,Corrugated Box 12 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,404,25,1000,Each,0.265
+CB,11207051,Corrugated Box,Corrugated Boxes,12,7,5,Corrugated Box 12 X 7 X 5  ,Plain,Kraft,200#,C,RSC,,,,,447,25,1000,Each,0.353
+CB,11208041,Corrugated Box,Corrugated Boxes,12,8,4,Corrugated Box 12 X 8 X 4  ,Plain,Kraft,200#,C,RSC,,,,,447,25,1000,Each,0.37
+CB,11208061,Corrugated Box,Corrugated Boxes,12,8,6,Corrugated Box 12 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,516,25,1000,Each,0.386
+CB,11208081,Corrugated Box,Corrugated Boxes,12,8,8,Corrugated Box 12 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,585,25,750,Each,0.382
+CB,11208101,Corrugated Box,Corrugated Boxes,12,8,10,Corrugated Box 12 X 8 X 10-1/2  ,Plain,Kraft,200#,C,RSC,,,,,671,25,500,Each,0.74
+CB,11208102,Corrugated Box,Corrugated Boxes,12,8,10,Corrugated Box 12 X 8-3/4 X 10-1/4,Plain,Kraft,200#,C,RSC,,,,,714,25,500,Each,0.796
+CB,11209031,Corrugated Box,Corrugated Boxes,12,9,3,Corrugated Box 12 X 9 X 3  ,Plain,Kraft,ECT 32,C,RSC,,,,,469,25,1200,Each,0.203
+CB,11209041,Corrugated Box,Corrugated Boxes,12,9,4,Corrugated Box 12 X 9 X 4  ,Plain,Kraft,200#,C,RSC,,,,,520,25,1000,Each,0.329
+CB,11209061,Corrugated Box,Corrugated Boxes,12,9,6,Corrugated Box 12 X 9 X 6  ,Plain,Kraft,200#,C,RSC,,,,,578,25,750,Each,0.34
+CB,11209071,Corrugated Box,Corrugated Boxes,12,9,7,Corrugated Box 12 X 9 X 7  ,Plain,Kraft,200#,C,RSC,,,,,614,25,750,Each,0.503
+CB,11209091,Corrugated Box,Corrugated Boxes,12,9,9,Corrugated Box 12 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,686,25,750,Each,0.42
+CB,11209101,Corrugated Box,Corrugated Boxes,12,9,10,Corrugated Box 12 X 9 X 10  ,Plain,Kraft,200#,C,RSC,,,,,722,25,500,Each,0.641
+CB,11209042,Corrugated Box,Corrugated Boxes,12,9,4,Corrugated Box 12 X 9-1/2 X 4  ,Plain,Kraft,200#,C,RSC,,,,,536,25,750,Each,0.503
+CB,11209081,Corrugated Box,Corrugated Boxes,12,9,8,Corrugated Box 12 X 9-1/2 X 8  ,Plain,Kraft,200#,C,RSC,,,,,684,25,750,Each,0.678
+CB,11209121,Corrugated Box,Corrugated Boxes,12,9,12,Corrugated Box 12 X 9-1/2 X 12  ,Plain,Kraft,200#,C,RSC,,,,,831,25,500,Each,0.769
+CB,11210031,Corrugated Box,Corrugated Boxes,12,10,3,Corrugated Box 12 X 10 X 3  ,Plain,Kraft,200#,C,RSC,,,,,529,25,750,Each,0.38
+CB,11210041,Corrugated Box,Corrugated Boxes,12,10,4,Corrugated Box 12 X 10 X 4  ,Plain,Kraft,ECT 32,C,RSC,,,,,567,25,900,Each,0.252
+CB,11210061,Corrugated Box,Corrugated Boxes,12,10,6,Corrugated Box 12 X 10 X 6  ,Plain,Kraft,ECT 32,C,RSC,,,,,642,25,750,Each,0.274
+CB,11210081,Corrugated Box,Corrugated Boxes,12,10,8,Corrugated Box 12 X 10 X 8  ,Plain,Kraft,ECT 32,C,RSC,,,,,718,25,500,Each,0.294
+CB,11210091,Corrugated Box,Corrugated Boxes,12,10,9,Corrugated Box 12 X 10 X 9  ,Plain,Kraft,200#,C,RSC,,,,,756,25,500,Each,0.736
+CB,11210101,Corrugated Box,Corrugated Boxes,12,10,10,Corrugated Box 12 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,793,25,500,Each,0.572
+CB,11211041,Corrugated Box,Corrugated Boxes,12,11,4,Corrugated Box 12 X 11 X 4  ,Plain,Kraft,200#,C,RSC,,,,,631,25,750,Each,0.587
+CB,11212021,Corrugated Box,Corrugated Boxes,12,12,2,Corrugated Box 12 X 12 X 2  ,Plain,Kraft,200#,C,RSC,,,,,617,25,750,Each,0.622
+CB,11212031,Corrugated Box,Corrugated Boxes,12,12,3,Corrugated Box 12 X 12 X 3  ,Plain,Kraft,200#,C,RSC,,,,,658,25,750,Each,0.59
+CB,11212041,Corrugated Box,Corrugated Boxes,12,12,4,Corrugated Box 12 X 12 X 4,Plain,Kraft,200#,C,RSC,,,,,699,25,625,Each,0.39
+CB,11212051,Corrugated Box,Corrugated Boxes,12,12,5,Corrugated Box 12 X 12 X 5  ,Plain,Kraft,200#,C,RSC,,,,,741,25,500,Each,0.52
+CB,11212061,Corrugated Box,Corrugated Boxes,12,12,6,Corrugated Box 12 X 12 X 6  ,Plain,Kraft,200#,C,RSC,,,,,741,25,900,Each,0.52
+CB,11212071,Corrugated Box,Corrugated Boxes,12,12,7,Corrugated Box 12 X 12 X 7  ,Plain,Kraft,200#,C,RSC,,,,,823,25,500,Each,0.743
+CB,11212081,Corrugated Box,Corrugated Boxes,12,12,8,Corrugated Box 12 X 12 X 8  ,Plain,Kraft,200#,C,RSC,,,,,864,25,500,Each,0.52
+CB,11212091,Corrugated Box,Corrugated Boxes,12,12,9,Corrugated Box 12 X 12 X 9  ,Plain,Kraft,200#,C,RSC,,,,,905,25,500,Each,0.59
+CB,11212101,Corrugated Box,Corrugated Boxes,12,12,10,Corrugated Box 12 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,946,25,500,Each,0.554
+CB,11212111,Corrugated Box,Corrugated Boxes,12,12,11,Corrugated Box 12 X 12 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1000,25,500,Each,1.159
+CB,11212121,Corrugated Box,Corrugated Boxes,12,12,12,Corrugated Box 12 X 12 X 12,Plain,Kraft,200#,C,RSC,,,,,1028,25,500,Each,0.6
+CB,11212151,Corrugated Box,Corrugated Boxes,12,12,15,Corrugated Box 12 X 12 X 15  ,Plain,Kraft,200#,C,RSC,,,,,1152,25,500,Each,0.964
+CB,11212171,Corrugated Box,Corrugated Boxes,12,12,17,Corrugated Box 12 X 12 X 17-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1255,25,500,Each,1.076
+CB,11212201,Corrugated Box,Corrugated Boxes,12,12,20,Corrugated Box 12 X 12 X 20  ,Plain,Kraft,200#,C,RSC,,,,,1358,15,540,Each,1.172
+CB,11212241,Corrugated Box,Corrugated Boxes,12,12,24,Corrugated Box 12 X 12 X 24  ,Plain,Kraft,200#,C,RSC,,,,,1619,25,250,Each,1.328
+CB,11212251,Corrugated Box,Corrugated Boxes,12,12,25,Corrugated Box 12 X 12 X 25  ,Plain,Kraft,200#,C,RSC,,,,,1564,20,280,Each,1.507
+CB,11212271,Corrugated Box,Corrugated Boxes,12,12,27,Corrugated Box 12 X 12 X 27  ,Plain,Kraft,200#,C,RSC,,,,,1717,25,250,Each,2.066
+CB,11212301,Corrugated Box,Corrugated Boxes,12,12,30,Corrugated Box 12 X 12 X 30  ,Plain,Kraft,200#,C,RSC,,,,,1770,15,405,Each,1.67
+CB,11212361,Corrugated Box,Corrugated Boxes,12,12,36,Corrugated Box 12 X 12 X 36  ,Plain,Kraft,200#,C,RSC,,,,,2017,15,405,Each,2.092
+CB,11212401,Corrugated Box,Corrugated Boxes,12,12,40,Corrugated Box 12 X 12 X 40  ,Plain,Kraft,200#,C,RSC,,,,,2182,15,270,Each,2.036
+CB,11212481,Corrugated Box,Corrugated Boxes,12,12,48,Corrugated Box 12 X 12 X 48,Plain,Kraft,200#,C,RSC,,,,,2511,15,270,Each,2.569
+CB,11212561,Corrugated Box,Corrugated Boxes,12,12,56,Corrugated Box 12 X 12 X 56  ,Plain,Kraft,200#,C,RSC,,,,,2840,10,260,Each,3.335
+CB,11209051,Corrugated Box,Corrugated Boxes,12,9,5,Corrugated Box 12-1/4 X 9-1/8 X 5-7/8  ,Plain,Kraft,200#,C,RSC,,,,,588,25,750,Each,0.655
+CB,11209062,Corrugated Box,Corrugated Boxes,12,9,6,Corrugated Box 12-1/4 X 9-1/4 X 6-1/4  ,Plain,Kraft,200#,C,RSC,,,,,610,25,750,Each,0.527
+CB,11209092,Corrugated Box,Corrugated Boxes,12,9,9,Corrugated Box 12-1/4 X 9-1/4 X 9  ,Plain,Kraft,200#,C,RSC,,,,,751,25,500,Each,0.591
+CB,11209122,Corrugated Box,Corrugated Boxes,12,9,12,Corrugated Box 12-1/4 X 9-1/4 X 12-1/2  ,Plain,Kraft,200#,C,RSC,,,,,841,25,500,Each,0.724
+CB,11209151,Corrugated Box,Corrugated Boxes,12,9,15,Corrugated Box 12-1/4 X 9-1/4 X 15  ,Plain,Kraft,200#,C,RSC,,,,,933,25,500,Each,1.09
+CB,11210082,Corrugated Box,Corrugated Boxes,12,10,8,Corrugated Box 12-1/4 X 10-1/2 X 8  ,Plain,Kraft,200#,C,RSC,,,,,761,25,500,Each,0.894
+CB,11212042,Corrugated Box,Corrugated Boxes,12,12,4,Corrugated Box 12-3/8 X 12-3/8 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,763,25,500,Each,0.847
+CB,11212062,Corrugated Box,Corrugated Boxes,12,12,6,Corrugated Box 12-3/8 X 12-3/8 X 6-1/2  ,Plain,Kraft,200#,C,RSC,,,,,848,25,500,Each,0.835
+CB,11207071,Corrugated Box,Corrugated Boxes,12,7,7,Corrugated Box 12-1/2 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,504,25,750,Each,0.503
+CB,11212043,Corrugated Box,Corrugated Boxes,12,12,4,Corrugated Box 12-1/2 X 12-1/2 X 4  ,Plain,Kraft,200#,C,RSC,,,,,749,25,750,Each,0.697
+CB,11212082,Corrugated Box,Corrugated Boxes,12,12,8,Corrugated Box 12-1/2 X 12-1/2 X 8,Plain,Kraft,200#,C,RSC,,,,,921,25,500,Each,0.932
+CB,11212102,Corrugated Box,Corrugated Boxes,12,12,10,Corrugated Box 12-1/2 X 12-1/2 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1015,25,500,Each,1.144
+CB,11212103,Corrugated Box,Corrugated Boxes,12,12,10,Corrugated Box 12-1/2 X 12-1/2 X 10-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1028,25,500,Each,0.957
+CB,11212122,Corrugated Box,Corrugated Boxes,12,12,12,Corrugated Box 12-1/2 X 12-1/2 X 12-1/2,Plain,Kraft,200#,C,RSC,,,,,1150,25,500,Each,1.412
+CB,11209082,Corrugated Box,Corrugated Boxes,12,9,8,Corrugated Box 12-3/4 X 9-5/16 X 8-11/16  ,Plain,Kraft,200#,C,RSC,,,,,722,25,500,Each,0.878
+CB,11308081,Corrugated Box,Corrugated Boxes,13,8,8,Corrugated Box 13 X 8-5/8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,659,25,500,Each,0.576
+CB,11308091,Corrugated Box,Corrugated Boxes,13,8,9,Corrugated Box 13 X 8-5/8 X 9-3/4,Plain,Kraft,200#,C,RSC,,,,,725,25,500,Each,0.6
+CB,11308061,Corrugated Box,Corrugated Boxes,13,8,6,Corrugated Box 13 X 8-3/4 X 6-7/8  ,Plain,Kraft,200#,C,RSC,,,,,626,25,700,Each,0.782
+CB,11309031,Corrugated Box,Corrugated Boxes,13,9,3,Corrugated Box 13 X 9 X 3-3/4  ,Plain,Kraft,200#,C,RSC,,,,,519,25,600,Each,0.641
+CB,11309041,Corrugated Box,Corrugated Boxes,13,9,4,Corrugated Box 13 X 9 X 4-3/4  ,Plain,Kraft,200#,C,RSC,,,,,557,25,500,Each,0.45
+CB,11309051,Corrugated Box,Corrugated Boxes,13,9,5,Corrugated Box 13 X 9 X 5-1/2  ,Plain,Kraft,200#,C,RSC,,,,,586,25,750,Each,0.581
+CB,11309071,Corrugated Box,Corrugated Boxes,13,9,7,Corrugated Box 13 X 9 X 7  ,Plain,Kraft,200#,C,RSC,,,,,642,25,750,Each,0.617
+CB,11309081,Corrugated Box,Corrugated Boxes,13,9,8,Corrugated Box 13 X 9 X 8-1/2  ,Plain,Kraft,200#,C,RSC,,,,,699,25,750,Each,0.641
+CB,11309111,Corrugated Box,Corrugated Boxes,13,9,11,Corrugated Box 13 X 9 X 11  ,Plain,Kraft,200#,C,RSC,,,,,794,25,500,Each,0.769
+CB,11310041,Corrugated Box,Corrugated Boxes,13,10,4,Corrugated Box 13 X 10 X 4  ,Plain,Kraft,200#,C,RSC,,,,,592,25,750,Each,0.43
+CB,11310101,Corrugated Box,Corrugated Boxes,13,10,10,Corrugated Box 13 X 10-1/4 X 10  ,Plain,Kraft,200#,C,RSC,,,,,848,25,500,Each,0.758
+CB,11311051,Corrugated Box,Corrugated Boxes,13,11,5,Corrugated Box 13 X 11 X 5  ,Plain,Kraft,200#,C,RSC,,,,,700,25,500,Each,0.479
+CB,11311091,Corrugated Box,Corrugated Boxes,13,11,9,Corrugated Box 13 X 11 X 9,Plain,Kraft,200#,C,RSC,,,,,900,25,500,Each,0.958
+CB,11313041,Corrugated Box,Corrugated Boxes,13,13,4,Corrugated Box 13 X 13 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,823,25,750,Each,0.723
+CB,11313071,Corrugated Box,Corrugated Boxes,13,13,7,Corrugated Box 13 X 13 X 7-1/2  ,Plain,Kraft,200#,C,RSC,,,,,957,25,500,Each,0.62
+CB,11313101,Corrugated Box,Corrugated Boxes,13,13,10,Corrugated Box 13 X 13 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1068,25,500,Each,0.908
+CB,11313121,Corrugated Box,Corrugated Boxes,13,13,12,Corrugated Box 13 X 13 X 12 ,Plain,Kraft,200#,C,RSC,,,,,1150,25,500,Each,1.174
+CB,11313131,Corrugated Box,Corrugated Boxes,13,13,13,Corrugated Box 13 X 13 X 13  ,Plain,Kraft,200#,C,RSC,,,,,1202,25,500,Each,0.948
+CB,11403031,Corrugated Box,Corrugated Boxes,14,3,3,Corrugated Box 14 X 3 X 3  ,Plain,Kraft,200#,C,RSC,,,,,205,25,1500,Each,0.617
+CB,11406041,Corrugated Box,Corrugated Boxes,14,6,4,Corrugated Box 14 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,378,25,1000,Each,0.255
+CB,11406061,Corrugated Box,Corrugated Boxes,14,6,6,Corrugated Box 14 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,447,25,1000,Each,0.28
+CB,11407071,Corrugated Box,Corrugated Boxes,14,7,7,Corrugated Box 14 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,541,25,750,Each,0.517
+CB,11408061,Corrugated Box,Corrugated Boxes,14,8,6,Corrugated Box 14 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,567,25,750,Each,0.333
+CB,11408081,Corrugated Box,Corrugated Boxes,14,8,8,Corrugated Box 14 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,640,25,750,Each,0.549
+CB,11409091,Corrugated Box,Corrugated Boxes,14,9,9,Corrugated Box 14 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,750,25,500,Each,0.682
+CB,11410041,Corrugated Box,Corrugated Boxes,14,10,4,Corrugated Box 14 X 10 X 4  ,Plain,Kraft,200#,C,RSC,,,,,617,25,750,Each,0.4
+CB,11410061,Corrugated Box,Corrugated Boxes,14,10,6,Corrugated Box 14 X 10 X 6  ,Plain,Kraft,ECT 32,C,RSC,,,,,700,25,750,Each,0.27
+CB,11410081,Corrugated Box,Corrugated Boxes,14,10,8,Corrugated Box 14 X 10 X 8  ,Plain,Kraft,200#,C,RSC,,,,,782,25,750,Each,0.485
+CB,11410101,Corrugated Box,Corrugated Boxes,14,10,10,Corrugated Box 14 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,864,25,750,Each,0.539
+CB,11410121,Corrugated Box,Corrugated Boxes,14,10,12,Corrugated Box 14 X 10 X 12  ,Plain,Kraft,200#,C,RSC,,,,,946,25,500,Each,0.783
+CB,11411031,Corrugated Box,Corrugated Boxes,14,11,3,Corrugated Box 14 X 11 X 3,Plain,Kraft,ECT 32,C,RSC,,,,,642,25,750,Each,0.28
+CB,11412041,Corrugated Box,Corrugated Boxes,14,12,4,Corrugated Box 14 X 12 X 4  ,Plain,Kraft,200#,C,RSC,,,,,710,25,750,Each,0.532
+CB,11412061,Corrugated Box,Corrugated Boxes,14,12,6,Corrugated Box 14 X 12 X 6  ,Plain,Kraft,200#,C,RSC,,,,,846,25,500,Each,0.529
+CB,11412081,Corrugated Box,Corrugated Boxes,14,12,8,"Corrugated Box 14 X 12 X 8-1/2  W/ 2-1/2"", 4-1/2"", 6-1/2"" SCORES",Plain,Kraft,200#,C,RSC,,,,,1034,25,500,Each,0.809
+CB,11412091,Corrugated Box,Corrugated Boxes,14,12,9,Corrugated Box 14 X 12 X 9-1/8  ,Plain,Kraft,200#,C,RSC,,,,,1022,25,750,Each,0.67
+CB,11412101,Corrugated Box,Corrugated Boxes,14,12,10,Corrugated Box 14 X 12 X 10,Plain,Kraft,200#,C,RSC,,,,,1053,25,500,Each,0.775
+CB,11412121,Corrugated Box,Corrugated Boxes,14,12,12,Corrugated Box 14 X 12 X 12  ,Plain,Kraft,ECT 32,C,RSC,,,,,1133,25,500,Each,0.465
+CB,11414051,Corrugated Box,Corrugated Boxes,14,14,5,Corrugated Box 14 X 14 X 5  ,Plain,Kraft,200#,C,RSC,,,,,957,25,500,Each,0.666
+CB,11414061,Corrugated Box,Corrugated Boxes,14,14,6,Corrugated Box 14 X 14 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1000,25,500,Each,0.654
+CB,11414071,Corrugated Box,Corrugated Boxes,14,14,7,Corrugated Box 14 X 14 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1053,25,500,Each,0.908
+CB,11414081,Corrugated Box,Corrugated Boxes,14,14,8,Corrugated Box 14 X 14 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1100,25,500,Each,0.704
+CB,11414091,Corrugated Box,Corrugated Boxes,14,14,9,Corrugated Box 14 X 14 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1149,25,500,Each,0.977
+CB,11414101,Corrugated Box,Corrugated Boxes,14,14,10,Corrugated Box 14 X 14 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1200,25,500,Each,0.738
+CB,11414121,Corrugated Box,Corrugated Boxes,14,14,12,Corrugated Box 14 X 14 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1293,25,500,Each,0.825
+CB,11414141,Corrugated Box,Corrugated Boxes,14,14,14,Corrugated Box 14 X 14 X 14,Plain,Kraft,200#,C,RSC,,,,,1388,20,560,Each,1.019
+CB,11414181,Corrugated Box,Corrugated Boxes,14,14,18,Corrugated Box 14 X 14 X 18  ,Plain,Kraft,200#,C,RSC,,,,,1580,25,250,Each,1.5
+CB,11414201,Corrugated Box,Corrugated Boxes,14,14,20,Corrugated Box 14 X 14 X 20  ,Plain,Kraft,200#,C,RSC,,,,,1939,25,250,Each,1.67
+CB,11414241,Corrugated Box,Corrugated Boxes,14,14,24,Corrugated Box 14 X 14 X 24  ,Plain,Kraft,200#,C,RSC,,,,,1867,15,270,Each,1.648
+CB,11414301,Corrugated Box,Corrugated Boxes,14,14,30,"Corrugated Box 14 X 14 X 30   W/ 2-1/4"" SCORE ON TOP FLAPS",Plain,Kraft,200#,C,RSC,,,,,2155,15,270,Each,2.234
+CB,11414361,Corrugated Box,Corrugated Boxes,14,14,36,Corrugated Box 14 X 14 X 36  ,Plain,Kraft,200#,C,RSC,,,,,2442,15,270,Each,2.31
+CB,11414401,Corrugated Box,Corrugated Boxes,14,14,40,Corrugated Box 14 X 14 X 40,Plain,Kraft,200#,C,RSC,,,,,3949,15,270,Each,3.07
+CB,11408041,Corrugated Box,Corrugated Boxes,14,8,4,Corrugated Box 14-1/8 X 8-5/8 X 4  ,Plain,Kraft,200#,C,RSC,,,,,520,25,750,Each,0.796
+CB,11408101,Corrugated Box,Corrugated Boxes,14,8,10,Corrugated Box 14-1/8 X 8-5/8 X 10,Plain,Kraft,200#,C,RSC,,,,,750,25,500,Each,1.03
+CB,11408121,Corrugated Box,Corrugated Boxes,14,8,12,Corrugated Box 14-1/8 X 8-5/8 X 12  ,Plain,Kraft,200#,C,RSC,,,,,830,25,500,Each,0.959
+CB,11411061,Corrugated Box,Corrugated Boxes,14,11,6,Corrugated Box 14-1/8 X 11-3/4 X 6-5/16  ,Plain,Kraft,200#,C,RSC,,,,,853,25,500,Each,0.81
+CB,11409121,Corrugated Box,Corrugated Boxes,14,9,12,Corrugated Box 14-1/2 X 9-1/2 X 12  ,Plain,Kraft,200#,C,RSC,,,,,926,25,500,Each,0.837
+CB,11410091,Corrugated Box,Corrugated Boxes,14,10,9,Corrugated Box 14-1/2 X 10 X 9  ,Plain,Kraft,200#,C,RSC,,,,,840,25,500,Each,0.823
+CB,11413041,Corrugated Box,Corrugated Boxes,14,13,4,Corrugated Box 14-1/2 X 13 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,870,25,500,Each,1.087
+CB,11507051,Corrugated Box,Corrugated Boxes,15,7,5,Corrugated Box 15 X 7 X 5  ,Plain,Kraft,200#,C,RSC,,,,,471,25,1000,Each,0.496
+CB,11508071,Corrugated Box,Corrugated Boxes,15,8,7,Corrugated Box 15 X 8 X 7  ,Plain,Kraft,200#,C,RSC,,,,,652,25,1000,Each,0.697
+CB,11509081,Corrugated Box,Corrugated Boxes,15,9,8,Corrugated Box 15 X 9 X 8  ,Plain,Kraft,200#,C,RSC,,,,,741,25,500,Each,0.666
+CB,11509061,Corrugated Box,Corrugated Boxes,15,9,6,Corrugated Box 15 X 9-1/4 X 6  ,Plain,Kraft,200#,C,RSC,,,,,675,25,750,Each,0.388
+CB,11509062,Corrugated Box,Corrugated Boxes,15,9,6,Corrugated Box 15 X 9-3/4 X 6-1/4  ,Plain,Kraft,200#,C,RSC,,,,,737,25,750,Each,0.908
+CB,11510051,Corrugated Box,Corrugated Boxes,15,10,5,Corrugated Box 15 X 10 X 5,Plain,Kraft,200#,C,RSC,,,,,544,25,750,Each,0.534
+CB,11510141,Corrugated Box,Corrugated Boxes,15,10,14,Corrugated Box 15 X 10 X 14  ,Plain,Kraft,200#,C,RSC,,,,,1071,25,500,Each,0.792
+CB,11511071,Corrugated Box,Corrugated Boxes,15,11,7,Corrugated Box 15 X 11 X 7  ,Plain,Kraft,200#,C,RSC,,,,,846,25,500,Each,0.755
+CB,11511111,Corrugated Box,Corrugated Boxes,15,11,11,Corrugated Box 15 X 11 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1025,25,500,Each,1.234
+CB,11512041,Corrugated Box,Corrugated Boxes,15,12,4,Corrugated Box 15 X 12 X 4  ,Plain,Kraft,200#,C,RSC,,,,,847,25,500,Each,0.52
+CB,11512081,Corrugated Box,Corrugated Boxes,15,12,8,Corrugated Box 15 X 12 X 8  ,Plain,Kraft,200#,C,RSC,,,,,870,25,500,Each,0.881
+CB,11512101,Corrugated Box,Corrugated Boxes,15,12,10,Corrugated Box 15 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1062,25,500,Each,0.835
+CB,11512121,Corrugated Box,Corrugated Boxes,15,12,12,Corrugated Box 15 X 12 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1155,25,500,Each,0.932
+CB,11513081,Corrugated Box,Corrugated Boxes,15,13,8,Corrugated Box 15 X 13 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1150,25,500,Each,0.944
+CB,11515041,Corrugated Box,Corrugated Boxes,15,15,4,Corrugated Box 15 X 15 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1025,25,500,Each,0.74
+CB,11515051,Corrugated Box,Corrugated Boxes,15,15,5,Corrugated Box 15 X 15 X 5  ,Plain,Kraft,200#,C,RSC,,,,,1090,25,500,Each,1.048
+CB,11515061,Corrugated Box,Corrugated Boxes,15,15,6,Corrugated Box 15 X 15 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1127,25,500,Each,0.82
+CB,11515101,Corrugated Box,Corrugated Boxes,15,15,10,Corrugated Box 15 X 15 X 10,Plain,Kraft,200#,C,RSC,,,,,1332,25,250,Each,0.95
+CB,11515121,Corrugated Box,Corrugated Boxes,15,15,12,Corrugated Box 15 X 15 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1435,25,250,Each,1.174
+CB,11515151,Corrugated Box,Corrugated Boxes,15,15,15,Corrugated Box 15 X 15 X 15  ,Plain,Kraft,200#,C,RSC,,,,,1588,15,270,Each,0.89
+CB,11515201,Corrugated Box,Corrugated Boxes,15,15,20,Corrugated Box 15 X 15 X 20  ,Plain,Kraft,200#,C,RSC,,,,,1985,15,270,Each,1.606
+CB,11515301,Corrugated Box,Corrugated Boxes,15,15,30,Corrugated Box 15 X 15 X 30  ,Plain,Kraft,200#,C,RSC,,,,,2357,15,270,Each,2.124
+CB,11515361,Corrugated Box,Corrugated Boxes,15,15,36,Corrugated Box 15 X 15 X 36  ,Plain,Kraft,200#,C,RSC,,,,,2665,15,135,Each,2.65
+CB,11515401,Corrugated Box,Corrugated Boxes,15,15,40,Corrugated Box 15 X 15 X 40  ,Plain,Kraft,200#,C,RSC,,,,,2870,15,270,Each,3.015
+CB,11515421,Corrugated Box,Corrugated Boxes,15,15,42,Corrugated Box 15 X 15 X 42  ,Plain,Kraft,200#,C,RSC,,,,,3093,10,140,Each,3.473
+CB,11515561,Corrugated Box,Corrugated Boxes,15,15,56,Corrugated Box 15 X 15 X 56  ,Plain,Kraft,200#,C,RSC,,,,,3690,10,130,Each,5.963
+CB,11510061,Corrugated Box,Corrugated Boxes,15,10,6,Corrugated Box 15-3/4 X 10-3/4 X 6-3/8 - SS2 ,Plain,Kraft,200#,C,RSC,,,,,766,25,600,Each,0.48
+CB,11510151,Corrugated Box,Corrugated Boxes,15,10,15,Corrugated Box 15-3/4 X 10-3/4 X 15-5/8,Plain,Kraft,200#,C,RSC,,,,,1155,25,500,Each,1.255
+CB,11605051,Corrugated Box,Corrugated Boxes,16,5,5,Corrugated Box 16 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,397,25,1000,Each,0.464
+CB,11606041,Corrugated Box,Corrugated Boxes,16,6,4,Corrugated Box 16 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,415,25,1000,Each,0.411
+CB,11606061,Corrugated Box,Corrugated Boxes,16,6,6,Corrugated Box 16 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,491,25,500,Each,0.527
+CB,11607071,Corrugated Box,Corrugated Boxes,16,7,7,Corrugated Box 16 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,592,25,750,Each,0.678
+CB,11608061,Corrugated Box,Corrugated Boxes,16,8,6,Corrugated Box 16 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,617,25,750,Each,0.43
+CB,11608081,Corrugated Box,Corrugated Boxes,16,8,8,Corrugated Box 16 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,700,25,750,Each,0.608
+CB,11609031,Corrugated Box,Corrugated Boxes,16,9,3,Corrugated Box 16 X 9 X 3  ,Plain,Kraft,200#,C,RSC,,,,,557,25,1000,Each,0.607
+CB,11610061,Corrugated Box,Corrugated Boxes,16,10,6,Corrugated Box 16 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,757,25,750,Each,0.52
+CB,11610081,Corrugated Box,Corrugated Boxes,16,10,8,Corrugated Box 16 X 10 X 8  ,Plain,Kraft,ECT 32,C,RSC,,,,,846,25,500,Each,0.344
+CB,11610101,Corrugated Box,Corrugated Boxes,16,10,10,Corrugated Box 16 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,935,25,500,Each,0.774
+CB,11611091,Corrugated Box,Corrugated Boxes,16,11,9,Corrugated Box 16 X 11 X 9  ,Plain,Kraft,200#,C,RSC,,,,,970,25,500,Each,0.847
+CB,11611101,Corrugated Box,Corrugated Boxes,16,11,10,Corrugated Box 16 X 11 X 10,Plain,Kraft,200#,C,RSC,,,,,1016,25,500,Each,0.71
+CB,11612041,Corrugated Box,Corrugated Boxes,16,12,4,Corrugated Box 16 X 12 X 4  ,Plain,Kraft,ECT 32,C,RSC,,,,,814,25,500,Each,0.315
+CB,11612061,Corrugated Box,Corrugated Boxes,16,12,6,Corrugated Box 16 X 12 X 6  ,Plain,Kraft,200#,C,RSC,,,,,9110,25,500,Each,0.5
+CB,11612081,Corrugated Box,Corrugated Boxes,16,12,8,Corrugated Box 16 X 12 X 8  ,Plain,Kraft,ECT 32,C,RSC,,,,,1005,25,500,Each,0.38
+CB,11612101,Corrugated Box,Corrugated Boxes,16,12,10,Corrugated Box 16 X 12 X 10  ,Plain,Kraft,ECT 32,C,RSC,,,,,1100,25,600,Each,0.44
+CB,11612121,Corrugated Box,Corrugated Boxes,16,12,12,Corrugated Box 16 X 12 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1197,25,500,Each,0.711
+CB,11614041,Corrugated Box,Corrugated Boxes,16,14,4,Corrugated Box 16 X 14 X 4  ,Plain,Kraft,ECT 32,C,RSC,,,,,973,25,500,Each,0.37
+CB,11614051,Corrugated Box,Corrugated Boxes,16,14,5,Corrugated Box 16 X 14 X 5  ,Plain,Kraft,200#,C,RSC,,,,,1040,25,500,Each,0.992
+CB,11614061,Corrugated Box,Corrugated Boxes,16,14,6,Corrugated Box 16 X 14 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1076,25,500,Each,0.71
+CB,11614081,Corrugated Box,Corrugated Boxes,16,14,8,Corrugated Box 16 X 14 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1178,25,500,Each,0.759
+CB,11614101,Corrugated Box,Corrugated Boxes,16,14,10,Corrugated Box 16 X 14 X 10  ,Plain,Kraft,ECT 32,C,RSC,,,,,1281,25,500,Each,0.505
+CB,11614121,Corrugated Box,Corrugated Boxes,16,14,12,Corrugated Box 16 X 14 X 12  ,Plain,Kraft,ECT 32,C,RSC,,,,,1383,25,500,Each,0.569
+CB,11616041,Corrugated Box,Corrugated Boxes,16,16,4,Corrugated Box 16 X 16 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1146,25,500,Each,0.715
+CB,11616061,Corrugated Box,Corrugated Boxes,16,16,6,Corrugated Box 16 X 16 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1256,25,500,Each,0.69
+CB,11616081,Corrugated Box,Corrugated Boxes,16,16,8,Corrugated Box 16 X 16 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1365,20,560,Each,0.872
+CB,11616091,Corrugated Box,Corrugated Boxes,16,16,9,Corrugated Box 16 X 16 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1420,20,560,Each,1.041
+CB,11616101,Corrugated Box,Corrugated Boxes,16,16,10,Corrugated Box 16 X 16 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1474,20,240,Each,0.89
+CB,11616111,Corrugated Box,Corrugated Boxes,16,16,11,Corrugated Box 16 X 16 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1529,25,250,Each,1.142
+CB,11616121,Corrugated Box,Corrugated Boxes,16,16,12,Corrugated Box 16 X 16 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1583,15,270,Each,0.92
+CB,11616161,Corrugated Box,Corrugated Boxes,16,16,16,Corrugated Box 16 X 16 X 16  ,Plain,Kraft,200#,C,RSC,,,,,1802,15,270,Each,0.87
+CB,11616191,Corrugated Box,Corrugated Boxes,16,16,19,Corrugated Box 16 X 16 X 19  ,Plain,Kraft,200#,C,RSC,,,,,1966,25,250,Each,1.804
+CB,11616261,Corrugated Box,Corrugated Boxes,16,16,26,Corrugated Box 16 X 16 X 26  ,Plain,Kraft,200#,C,RSC,,,,,2522,15,270,Each,2.058
+CB,11616301,Corrugated Box,Corrugated Boxes,16,16,30,Corrugated Box 16 X 16 X 30  ,Plain,Kraft,200#,C,RSC,,,,,2662,10,280,Each,3.07
+CB,11616341,Corrugated Box,Corrugated Boxes,16,16,34,Corrugated Box 16 X 16 X 34  ,Plain,Kraft,200#,C,RSC,,,,,2785,10,140,Each,2.831
+CB,11616361,Corrugated Box,Corrugated Boxes,16,16,36,Corrugated Box 16 X 16 X 36,Plain,Kraft,200#,C,RSC,,,,,2835,10,130,Each,2.444
+CB,11706061,Corrugated Box,Corrugated Boxes,17,6,6,Corrugated Box 17 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,513,25,1000,Each,0.452
+CB,11707071,Corrugated Box,Corrugated Boxes,17,7,7,Corrugated Box 17 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,617,25,1000,Each,0.681
+CB,11709091,Corrugated Box,Corrugated Boxes,17,9,9,Corrugated Box 17 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,846,25,750,Each,0.835
+CB,11710061,Corrugated Box,Corrugated Boxes,17,10,6,Corrugated Box 17 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,785,25,750,Each,0.802
+CB,11710071,Corrugated Box,Corrugated Boxes,17,10,7,Corrugated Box 17 X 10 X 7  ,Plain,Kraft,200#,C,RSC,,,,,820,25,500,Each,1.048
+CB,11711021,Corrugated Box,Corrugated Boxes,17,11,2,Corrugated Box 17 X 11 X 2-5/8 - 17X,Plain,Kraft,ECT 32,C,RSC,,,,,707,25,500,Each,0.308
+CB,11713131,Corrugated Box,Corrugated Boxes,17,13,13,Corrugated Box 17 X 13 X 13  ,Plain,Kraft,200#,C,RSC,,,,,1426,25,500,Each,1.007
+CB,11714051,Corrugated Box,Corrugated Boxes,17,14,5,Corrugated Box 17 X 14 X 5  ,Plain,Kraft,200#,C,RSC,,,,,1035,25,500,Each,0.86
+CB,11714091,Corrugated Box,Corrugated Boxes,17,14,9,Corrugated Box 17 X 14 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1270,25,250,Each,0.86
+CB,11715081,Corrugated Box,Corrugated Boxes,17,15,8,"Corrugated Box 17 X 15 X 8-1/2     W/ 2-1/2"", 4-1/2"", 6-1/2""  SCORES",Plain,Kraft,200#,C,RSC,,,,,1437,25,250,Each,1.452
+CB,11715111,Corrugated Box,Corrugated Boxes,17,15,11,Corrugated Box 17 X 15 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1516,20,280,Each,1.328
+CB,11717081,Corrugated Box,Corrugated Boxes,17,17,8,Corrugated Box 17 X 17 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1547,25,500,Each,1.367
+CB,11717171,Corrugated Box,Corrugated Boxes,17,17,17,Corrugated Box 17 X 17 X 17  ,Plain,Kraft,200#,C,RSC,,,,,2029,15,270,Each,1.536
+CB,11717211,Corrugated Box,Corrugated Boxes,17,17,21,Corrugated Box 17 X 17 X 21  ,Plain,Kraft,200#,C,RSC,,,,,2336,15,135,Each,2.033
+CB,11806061,Corrugated Box,Corrugated Boxes,18,6,6,Corrugated Box 18 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,535,25,750,Each,0.39
+CB,11808061,Corrugated Box,Corrugated Boxes,18,8,6,Corrugated Box 18 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,668,25,500,Each,0.666
+CB,11809091,Corrugated Box,Corrugated Boxes,18,9,9,Corrugated Box 18 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,878,25,625,Each,0.57
+CB,11810061,Corrugated Box,Corrugated Boxes,18,10,6,Corrugated Box 18 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,814,25,500,Each,0.679
+CB,11810081,Corrugated Box,Corrugated Boxes,18,10,8,Corrugated Box 18 X 10 X 8  ,Plain,Kraft,200#,C,RSC,,,,,930,25,500,Each,0.908
+CB,11810101,Corrugated Box,Corrugated Boxes,18,10,10,Corrugated Box 18 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1005,25,500,Each,0.65
+CB,11812051,Corrugated Box,Corrugated Boxes,18,12,5,Corrugated Box 18 X 12 X 5 - D18,Plain,Kraft,ECT 32,C,RSC,,,,,922,25,500,Each,0.325
+CB,11812061,Corrugated Box,Corrugated Boxes,18,12,6,Corrugated Box 18 X 12 X 6,Plain,Kraft,ECT 32,C,RSC,,,,,973,25,500,Each,0.385
+CB,11812081,Corrugated Box,Corrugated Boxes,18,12,8,Corrugated Box 18 X 12 X 8,Plain,Kraft,ECT 32,C,RSC,,,,,1076,25,500,Each,0.42
+CB,11812091,Corrugated Box,Corrugated Boxes,18,12,9,Corrugated Box 18 X 12 X 9,Plain,Kraft,200#,C,RSC,,,,,1127,25,500,Each,0.968
+CB,11812101,Corrugated Box,Corrugated Boxes,18,12,10,Corrugated Box 18 X 12 X 10,Plain,Kraft,200#,C,RSC,,,,,1178,25,500,Each,0.682
+CB,11812121,Corrugated Box,Corrugated Boxes,18,12,12,Corrugated Box 18 X 12 X 12,Plain,Kraft,200#,C,RSC,,,,,1280,20,560,Each,0.73
+CB,11813111,Corrugated Box,Corrugated Boxes,18,13,11,Corrugated Box 18 X 13 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1300,25,250,Each,0.96
+CB,11813121,Corrugated Box,Corrugated Boxes,18,13,12,Corrugated Box 18 X 13 X 12,Plain,Kraft,200#,C,RSC,,,,,1376,15,270,Each,1.229
+CB,11814041,Corrugated Box,Corrugated Boxes,18,14,4,Corrugated Box 18 X 14 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1037,25,500,Each,1.048
+CB,11814061,Corrugated Box,Corrugated Boxes,18,14,6,Corrugated Box 18 X 14 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1146,25,500,Each,0.703
+CB,11814081,Corrugated Box,Corrugated Boxes,18,14,8,Corrugated Box 18 X 14 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1256,25,500,Each,0.84
+CB,11814101,Corrugated Box,Corrugated Boxes,18,14,10,Corrugated Box 18 X 14 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1365,25,500,Each,0.9
+CB,11814121,Corrugated Box,Corrugated Boxes,18,14,12,Corrugated Box 18 X 14 X 12  ,Plain,Kraft,ECT 32,C,RSC,,,,,1474,25,600,Each,0.57
+CB,11814131,Corrugated Box,Corrugated Boxes,18,14,13,Corrugated Box 18 X 14 X 13-1/4,Plain,Kraft,ECT 32,C,RSC,,,,,,25,300,Each,0.575
+CB,11816041,Corrugated Box,Corrugated Boxes,18,16,4,Corrugated Box 18 X 16 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1217,25,500,Each,1.077
+CB,11816061,Corrugated Box,Corrugated Boxes,18,16,6,Corrugated Box 18 X 16 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1333,25,250,Each,0.95
+CB,11816081,Corrugated Box,Corrugated Boxes,18,16,8,Corrugated Box 18 X 16 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1430,25,250,Each,1.34
+CB,11816101,Corrugated Box,Corrugated Boxes,18,16,10,Corrugated Box 18 X 16 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1565,20,280,Each,1.1
+CB,11816121,Corrugated Box,Corrugated Boxes,18,16,12,Corrugated Box 18 X 16 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1681,15,270,Each,1.02
+CB,11818041,Corrugated Box,Corrugated Boxes,18,18,4,Corrugated Box 18 X 18 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1410,25,500,Each,0.9
+CB,11818061,Corrugated Box,Corrugated Boxes,18,18,6,Corrugated Box 18 X 18 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1533,25,250,Each,1.313
+CB,11818081,Corrugated Box,Corrugated Boxes,18,18,8,Corrugated Box 18 X 18 X 8,Plain,Kraft,200#,C,RSC,,,,,1656,20,280,Each,1.1
+CB,11818101,Corrugated Box,Corrugated Boxes,18,18,10,Corrugated Box 18 X 18 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1778,25,250,Each,1.368
+CB,11818121,Corrugated Box,Corrugated Boxes,18,18,12,Corrugated Box 18 X 18 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1901,15,270,Each,0.997
+CB,11818151,Corrugated Box,Corrugated Boxes,18,18,15,Corrugated Box 18 X 18 X 15  ,Plain,Kraft,200#,C,RSC,,,,,2085,15,270,Each,1.674
+CB,11818161,Corrugated Box,Corrugated Boxes,18,18,16,Corrugated Box 18 X 18 X 16,Plain,Kraft,200#,C,RSC,,,,,2300,15,270,Each,1.814
+CB,11818181,Corrugated Box,Corrugated Boxes,18,18,18,Corrugated Box 18 X 18 X 18  ,Plain,Kraft,200#,C,RSC,,,,,2269,15,270,Each,1.674
+CB,11818241,Corrugated Box,Corrugated Boxes,18,18,24,Corrugated Box 18 X 18 X 24,Plain,Kraft,200#,C,RSC,,,,,2826,15,135,Each,2.234
+CB,11818251,Corrugated Box,Corrugated Boxes,18,18,25,Corrugated Box 18 X 18 X 25  ,Plain,Kraft,200#,C,RSC,,,,,2779,15,270,Each,2.05
+CB,11812082,Corrugated Box,Corrugated Boxes,18,12,8,Corrugated Box 18-1/4 X 12-1/4 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1132,25,500,Each,1.239
+CB,11812092,Corrugated Box,Corrugated Boxes,18,12,9,Corrugated Box 18-5/16 X 12-1/4 X 9-5/16,Plain,Kraft,200#,C,RSC,,,,,1190,25,500,Each,1.005
+CB,11818102,Corrugated Box,Corrugated Boxes,18,18,10,Corrugated Box 18-1/2 X 18-1/2 X 10-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1938,15,270,Each,1.697
+CB,11818162,Corrugated Box,Corrugated Boxes,18,18,16,Corrugated Box 18-1/2 X 18-1/2 X 16-1/2,Plain,Kraft,200#,C,RSC,,,,,2268,15,135,Each,2.234
+CB,11818201,Corrugated Box,Corrugated Boxes,18,18,20,Corrugated Box 18-1/2 X 18-1/2 X 20-1/2  ,Plain,Kraft,200#,C,RSC,,,,,2520,15,135,Each,2.369
+CB,11818242,Corrugated Box,Corrugated Boxes,18,18,24,Corrugated Box 18-1/2 X 18-1/2 X 24  ,Plain,Kraft,200#,C,RSC,,,,,2822,15,270,Each,2.93
+CB,11818301,Corrugated Box,Corrugated Boxes,18,18,30,Corrugated Box 18-1/2 X 18-1/2 X 30-1/2  ,Plain,Kraft,200#,C,RSC,,,,,3151,10,130,Each,2.89
+CB,11818361,Corrugated Box,Corrugated Boxes,18,18,36,Corrugated Box 18-1/2 X 18-1/2 X 36  ,Plain,Kraft,200#,C,RSC,,,,,3497,10,140,Each,3.629
+CB,11818401,Corrugated Box,Corrugated Boxes,18,18,40,Corrugated Box 18-1/2 X 18-1/2 X 40  ,Plain,Kraft,200#,C,RSC,,,,,3869,10,130,Each,4.606
+CB,11818441,Corrugated Box,Corrugated Boxes,18,18,44,Corrugated Box 18-1/2 X 18-1/2 X 44  ,Plain,Kraft,200#,C,RSC,,,,,4131,5,140,Each,5.58
+CB,11818521,Corrugated Box,Corrugated Boxes,18,18,52,Corrugated Box 18-1/2 X 18-1/2 X 52  ,Plain,Kraft,200#,C,RSC,,,,,4654,5,140,Each,5.58
+CB,11812072,Corrugated Box,Corrugated Boxes,18,12,7,Corrugated Box 18-5/8 X 12-1/2 X 7-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1116,25,500,Each,1.048
+CB,11810091,Corrugated Box,Corrugated Boxes,18,10,9,Corrugated Box 18-3/4 X 10-3/4 X 9-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1071,25,500,Each,1.255
+CB,11812071,Corrugated Box,Corrugated Boxes,18,12,7,Corrugated Box 18-3/4 X 12-1/4 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1096,25,500,Each,1.181
+CB,11906041,Corrugated Box,Corrugated Boxes,19,6,4,Corrugated Box 19 X 6 X 4  ,Plain,Kraft,200#,C,RSC,,,,,378,25,1000,Each,0.6
+CB,11907071,Corrugated Box,Corrugated Boxes,19,7,7,Corrugated Box 19 X 7 X 7  ,Plain,Kraft,200#,C,RSC,,,,,668,25,750,Each,0.666
+CB,11908081,Corrugated Box,Corrugated Boxes,19,8,8,Corrugated Box 19 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,810,25,750,Each,0.81
+CB,11912031,Corrugated Box,Corrugated Boxes,19,12,3,Corrugated Box 19 X 12 X 3-1/2 - 19X,Plain,Kraft,ECT 32,C,RSC,,,,,784,25,500,Each,0.35
+CB,11912041,Corrugated Box,Corrugated Boxes,19,12,4,Corrugated Box 19 X 12 X 4  ,Plain,Kraft,200#,C,RSC,,,,,899,25,500,Each,0.886
+CB,11912131,Corrugated Box,Corrugated Boxes,19,12,13,Corrugated Box 19 X 12-1/2 X 13-3/4,Plain,Kraft,200#,C,RSC,,,,,1574,15,270,Each,1.34
+CB,11914121,Corrugated Box,Corrugated Boxes,19,14,12,Corrugated Box 19 X 14-1/4 X 12,Plain,Kraft,200#,C,RSC,,,,,1571,15,270,Each,0.96
+CB,11915061,Corrugated Box,Corrugated Boxes,19,15,6,Corrugated Box 19 X 15 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1275,25,500,Each,1.2
+CB,11916191,Corrugated Box,Corrugated Boxes,19,16,19,Corrugated Box 19 X 16 X 19  ,Plain,Kraft,200#,C,RSC,,,,,2208,15,270,Each,2.092
+CB,11914071,Corrugated Box,Corrugated Boxes,19,14,7,Corrugated Box 19-1/2 X 14-11/16 X 7,Plain,Kraft,200#,C,RSC,,,,,1352,25,500,Each,1.577
+CB,11914101,Corrugated Box,Corrugated Boxes,19,14,10,Corrugated Box 19-3/4 X 14-3/4 X 10-1/8  ,Plain,Kraft,200#,C,RSC,,,,,1529,25,250,Each,1.606
+CB,11915131,Corrugated Box,Corrugated Boxes,19,15,13,Corrugated Box 19-3/4 X 15 X 13,Plain,Kraft,200#,C,RSC,,,,,1717,25,250,Each,1.674
+CB,12004041,Corrugated Box,Corrugated Boxes,20,4,4,Corrugated Box 20 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,370,25,1500,Each,0.469
+CB,12005051,Corrugated Box,Corrugated Boxes,20,5,5,Corrugated Box 20 X 5 X 5  ,Plain,Kraft,200#,C,RSC,,,,,475,25,1000,Each,0.545
+CB,12006061,Corrugated Box,Corrugated Boxes,20,6,6,Corrugated Box 20 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,578,25,1000,Each,0.581
+CB,12008081,Corrugated Box,Corrugated Boxes,20,8,8,Corrugated Box 20 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,814,25,750,Each,0.802
+CB,12010061,Corrugated Box,Corrugated Boxes,20,10,6,Corrugated Box 20 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,911,25,750,Each,0.81
+CB,12010081,Corrugated Box,Corrugated Boxes,20,10,8,Corrugated Box 20 X 10 X 8  ,Plain,Kraft,200#,C,RSC,,,,,973,25,500,Each,0.88
+CB,12010101,Corrugated Box,Corrugated Boxes,20,10,10,Corrugated Box 20 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1076,25,500,Each,0.847
+CB,12012061,Corrugated Box,Corrugated Boxes,20,12,6,Corrugated Box 20 X 12 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1037,25,500,Each,0.694
+CB,12012081,Corrugated Box,Corrugated Boxes,20,12,8,Corrugated Box 20 X 12 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1146,25,500,Each,0.78
+CB,12012101,Corrugated Box,Corrugated Boxes,20,12,10,Corrugated Box 20 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1256,25,500,Each,0.853
+CB,12012121,Corrugated Box,Corrugated Boxes,20,12,12,Corrugated Box 20 X 12 X 12,Plain,Kraft,200#,C,RSC,,,,,1365,25,500,Each,0.85
+CB,12013101,Corrugated Box,Corrugated Boxes,20,13,10,Corrugated Box 20 X 13 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1351,15,540,Each,0.91
+CB,12014061,Corrugated Box,Corrugated Boxes,20,14,6,Corrugated Box 20 X 14 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1217,25,500,Each,0.78
+CB,12014101,Corrugated Box,Corrugated Boxes,20,14,10,Corrugated Box 20 X 14 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1449,25,500,Each,0.96
+CB,12014121,Corrugated Box,Corrugated Boxes,20,14,12,Corrugated Box 20 X 14 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1565,20,400,Each,1.01
+CB,12014141,Corrugated Box,Corrugated Boxes,20,14,14,Corrugated Box 20 X 14 X 14  ,Plain,Kraft,200#,C,RSC,,,,,1681,15,270,Each,1.13
+CB,12015081,Corrugated Box,Corrugated Boxes,20,15,8,Corrugated Box 20 X 15 X 8-1/2  ,Plain,Kraft,200#,C,RSC,,,,,1464,25,500,Each,1.255
+CB,12015091,Corrugated Box,Corrugated Boxes,20,15,9,Corrugated Box 20 X 15 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1500,25,500,Each,1.58
+CB,12015151,Corrugated Box,Corrugated Boxes,20,15,15,Corrugated Box 20 X 15 X 15  ,Plain,Kraft,200#,C,RSC,,,,,7849,15,270,Each,1.34
+CB,12016081,Corrugated Box,Corrugated Boxes,20,16,8,Corrugated Box 20 X 16 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1571,25,500,Each,0.977
+CB,12016121,Corrugated Box,Corrugated Boxes,20,16,12,Corrugated Box 20 X 16 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1906,25,250,Each,1.06
+CB,12016141,Corrugated Box,Corrugated Boxes,20,16,14,Corrugated Box 20 X 16 X 14,Plain,Kraft,200#,C,RSC,,,,,1760,25,250,Each,0.819
+CB,12016161,Corrugated Box,Corrugated Boxes,20,16,16,Corrugated Box 20 X 16 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2078,15,270,Each,1.27
+CB,12016221,Corrugated Box,Corrugated Boxes,20,16,22,Corrugated Box 20 X 16 X 22  ,Plain,Kraft,200#,C,RSC,,,,,2461,15,270,Each,2.021
+CB,12018161,Corrugated Box,Corrugated Boxes,20,18,16,Corrugated Box 20 X 18 X 16,Plain,Kraft,ECT 32,C,RSC,,,,,,25,150,Each,0.911
+CB,12018221,Corrugated Box,Corrugated Boxes,20,18,22,Corrugated Box 20 X 18 X 22  ,Plain,Kraft,200#,C,RSC,,,,,2652,15,135,Each,2.444
+CB,12020041,Corrugated Box,Corrugated Boxes,20,20,4,Corrugated Box 20 X 20 X 4,Plain,Kraft,200#,C,RSC,,,,,1575,25,250,Each,1.13
+CB,12020061,Corrugated Box,Corrugated Boxes,20,20,6,Corrugated Box 20 X 20 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1837,25,250,Each,1.16
+CB,12020071,Corrugated Box,Corrugated Boxes,20,20,7,Corrugated Box 20 X 20 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1905,25,250,Each,1.746
+CB,12020081,Corrugated Box,Corrugated Boxes,20,20,8,Corrugated Box 20 X 20 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1973,15,270,Each,1.674
+CB,12020101,Corrugated Box,Corrugated Boxes,20,20,10,Corrugated Box 20 X 20 X 10  ,Plain,Kraft,200#,C,RSC,,,,,2109,15,270,Each,1.549
+CB,12020111,Corrugated Box,Corrugated Boxes,20,20,11,Corrugated Box 20 X 20 X 11  ,Plain,Kraft,200#,C,RSC,,,,,2233,15,270,Each,2.066
+CB,12020121,Corrugated Box,Corrugated Boxes,20,20,12,Corrugated Box 20 X 20 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2245,15,270,Each,1.43
+CB,12020131,Corrugated Box,Corrugated Boxes,20,20,13,Corrugated Box 20 X 20 X 13  ,Plain,Kraft,200#,C,RSC,,,,,2374,15,270,Each,1.84
+CB,12020141,Corrugated Box,Corrugated Boxes,20,20,14,Corrugated Box 20 X 20 X 14  ,Plain,Kraft,200#,C,RSC,,,,,2382,15,270,Each,1.53
+CB,12020151,Corrugated Box,Corrugated Boxes,20,20,15,Corrugated Box 20 X 20 X 15  ,Plain,Kraft,200#,C,RSC,,,,,2540,15,270,Each,1.42
+CB,12020161,Corrugated Box,Corrugated Boxes,20,20,16,Corrugated Box 20 X 20 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2518,10,130,Each,1.57
+CB,12020181,Corrugated Box,Corrugated Boxes,20,20,18,Corrugated Box 20 X 20 X 18,Plain,Kraft,200#,C,RSC,,,,,2654,15,135,Each,2.302
+CB,12020201,Corrugated Box,Corrugated Boxes,20,20,20,Corrugated Box 20 X 20 X 20,Plain,Kraft,200#,C,RSC,,,,,2790,10,130,Each,1.597
+CB,12020241,Corrugated Box,Corrugated Boxes,20,20,24,Corrugated Box 20 X 20 X 24  ,Plain,Kraft,200#,C,RSC,,,,,3148,10,140,Each,2.65
+CB,12020251,Corrugated Box,Corrugated Boxes,20,20,25,Corrugated Box 20 X 20 X 25  ,Plain,Kraft,200#,C,RSC,,,,,3130,10,130,Each,2.686
+CB,12020281,Corrugated Box,Corrugated Boxes,20,20,28,Corrugated Box 20 X 20 X 28  ,Plain,Kraft,200#,C,RSC,,,,,3433,10,140,Each,3.07
+CB,12020361,Corrugated Box,Corrugated Boxes,20,20,36,Corrugated Box 20 X 20 X 36  ,Plain,Kraft,200#,C,RSC,,,,,2879,10,140,Each,3.488
+CB,12020401,Corrugated Box,Corrugated Boxes,20,20,40,Corrugated Box 20 X 20 X 40  ,Plain,Kraft,200#,C,RSC,,,,,4151,10,140,Each,3.766
+CB,12020421,Corrugated Box,Corrugated Boxes,20,20,42,Corrugated Box 20 X 20 X 42  ,Plain,Kraft,200#,C,RSC,,,,,4422,10,140,Each,7.128
+CB,12020481,Corrugated Box,Corrugated Boxes,20,20,48,Corrugated Box 20 X 20 X 48  ,Plain,Kraft,200#,C,RSC,,,,,4845,1,130,Each,4.187
+CB,12013071,Corrugated Box,Corrugated Boxes,20,13,7,Corrugated Box 20-3/16 X 13-7/16 X 7-3/4  ,Plain,Kraft,200#,C,RSC,,,,,1290,25,500,Each,1.427
+CB,12111111,Corrugated Box,Corrugated Boxes,21,11,11,Corrugated Box 21 X 11 X 11  ,Plain,Kraft,200#,C,RSC,,,,,1285,25,500,Each,1.395
+CB,12112121,Corrugated Box,Corrugated Boxes,21,12,12,Corrugated Box 21 X 12 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1407,20,280,Each,1.328
+CB,12113131,Corrugated Box,Corrugated Boxes,21,13,13,Corrugated Box 21 X 13 X 13  ,Plain,Kraft,200#,C,RSC,,,,,1604,15,270,Each,1.536
+CB,12114101,Corrugated Box,Corrugated Boxes,21,14,10,Corrugated Box 21 X 14 X 10,Plain,Kraft,200#,C,RSC,,,,,1550,15,270,Each,1.206
+CB,12114121,Corrugated Box,Corrugated Boxes,21,14,12,Corrugated Box 21 X 14 X 12,Plain,Kraft,200#,C,RSC,,,,,1664,15,270,Each,1.355
+CB,12114141,Corrugated Box,Corrugated Boxes,21,14,14,Corrugated Box 21 X 14 X 14  ,Plain,Kraft,200#,C,RSC,,,,,1730,15,270,Each,1.465
+CB,12118081,Corrugated Box,Corrugated Boxes,21,18,8,"Corrugated Box 21 X 18 X 8-1/2  W/ 2-1/2"", 4-1/2"", 6-1/2"" SCORES",Plain,Kraft,200#,C,RSC,,,,,1953,15,270,Each,1.779
+CB,12115061,Corrugated Box,Corrugated Boxes,21,15,6,Corrugated Box 21-3/8 X 15-5/8 X 6-3/8 - SS4,Plain,Kraft,ECT 32,C,RSC,,,,,1449,25,300,Each,0.558
+CB,12115091,Corrugated Box,Corrugated Boxes,21,15,9,Corrugated Box 21-3/8 X 15-5/8 X 9-1/2 - SS6,Plain,Kraft,ECT 32,C,RSC,,,,,1654,25,300,Each,0.615
+CB,12115121,Corrugated Box,Corrugated Boxes,21,15,12,Corrugated Box 21-3/8 X 15-5/8 X 12-5/8 - SS8,Plain,Kraft,200#,C,RSC,,,,,1843,25,250,Each,0.716
+CB,12115151,Corrugated Box,Corrugated Boxes,21,15,15,Corrugated Box 21-3/8 X 15-5/8 X 15-3/4 - SS10,Plain,Kraft,200#,C,RSC,,,,,2048,20,140,Each,0.824
+CB,12115181,Corrugated Box,Corrugated Boxes,21,15,18,Corrugated Box 21-3/8 X 15-5/8 X 18-5/8 - SS12,Plain,Kraft,200#,C,RSC,,,,,2221,10,280,Each,1.19
+CB,12206061,Corrugated Box,Corrugated Boxes,22,6,6,Corrugated Box 22 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,622,25,500,Each,0.569
+CB,12210041,Corrugated Box,Corrugated Boxes,22,10,4,Corrugated Box 22 X 10 X 4  ,Plain,Kraft,200#,C,RSC,,,,,819,25,500,Each,0.718
+CB,12210091,Corrugated Box,Corrugated Boxes,22,10,9,Corrugated Box 22 X 10 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1092,25,500,Each,0.917
+CB,12212101,Corrugated Box,Corrugated Boxes,22,12,10,Corrugated Box 22 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1330,25,500,Each,0.92
+CB,12213101,Corrugated Box,Corrugated Boxes,22,13,10,Corrugated Box 22 X 13-1/2 X 10-3/4  ,Plain,Kraft,200#,C,RSC,,,,,1572,15,270,Each,1.418
+CB,12214121,Corrugated Box,Corrugated Boxes,22,14,12,Corrugated Box 22 X 14 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1656,15,250,Each,1.03
+CB,12214141,Corrugated Box,Corrugated Boxes,22,14,14,Corrugated Box 22 X 14 X 14  ,Plain,Kraft,200#,C,RSC,,,,,1750,15,270,Each,1.18
+CB,12215101,Corrugated Box,Corrugated Boxes,22,15,10,Corrugated Box 22 X 15 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1630,25,250,Each,1.504
+CB,12217121,Corrugated Box,Corrugated Boxes,22,17,12,Corrugated Box 22 X 17 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1991,15,270,Each,1.516
+CB,12218061,Corrugated Box,Corrugated Boxes,22,18,6,Corrugated Box 22 X 18 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1738,15,270,Each,1.381
+CB,12218161,Corrugated Box,Corrugated Boxes,22,18,16,Corrugated Box 22 X 18 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2444,10,260,Each,1.58
+CB,12220181,Corrugated Box,Corrugated Boxes,22,20,18,Corrugated Box 22 X 20 X 18-1/2  ,Plain,Kraft,200#,C,RSC,,,,,2821,15,135,Each,2.539
+CB,12222061,Corrugated Box,Corrugated Boxes,22,22,6,Corrugated Box 22 X 22 X 6  ,Plain,Kraft,200#,C,RSC,,,,,2200,10,240,Each,2.045
+CB,12222071,Corrugated Box,Corrugated Boxes,22,22,7,Corrugated Box 22 X 22 X 7  ,Plain,Kraft,200#,C,RSC,,,,,2350,10,280,Each,2.378
+CB,12222081,Corrugated Box,Corrugated Boxes,22,22,8,Corrugated Box 22 X 22 X 8  ,Plain,Kraft,200#,C,RSC,,,,,2318,10,260,Each,2.177
+CB,12222101,Corrugated Box,Corrugated Boxes,22,22,10,Corrugated Box 22 X 22 X 10  ,Plain,Kraft,200#,C,RSC,,,,,2467,10,280,Each,1.67
+CB,12222121,Corrugated Box,Corrugated Boxes,22,22,12,Corrugated Box 22 X 22 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2617,15,270,Each,2.234
+CB,12222161,Corrugated Box,Corrugated Boxes,22,22,16,Corrugated Box 22 X 22 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2916,10,130,Each,2.386
+CB,12222181,Corrugated Box,Corrugated Boxes,22,22,18,Corrugated Box 22 X 22 X 18  ,Plain,Kraft,200#,C,RSC,,,,,3061,15,135,Each,2.564
+CB,12222221,Corrugated Box,Corrugated Boxes,22,22,22,Corrugated Box 22 X 22 X 22  ,Plain,Kraft,200#,C,RSC,,,,,3365,10,140,Each,1.98
+CB,12222241,Corrugated Box,Corrugated Boxes,22,22,24,Corrugated Box 22 X 22 X 24  ,Plain,Kraft,200#,C,RSC,,,,,3514,10,130,Each,2.954
+CB,12222301,Corrugated Box,Corrugated Boxes,22,22,30,Corrugated Box 22 X 22 X 30  ,Plain,Kraft,200#,C,RSC,,,,,4078,10,130,Each,3.685
+CB,12222361,Corrugated Box,Corrugated Boxes,22,22,36,Corrugated Box 22 X 22 X 36  ,Plain,Kraft,200#,C,RSC,,,,,4543,10,140,Each,4.469
+CB,12212102,Corrugated Box,Corrugated Boxes,22,12,10,Corrugated Box 22-1/4 X 12-1/2 X 10-1/4  ,Plain,Kraft,200#,C,RSC,,,,,1439,25,500,Each,1.539
+CB,12219121,Corrugated Box,Corrugated Boxes,22,19,12,Corrugated Box 22-1/4 X 19-5/8 X 12-1/4  ,Plain,Kraft,200#,C,RSC,,,,,2350,15,270,Each,1.899
+CB,12308061,Corrugated Box,Corrugated Boxes,23,8,6,Corrugated Box 23 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,794,25,500,Each,0.893
+CB,52310061,Corrugated Box,Corrugated Boxes,23,10,6,Corrugated Box 23 X 10 X 6 - Nordstrom #1 W/FOL + PERFORATION,Plain,Kraft,200#,C,RSC,,,,,,25,300,Each,0.8
+CB,52310121,Corrugated Box,Corrugated Boxes,23,10,12,Corrugated Box 23 X 10 X 12 - Nordstrom #2 W/FOL + PERFORATION,Plain,Kraft,200#,C,RSC,,,,,,25,300,Each,0.99
+CB,12313031,Corrugated Box,Corrugated Boxes,23,13,3,Corrugated Box 23 X 13 X 3  ,Plain,Kraft,200#,C,RSC,,,,,1117,25,250,Each,1.195
+CB,12314101,Corrugated Box,Corrugated Boxes,23,14,10,Corrugated Box 23 X 14 X 10,Plain,Kraft,200#,C,RSC,,,,,1575,25,250,Each,1.09
+CB,52315171,Corrugated Box,Corrugated Boxes,23,15,17,Corrugated Box 23 X 15 X 17 - Nordstrom #3 W/FOL + PERFORATION,Plain,Kraft,200#,C,RSC,,,,,,25,300,Each,1.54
+CB,12316191,Corrugated Box,Corrugated Boxes,23,16,19,Corrugated Box 23 X 16 X 19  ,Plain,Kraft,200#,C,RSC,,,,,2389,10,280,Each,2.081
+CB,12314041,Corrugated Box,Corrugated Boxes,23,14,4,Corrugated Box 23-1/2 X 14 X 4 - 4X,Plain,Kraft,ECT 32,C,RSC,,,,,1225,25,450,Each,0.444
+CB,12314061,Corrugated Box,Corrugated Boxes,23,14,6,Corrugated Box 23-1/2 X 14 X 6 - 6X,Plain,Kraft,ECT 32,C,RSC,,,,,1241,25,375,Each,0.497
+CB,12316141,Corrugated Box,Corrugated Boxes,23,16,14,Corrugated Box 23-1/2 X 16 X 14,Plain,Kraft,200#,C,RSC,,,,,2228,15,270,Each,1.8
+CB,12404041,Corrugated Box,Corrugated Boxes,24,4,4,Corrugated Box 24 X 4 X 4  ,Plain,Kraft,200#,C,RSC,,,,,430,25,1000,Each,0.54
+CB,12406061,Corrugated Box,Corrugated Boxes,24,6,6,Corrugated Box 24 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,666,25,1000,Each,0.582
+CB,12408061,Corrugated Box,Corrugated Boxes,24,8,6,Corrugated Box 24 X 8 X 6  ,Plain,Kraft,200#,C,RSC,,,,,869,25,500,Each,0.883
+CB,12408081,Corrugated Box,Corrugated Boxes,24,8,8,Corrugated Box 24 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,928,25,500,Each,0.772
+CB,12409091,Corrugated Box,Corrugated Boxes,24,9,9,Corrugated Box 24 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,990,25,500,Each,1.002
+CB,12410061,Corrugated Box,Corrugated Boxes,24,10,6,Corrugated Box 24 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,985,25,500,Each,0.86
+CB,12410081,Corrugated Box,Corrugated Boxes,24,10,8,Corrugated Box 24 X 10 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1101,25,300,Each,0.512
+CB,12410101,Corrugated Box,Corrugated Boxes,24,10,10,Corrugated Box 24 X 10 X 10,Plain,Kraft,200#,C,RSC,,,,,1244,25,250,Each,0.977
+CB,12410151,Corrugated Box,Corrugated Boxes,24,10,15,Corrugated Box 24 X 10 X 15  ,Plain,Kraft,200#,C,RSC,,,,,1507,15,270,Each,1.418
+CB,12412061,Corrugated Box,Corrugated Boxes,24,12,6,Corrugated Box 24 X 12 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1165,15,270,Each,0.7
+CB,12412081,Corrugated Box,Corrugated Boxes,24,12,8,Corrugated Box 24 X 12 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1288,25,500,Each,0.88
+CB,12412101,Corrugated Box,Corrugated Boxes,24,12,10,Corrugated Box 24 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1441,15,270,Each,0.87
+CB,12412121,Corrugated Box,Corrugated Boxes,24,12,12,Corrugated Box 24 X 12 X 12,Plain,Kraft,200#,C,RSC,,,,,1533,15,270,Each,0.85
+CB,12413121,Corrugated Box,Corrugated Boxes,24,13,12,Corrugated Box 24 X 13-1/8 X 12-3/4,Plain,Kraft,200#,C,RSC,,,,,1707,15,405,Each,1.478
+CB,12414041,Corrugated Box,Corrugated Boxes,24,14,4,Corrugated Box 24 X 14 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1315,25,450,Each,1.163
+CB,12414081,Corrugated Box,Corrugated Boxes,24,14,8,Corrugated Box 24 X 14 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1488,25,500,Each,0.942
+CB,12414101,Corrugated Box,Corrugated Boxes,24,14,10,Corrugated Box 24 X 14 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1653,20,300,Each,0.735
+CB,12414121,Corrugated Box,Corrugated Boxes,24,14,12,Corrugated Box 24 X 14 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1788,25,300,Each,0.72
+CB,12414141,Corrugated Box,Corrugated Boxes,24,14,14,Corrugated Box 24 X 14 X 14 - 14X,Plain,Kraft,200#,C,RSC,,,,,,25,300,Each,0.744
+CB,12414142,Corrugated Box,Corrugated Boxes,24,14,14,Corrugated Box 24 X 14 X 14-3/8  ,Plain,Kraft,200#,C,RSC,,,,,2043,15,270,Each,1.507
+CB,12414181,Corrugated Box,Corrugated Boxes,24,14,18,Corrugated Box 24 X 14 X 18  ,Plain,Kraft,200#,C,RSC,,,,,2135,15,270,Each,1.752
+CB,12414201,Corrugated Box,Corrugated Boxes,24,14,20,Corrugated Box 24 X 14 X 20  ,Plain,Kraft,200#,C,RSC,,,,,2264,15,270,Each,1.995
+CB,12415121,Corrugated Box,Corrugated Boxes,24,15,12,Corrugated Box 24 X 15 X 12,Plain,Kraft,200#,C,RSC,,,,,,25,300,Each,0.837
+CB,12415101,Corrugated Box,Corrugated Boxes,24,15,10,Corrugated Box 24 X 15-1/2 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1822,25,250,Each,1.635
+CB,12416021,Corrugated Box,Corrugated Boxes,24,16,2,Corrugated Box 24 X 16 X 2-5/8 - 1X,Plain,Kraft,ECT 32,C,RSC,,,,,1284,25,300,Each,0.51
+CB,12416041,Corrugated Box,Corrugated Boxes,24,16,4,Corrugated Box 24 X 16 X 4 - 24X,Plain,Kraft,ECT 32,C,RSC,,,,,1429,25,300,Each,0.53
+CB,12416061,Corrugated Box,Corrugated Boxes,24,16,6,Corrugated Box 24 X 16 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1565,15,270,Each,1.02
+CB,12416071,Corrugated Box,Corrugated Boxes,24,16,7,Corrugated Box 24 X 16 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1668,15,270,Each,1.04
+CB,12416081,Corrugated Box,Corrugated Boxes,24,16,8,Corrugated Box 24 X 16 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1738,15,270,Each,1.11
+CB,12416121,Corrugated Box,Corrugated Boxes,24,16,12,Corrugated Box 24 X 16 X 12,Plain,Kraft,200#,C,RSC,,,,,2037,15,270,Each,1.24
+CB,12416131,Corrugated Box,Corrugated Boxes,24,16,13,Corrugated Box 24 X 16 X 13  ,Plain,Kraft,200#,C,RSC,,,,,2073,15,270,Each,1.25
+CB,12416241,Corrugated Box,Corrugated Boxes,24,16,24,Corrugated Box 24 X 16 X 24  ,Plain,Kraft,200#,C,RSC,,,,,2843,10,130,Each,1.75
+CB,12417121,Corrugated Box,Corrugated Boxes,24,17,12,Corrugated Box 24 X 17 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2142,15,270,Each,1.48
+CB,12417151,Corrugated Box,Corrugated Boxes,24,17,15,Corrugated Box 24 X 17 X 15,Plain,Kraft,200#,C,RSC,,,,,2301,15,135,Each,1.32
+CB,12418101,Corrugated Box,Corrugated Boxes,24,18,10,Corrugated Box 24 X 18 X 10  ,Plain,Kraft,200#,C,RSC,,,,,2071,15,270,Each,1.4
+CB,12418121,Corrugated Box,Corrugated Boxes,24,18,12,Corrugated Box 24 X 18 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2214,15,270,Each,1.61
+CB,12418181,Corrugated Box,Corrugated Boxes,24,18,18,Corrugated Box 24 X 18 X 18,Plain,Kraft,200#,C,RSC,,,,,2642,10,140,Each,1.58
+CB,12418201,Corrugated Box,Corrugated Boxes,24,18,20,Corrugated Box 24 X 18 X 20,Plain,Kraft,200#,C,RSC,,,,,2883,10,140,Each,2.363
+CB,12420091,Corrugated Box,Corrugated Boxes,24,20,9,Corrugated Box 24 X 20 X 9-1/4  ,Plain,Kraft,200#,C,RSC,,,,,2315,15,270,Each,2.308
+CB,12420121,Corrugated Box,Corrugated Boxes,24,20,12,Corrugated Box 24 X 20 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2467,15,270,Each,1.58
+CB,12424061,Corrugated Box,Corrugated Boxes,24,24,6,Corrugated Box 24 X 24 X 6  ,Plain,Kraft,200#,C,RSC,,,,,2600,15,270,Each,2.512
+CB,12424071,Corrugated Box,Corrugated Boxes,24,24,7,Corrugated Box 24 X 24 X 7  ,Plain,Kraft,200#,C,RSC,,,,,2608,15,270,Each,2.234
+CB,12424121,Corrugated Box,Corrugated Boxes,24,24,12,Corrugated Box 24 X 24 X 12  ,Plain,Kraft,200#,C,RSC,,,,,3015,10,130,Each,1.86
+CB,12424161,Corrugated Box,Corrugated Boxes,24,24,16,Corrugated Box 24 X 24 X 16  ,Plain,Kraft,200#,C,RSC,,,,,3341,10,130,Each,2.11
+CB,12424181,Corrugated Box,Corrugated Boxes,24,24,18,Corrugated Box 24 X 24 X 18-1/2,Plain,Kraft,200#,C,RSC,,,,,3545,10,130,Each,2.25
+CB,12424201,Corrugated Box,Corrugated Boxes,24,24,20,Corrugated Box 24 X 24 X 20  ,Plain,Kraft,200#,C,RSC,,,,,3667,10,130,Each,3.082
+CB,12424241,Corrugated Box,Corrugated Boxes,24,24,24,Corrugated Box 24 X 24 X 24,Plain,Kraft,200#,C,RSC,,,,,3993,10,140,Each,1.9
+CB,12424301,Corrugated Box,Corrugated Boxes,24,24,30,Corrugated Box 24 X 24 X 30  ,Plain,Kraft,200#,C,RSC,,,,,4482,1,140,Each,4.929
+CB,12424361,Corrugated Box,Corrugated Boxes,24,24,36,Corrugated Box 24 X 24 X 36,Plain,Kraft,200#,C,RSC,,,,,4971,1,120,Each,4.978
+CB,12424481,Corrugated Box,Corrugated Boxes,24,24,48,Corrugated Box 24 X 24 X 48  ,Plain,Kraft,200#,C,RSC,,,,,5950,10,140,Each,7.577
+CB,12512101,Corrugated Box,Corrugated Boxes,25,12,10,Corrugated Box 25 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1450,25,250,Each,1.15
+CB,12514081,Corrugated Box,Corrugated Boxes,25,14,8,Corrugated Box 25 X 14 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1600,15,270,Each,1.27
+CB,12515121,Corrugated Box,Corrugated Boxes,25,15,12,Corrugated Box 25 X 15 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2000,25,250,Each,2.061
+CB,12517151,Corrugated Box,Corrugated Boxes,25,17,15,Corrugated Box 25 X 17 X 15  ,Plain,Kraft,200#,C,RSC,,,,,2359,15,270,Each,1.32
+CB,12519101,Corrugated Box,Corrugated Boxes,25,19,10,Corrugated Box 25 X 19 X 10-1/2  ,Plain,Kraft,200#,C,RSC,,,,,2280,15,270,Each,2.247
+CB,12525201,Corrugated Box,Corrugated Boxes,25,25,20,Corrugated Box 25 X 25 X 20,Plain,Kraft,200#,C,RSC,,,,,3903,10,140,Each,3.168
+CB,12610101,Corrugated Box,Corrugated Boxes,26,10,10,Corrugated Box 26 X 10 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1314,15,270,Each,1.269
+CB,12612121,Corrugated Box,Corrugated Boxes,26,12,12,Corrugated Box 26 X 12 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1617,20,240,Each,1.52
+CB,12613121,Corrugated Box,Corrugated Boxes,26,13,12,Corrugated Box 26 X 13 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1765,15,270,Each,1.931
+CB,12613131,Corrugated Box,Corrugated Boxes,26,13,13,Corrugated Box 26 X 13-3/4 X 13-3/4  ,Plain,Kraft,200#,C,RSC,,,,,1973,15,270,Each,1.33
+CB,12615051,Corrugated Box,Corrugated Boxes,26,15,5,Corrugated Box 26 X 15 X 5  ,Plain,Kraft,200#,C,RSC,,,,,1464,15,270,Each,1.381
+CB,12615071,Corrugated Box,Corrugated Boxes,26,15,7,Corrugated Box 26 X 15 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1604,15,270,Each,1.19
+CB,12615121,Corrugated Box,Corrugated Boxes,26,15,12,Corrugated Box 26 X 15 X 12  ,Plain,Kraft,200#,C,RSC,,,,,1998,15,270,Each,1.48
+CB,12616101,Corrugated Box,Corrugated Boxes,26,16,10,Corrugated Box 26 X 16 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1971,15,270,Each,1.665
+CB,12616141,Corrugated Box,Corrugated Boxes,26,16,14,Corrugated Box 26 X 16 X 14  ,Plain,Kraft,200#,C,RSC,,,,,2365,15,270,Each,1.38
+CB,12616191,Corrugated Box,Corrugated Boxes,26,16,19,Corrugated Box 26 X 16 X 19  ,Plain,Kraft,200#,C,RSC,,,,,2571,10,130,Each,2.078
+CB,12617051,Corrugated Box,Corrugated Boxes,26,17,5,Corrugated Box 26 X 17 X 5,Plain,Kraft,200#,C,RSC,,,,,1681,25,250,Each,1.69
+CB,12618121,Corrugated Box,Corrugated Boxes,26,18,12,Corrugated Box 26 X 18 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2434,15,270,Each,1.62
+CB,12619121,Corrugated Box,Corrugated Boxes,26,19,12,Corrugated Box 26 X 19 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2505,15,270,Each,2.204
+CB,12621121,Corrugated Box,Corrugated Boxes,26,21,12,Corrugated Box 26 X 21 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2779,15,270,Each,2.551
+CB,12626201,Corrugated Box,Corrugated Boxes,26,26,20,Corrugated Box 26 X 26 X 20  ,Plain,Kraft,200#,C,RSC,,,,,4146,10,130,Each,3.2
+CB,12714091,Corrugated Box,Corrugated Boxes,27,14,9,Corrugated Box 27 X 14 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1673,15,270,Each,1.507
+CB,12715061,Corrugated Box,Corrugated Boxes,27,15,6,Corrugated Box 27 X 15 X 6-1/2,Plain,Kraft,200#,C,RSC,,,,,1607,15,270,Each,1.32
+CB,12717121,Corrugated Box,Corrugated Boxes,27,17,12,Corrugated Box 27 X 17 X 12,Plain,Kraft,200#,C,RSC,,,,,,20,280,Each,1.07
+CB,12719091,Corrugated Box,Corrugated Boxes,27,19,9,Corrugated Box 27 X 19 X 9  ,Plain,Kraft,200#,C,RSC,,,,,2317,15,270,Each,2.358
+CB,12723081,Corrugated Box,Corrugated Boxes,27,23,8,"Corrugated Box 27 X 23 X 8-1/2    W/ 2-1/2"", 4-1/2"", 6-1/2"" SCORES",Plain,Kraft,200#,C,RSC,,,,,2938,15,135,Each,2.331
+CB,12727271,Corrugated Box,Corrugated Boxes,27,27,27,Corrugated Box 27 X 27 X 27  ,Plain,Kraft,200#,C,RSC,,,,,5037,10,120,Each,4.574
+CB,12727361,Corrugated Box,Corrugated Boxes,27,27,36,Corrugated Box 27 X 27 X 36  ,Plain,Kraft,200#,C,RSC,,,,,6026,10,140,Each,7.921
+CB,12806061,Corrugated Box,Corrugated Boxes,28,6,6,Corrugated Box 28 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,753,25,500,Each,0.708
+CB,12812081,Corrugated Box,Corrugated Boxes,28,12,8,Corrugated Box 28 X 12 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1456,15,270,Each,0.96
+CB,12814281,Corrugated Box,Corrugated Boxes,28,14,28,Corrugated Box 28 X 14 X 28  ,Plain,Kraft,200#,C,RSC,,,,,3156,10,140,Each,3.748
+CB,12815121,Corrugated Box,Corrugated Boxes,28,15,12,Corrugated Box 28 X 15 X 12,Plain,Kraft,200#,C,RSC,,,,,,15,300,Each,0.829
+CB,12816051,Corrugated Box,Corrugated Boxes,28,16,5,Corrugated Box 28 X 16 X 5  ,Plain,Kraft,200#,C,RSC,,,,,1645,15,405,Each,1.406
+CB,12816071,Corrugated Box,Corrugated Boxes,28,16,7,Corrugated Box 28 X 16 X 7  ,Plain,Kraft,200#,C,RSC,,,,,1764,15,270,Each,1.664
+CB,12816091,Corrugated Box,Corrugated Boxes,28,16,9,Corrugated Box 28 X 16 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1950,15,270,Each,1.46
+CB,12816121,Corrugated Box,Corrugated Boxes,28,16,12,Corrugated Box 28 X 16 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2150,10,260,Each,1.51
+CB,12816141,Corrugated Box,Corrugated Boxes,28,16,14,Corrugated Box 28 X 16 X 14  ,Plain,Kraft,200#,C,RSC,,,,,2318,15,270,Each,1.968
+CB,12817041,Corrugated Box,Corrugated Boxes,28,17,4,Corrugated Box 28 X 17 X 4 - R4,Plain,Kraft,ECT 32,C,RSC,,,,,1713,15,405,Each,1.619
+CB,12817051,Corrugated Box,Corrugated Boxes,28,17,5,Corrugated Box 28 X 17 X 5 - R5,Plain,Kraft,ECT 32,C,RSC,,,,,,20,280,Each,0.609
+CB,12828061,Corrugated Box,Corrugated Boxes,28,28,6,Corrugated Box 28 X 28 X 6  ,Plain,Kraft,200#,C,RSC,,,,,3399,10,140,Each,3.504
+CB,12828121,Corrugated Box,Corrugated Boxes,28,28,12,Corrugated Box 28 X 28 X 12  ,Plain,Kraft,200#,C,RSC,,,,,3893,10,140,Each,4.127
+CB,12828201,Corrugated Box,Corrugated Boxes,28,28,20,Corrugated Box 28 X 28 X 20  ,Plain,Kraft,200#,C,RSC,,,,,4652,10,120,Each,3.7
+CB,12828281,Corrugated Box,Corrugated Boxes,28,28,28,Corrugated Box 28 X 28 X 28  ,Plain,Kraft,200#,C,RSC,,,,,5412,1,140,Each,4.972
+CB,12908081,Corrugated Box,Corrugated Boxes,29,8,8,Corrugated Box 29 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1088,25,500,Each,1.118
+CB,12910091,Corrugated Box,Corrugated Boxes,29,10,9,Corrugated Box 29 X 10 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1327,15,270,Each,1.211
+CB,12915041,Corrugated Box,Corrugated Boxes,29,15,4,Corrugated Box 29 X 15 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1520,15,270,Each,1.648
+CB,12917031,Corrugated Box,Corrugated Boxes,29,17,3,Corrugated Box 29 X 17 X 3 - G3,Plain,Kraft,ECT 32,C,RSC,,,,,1641,25,300,Each,0.63
+CB,12917071,Corrugated Box,Corrugated Boxes,29,17,7,Corrugated Box 29 X 17 X 7 - G7,Plain,Kraft,200#,C,RSC,,,,,1953,25,300,Each,0.79
+CB,12917091,Corrugated Box,Corrugated Boxes,29,17,9,Corrugated Box 29 X 17 X 9 - G9,Plain,Kraft,200#,C,RSC,,,,,2109,25,300,Each,0.85
+CB,12917121,Corrugated Box,Corrugated Boxes,29,17,12,Corrugated Box 29 X 17 X 12 - G12,Plain,Kraft,200#,C,RSC,,,,,2344,15,300,Each,0.931
+CB,12917151,Corrugated Box,Corrugated Boxes,29,17,15,Corrugated Box 29 X 17 X 15 - G15,Plain,Kraft,200#,C,RSC,,,,,2578,15,300,Each,1.038
+CB,12917201,Corrugated Box,Corrugated Boxes,29,17,20,Corrugated Box 29 X 17 X 20 - G20,Plain,Kraft,200#,C,RSC,,,,,3045,15,135,Each,1.18
+CB,13006061,Corrugated Box,Corrugated Boxes,30,6,6,Corrugated Box 30 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,804,25,500,Each,0.81
+CB,13013131,Corrugated Box,Corrugated Boxes,30,13,13,Corrugated Box 30 X 13 X 13  ,Plain,Kraft,200#,C,RSC,,,,,2017,25,250,Each,1.873
+CB,13014071,Corrugated Box,Corrugated Boxes,30,14,7,Corrugated Box 30 X 14 X 7,Plain,Kraft,200#,C,RSC,,,,,1645,15,270,Each,1.492
+CB,13015151,Corrugated Box,Corrugated Boxes,30,15,15,Corrugated Box 30 X 15 X 15,Plain,Kraft,200#,C,RSC,,,,,2370,10,260,Each,2.036
+CB,13020091,Corrugated Box,Corrugated Boxes,30,20,9,Corrugated Box 30 X 20 X 9  ,Plain,Kraft,200#,C,RSC,,,,,2602,10,130,Each,2.08
+CB,13024101,Corrugated Box,Corrugated Boxes,30,24,10,Corrugated Box 30 X 24 X 10  ,Plain,Kraft,200#,C,RSC,,,,,3200,10,130,Each,2.55
+CB,13024121,Corrugated Box,Corrugated Boxes,30,24,12,Corrugated Box 30 X 24 X 12  ,Plain,Kraft,200#,C,RSC,,,,,3469,10,130,Each,2.63
+CB,13024241,Corrugated Box,Corrugated Boxes,30,24,24,Corrugated Box 30 X 24 X 24  ,Plain,Kraft,200#,C,RSC,,,,,4723,5,125,Each,3.62
+CB,13030301,Corrugated Box,Corrugated Boxes,30,30,30,Corrugated Box 30 X 30 X 30  ,Plain,Kraft,200#,C,RSC,,,,,6202,1,130,Each,5.602
+CB,13116091,Corrugated Box,Corrugated Boxes,31,16,9,Corrugated Box 31 X 16 X 9  ,Plain,Kraft,200#,C,RSC,,,,,2075,15,270,Each,2.158
+CB,13116141,Corrugated Box,Corrugated Boxes,31,16,14,Corrugated Box 31 X 16 X 14  ,Plain,Kraft,200#,C,RSC,,,,,2474,15,135,Each,2.662
+CB,13124081,Corrugated Box,Corrugated Boxes,31,24,8,"Corrugated Box 31 X 24 X 8-1/2   W/ 2-1/2"", 4-1/2"", 6-1/2"" SCORES",Plain,Kraft,200#,C,RSC,,,,,3324,15,135,Each,2.5
+CB,13124191,Corrugated Box,Corrugated Boxes,31,24,19,Corrugated Box 31 X 24 X 19  ,Plain,Kraft,200#,C,RSC,,,,,4066,10,100,Each,4.136
+CB,13121121,Corrugated Box,Corrugated Boxes,31,21,12,Corrugated Box 31-3/8 X 21-3/8 X 12-5/8  ,Plain,Kraft,200#,C,RSC,,,,,3205,10,130,Each,3.462
+CB,13121211,Corrugated Box,Corrugated Boxes,31,21,21,Corrugated Box 31-3/8 X 21-3/8 X 21-3/4  ,Plain,Kraft,200#,C,RSC,,,,,4049,10,140,Each,4.606
+CB,13206061,Corrugated Box,Corrugated Boxes,32,6,6,Corrugated Box 32 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,841,25,500,Each,0.71
+CB,13208081,Corrugated Box,Corrugated Boxes,32,8,8,Corrugated Box 32 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1157,25,375,Each,0.97
+CB,13210061,Corrugated Box,Corrugated Boxes,32,10,6,Corrugated Box 32 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1214,15,270,Each,1.251
+CB,13213061,Corrugated Box,Corrugated Boxes,32,13,6,Corrugated Box 32 X 13 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1529,25,250,Each,1.313
+CB,13214051,Corrugated Box,Corrugated Boxes,32,14,5,Corrugated Box 32 X 14 X 5,Plain,Kraft,200#,C,RSC,,,,,1562,25,250,Each,1.571
+CB,13215121,Corrugated Box,Corrugated Boxes,32,15,12,Corrugated Box 32 X 15-5/8 X 12-5/8,Plain,Kraft,200#,C,RSC,,,,,2365,15,270,Each,2.345
+CB,13215241,Corrugated Box,Corrugated Boxes,32,15,24,Corrugated Box 32 X 15-5/8 X 24-5/8,Plain,Kraft,200#,C,RSC,,,,,3422,10,140,Each,3.446
+CB,13215301,Corrugated Box,Corrugated Boxes,32,15,30,Corrugated Box 32 X 15-5/8 X 30-5/8,Plain,Kraft,200#,C,RSC,,,,,3821,10,130,Each,4.244
+CB,13217161,Corrugated Box,Corrugated Boxes,32,17,16,Corrugated Box 32 X 17 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2828,10,140,Each,2
+CB,13314141,Corrugated Box,Corrugated Boxes,33,14,14,Corrugated Box 33 X 14 X 14  ,Plain,Kraft,200#,C,RSC,,,,,2314,15,135,Each,2.295
+CB,13318101,Corrugated Box,Corrugated Boxes,33,18,10,Corrugated Box 33 X 18 X 10  ,Plain,Kraft,200#,C,RSC,,,,,2600,15,135,Each,2.167
+CB,13319041,Corrugated Box,Corrugated Boxes,33,19,4,Corrugated Box 33 X 19 X 4-1/2  ,Plain,Kraft,200#,C,RSC,,,,,2161,20,280,Each,2.383
+CB,13519031,Corrugated Box,Corrugated Boxes,35,19,3,Corrugated Box 35 X 19 X 3 - K3,Plain,Kraft,ECT 32,C,RSC,,,,,,15,300,Each,0.954
+CB,13519051,Corrugated Box,Corrugated Boxes,35,19,5,Corrugated Box 35 X 19 X 5 - K5,Plain,Kraft,200#,C,RSC,,,,,2334,15,270,Each,2.184
+CB,13519071,Corrugated Box,Corrugated Boxes,35,19,7,Corrugated Box 35 X 19 X 7 - K7,Plain,Kraft,200#,C,RSC,,,,,2334,15,150,Each,1.293
+CB,13519093,Corrugated Box,Corrugated Boxes,35,19,9,Corrugated Box 35 X 19 X 9 - K9,Plain,Kraft,200#,C,RSC,,,,,2334,15,150,Each,1.39
+CB,13519121,Corrugated Box,Corrugated Boxes,35,19,12,Corrugated Box 35 X 19 X 12 - K12,Plain,Kraft,200#,C,RSC,,,,,,25,150,Each,1.51
+CB,13519151,Corrugated Box,Corrugated Boxes,35,19,15,Corrugated Box 35 X 19 X 15 - K15,Plain,Kraft,200#,C,RSC,,,,,,15,150,Each,1.679
+CB,13519091,Corrugated Box,Corrugated Boxes,35,19,9,Corrugated Box 35-3/4 X 19 X 9  ,Plain,Kraft,200#,C,RSC,,,,,2780,15,270,Each,3.122
+CB,13606061,Corrugated Box,Corrugated Boxes,36,6,6,Corrugated Box 36 X 6 X 6  ,Plain,Kraft,200#,C,RSC,,,,,928,25,500,Each,0.886
+CB,13608081,Corrugated Box,Corrugated Boxes,36,8,8,Corrugated Box 36 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1271,25,250,Each,1.02
+CB,13610061,Corrugated Box,Corrugated Boxes,36,10,6,Corrugated Box 36 X 10 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1328,15,270,Each,1.354
+CB,13612041,Corrugated Box,Corrugated Boxes,36,12,4,Corrugated Box 36 X 12 X 4  ,Plain,Kraft,200#,C,RSC,,,,,1385,15,270,Each,1.395
+CB,13612101,Corrugated Box,Corrugated Boxes,36,12,10,Corrugated Box 36 X 12 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1874,15,270,Each,1.22
+CB,13612161,Corrugated Box,Corrugated Boxes,36,12,16,Corrugated Box 36 X 12 X 16  ,Plain,Kraft,200#,C,RSC,,,,,2520,15,135,Each,2.347
+CB,13612181,Corrugated Box,Corrugated Boxes,36,12,18,Corrugated Box 36 X 12 X 18  ,Plain,Kraft,200#,C,RSC,,,,,2586,10,280,Each,3.891
+CB,13616051,Corrugated Box,Corrugated Boxes,36,16,5,Corrugated Box 36 X 16 X 5,Plain,Kraft,200#,C,RSC,,,,,1941,15,270,Each,1.723
+CB,13616071,Corrugated Box,Corrugated Boxes,36,16,7,Corrugated Box 36 X 16 X 7,Plain,Kraft,200#,C,RSC,,,,,2117,15,270,Each,1.65
+CB,13620051,Corrugated Box,Corrugated Boxes,36,20,5,Corrugated Box 36 X 20 X 5,Plain,Kraft,200#,C,RSC,,,,,2515,15,270,Each,2.09
+CB,13620071,Corrugated Box,Corrugated Boxes,36,20,7,Corrugated Box 36 X 20 X 7,Plain,Kraft,200#,C,RSC,,,,,2658,15,270,Each,2.15
+CB,13620091,Corrugated Box,Corrugated Boxes,36,20,9,Corrugated Box 36 X 20 X 9,Plain,Kraft,200#,C,RSC,,,,,2848,15,270,Each,2.65
+CB,13620121,Corrugated Box,Corrugated Boxes,36,20,12,Corrugated Box 36 X 20 X 12,Plain,Kraft,200#,C,RSC,,,,,3202,10,260,Each,2.792
+CB,13620151,Corrugated Box,Corrugated Boxes,36,20,15,Corrugated Box 36 X 20 X 15,Plain,Kraft,200#,C,RSC,,,,,3418,15,135,Each,2.48
+CB,13621121,Corrugated Box,Corrugated Boxes,36,21,12,Corrugated Box 36 X 21 X 12  ,Plain,Kraft,200#,C,RSC,,,,,3285,10,130,Each,2.9
+CB,13621201,Corrugated Box,Corrugated Boxes,36,21,20,Corrugated Box 36 X 21 X 20  ,Plain,Kraft,200#,C,RSC,,,,,4058,10,130,Each,2.69
+CB,13624241,Corrugated Box,Corrugated Boxes,36,24,24,Corrugated Box 36 X 24 X 24  ,Plain,Kraft,200#,C,RSC,,,,,4900,5,140,Each,5.06
+CB,13709091,Corrugated Box,Corrugated Boxes,37,9,9,Corrugated Box 37 X 9 X 9  ,Plain,Kraft,200#,C,RSC,,,,,1484,25,250,Each,1.328
+CB,13717211,Corrugated Box,Corrugated Boxes,37,17,21,Corrugated Box 37 X 17 X 21  ,Plain,Kraft,200#,C,RSC,,,,,3658,10,140,Each,3.782
+CB,13920361,Corrugated Box,Corrugated Boxes,39,20,36,Corrugated Box 39 X 20 X 36  ,Plain,Kraft,200#,C,RSC,,,,,5699,5,130,Each,5.319
+CB,14008081,Corrugated Box,Corrugated Boxes,40,8,8,Corrugated Box 40 X 8 X 8  ,Plain,Kraft,200#,C,RSC,,,,,1385,20,280,Each,1.255
+CB,14211061,Corrugated Box,Corrugated Boxes,42,11,6,Corrugated Box 42 X 11 X 6  ,Plain,Kraft,200#,C,RSC,,,,,1618,15,270,Each,1.74
+CB,14211101,Corrugated Box,Corrugated Boxes,42,11,10,Corrugated Box 42 X 11 X 10  ,Plain,Kraft,200#,C,RSC,,,,,1977,15,270,Each,1.899
+CB,14412121,Corrugated Box,Corrugated Boxes,44,12,12,Corrugated Box 44 X 12 X 12  ,Plain,Kraft,200#,C,RSC,,,,,2373,15,270,Each,2.339

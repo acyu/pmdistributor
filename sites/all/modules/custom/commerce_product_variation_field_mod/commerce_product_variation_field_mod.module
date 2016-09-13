@@ -1,0 +1,14 @@
+<?php
+
+function commerce_product_variation_field_mod_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'product_display_node_form') {
+    $form['field_product_list'] = array(
+      '#type'=>'textfield',
+      '#title'=>t('Associated Products'),
+      '#size'=>60
+    );
+    //print_r('<pre>');
+    //print_r($form['field_product_variation']);
+    //print_r('</pre>');
+  }
+}

@@ -1,0 +1,29 @@
+name = 'PM Distributors'
+description = 'PM Distributors Main Theme'
+engine = 'phptemplate'
+screenshot = 'screenshot.png'
+base theme = 'omega'
+core = '7.x'
+
+; Stylesheets
+stylesheets[all][] = css/pm_distributors.normalize.css
+stylesheets[all][] = css/pm_distributors.styles.css
+
+; Regions
+
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+regions[content] = 'Content'
+regions[branding] = 'Branding'
+regions[header] = 'Header'
+regions[navigation] = 'Navigation'
+regions[highlighted] = 'Highlighted'
+regions[help] = 'Help'
+regions[sidebar_first] = 'First Sidebar'
+regions[sidebar_second] = 'Second Sidebar'
+regions[footer] = 'Footer'
+zones[header] = 'Header'
+zones[content] = 'Content'
+zones[footer] = 'Footer'
+
+version = '1.x'

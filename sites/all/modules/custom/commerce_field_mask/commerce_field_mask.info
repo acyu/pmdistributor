@@ -1,0 +1,4 @@
+name = Commerce Field Mask
+description = Provide mask function to relevent fields using jquery.mask.js
+core = 7.x
+package = Commerce Custom

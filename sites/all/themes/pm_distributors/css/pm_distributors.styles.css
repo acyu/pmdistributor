@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+/**
+ * Common
+ */
+h2.block__title {
+    display: none;
+}
+
+/**
+ * Header
+ */
+a.site-logo {
+    float: left;
+}
+
+h1.site-name a {
+    text-decoration: none;
+}
+
+/**
+ * Navigation
+ */
+
+nav#block-system-main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav#block-system-main-menu li {
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+nav#block-system-main-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav#block-system-main-menu a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav#block-system-main-menu .active {
+background-color:#4CAF50;
+}

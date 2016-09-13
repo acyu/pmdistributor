@@ -1,0 +1,67 @@
+<?php
+/**
+* Implements hook_views_api().
+*
+* Enabling using templates inside module
+*/
+function commerce_product_category_tile_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'commerce_product_category_tile'),
+    'template path' => drupal_get_path('module', 'commerce_product_category_tile') . '/templates/views',
+  );
+}
+
+
+function commerce_product_category_tile_block_info() {
+  $blocks['product_category_tile_view'] = array(
+    'info' => t('Product Cateogry Tile View'),
+    'cache' => DRUPAL_NO_CACHE    
+  );
+
+  return $blocks;
+}
+
+function commerce_product_category_tile_block_view($delta = '') {
+  $block = array(
+    'title' => t('<none>')
+  );
+
+  switch($delta) {
+    case 'product_category_tile_view':
+      $display_name = 'block';
+      $view = views_get_view('product_category_tiles');
+      $view->set_display($display_name);
+
+      if(arg(0) == 'node') {
+        $term_parent = 0;
+      }
+      if(arg(0) == 'product-category' && is_numeric(arg(1))) {
+        $term_parent = arg(1);
+      }
+      if(arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+        $term_parent = arg(2); 
+      }
+
+      $filter = $view->get_item($display_name, 'filter', 'parent');      
+      $filter['value']['value'] = $term_parent;
+      $view->set_item($display_name, 'filter', 'parent', $filter);
+      $view->pre_execute();
+      $view->execute();
+
+      $block['content'] = $view->render();
+    break;
+  }
+
+  return $block;
+}
+
+/*function commerce_product_category_tile_views_pre_render(&$view) {
+  if($view->name == 'product_category_tiles') {
+    foreach($view->result as $term) {
+      $data = taxonomy_select_nodes($term->tid, FALSE);
+      $count = count($data);
+      dsm($term);
+    }
+  }
+}*/

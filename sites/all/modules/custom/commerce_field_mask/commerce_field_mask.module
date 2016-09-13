@@ -1,0 +1,32 @@
+<?php
+
+function commerce_field_mask_libraries_info() {
+  $libraries = array();
+
+  $libraries['jquery.mask'] = array(
+    'name' => 'jQuery Mask Plugin',
+    'vendor url' => 'https://igorescobar.github.io/jQuery-Mask-Plugin/',
+    'download url' => 'https://github.com/igorescobar/jQuery-Mask-Plugin',
+    'version callback' => 'jquery_mask_version',
+    'files' => array(
+      'js' => array(
+        'jquery.mask.js',
+      ),
+    ),
+  );
+watchdog('library','define jquery.mask');
+  return $libraries;
+}
+
+function jquery_mask_version() { return '1.13.4'; }
+
+function commerce_field_mask_init() {
+  libraries_load('jquery.mask');
+  drupal_add_library('commerce_field_mask','jquery.mask');
+}
+
+function commerce_field_mask_field_widget_form_alter(&$element, &$form_state, $context) {
+  if(isset($context['form']['#entity']) && !empty($context['form']['#entity']->type) && $context['form']['#entity']->type == 'company_info') {
+    drupal_add_js(drupal_get_path('module','commerce_field_mask') . '/js/phone.mask.js');
+  }
+}

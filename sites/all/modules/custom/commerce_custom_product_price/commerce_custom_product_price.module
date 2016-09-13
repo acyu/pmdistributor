@@ -1,0 +1,323 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function commerce_custom_product_price_form_alter(&$form, &$form_state, $form_id) {
+  global $user;
+
+  if($form_id == 'user_profile_form' && in_array('administrator',$user->roles)) {
+    $form['#submit'][] = 'commerce_custom_product_price_price_list_item';
+  }
+
+  if (strstr($form_id, 'commerce_cart_add_to_cart_form')) {
+    //anonymous user do not get request price button
+    if(!user_is_logged_in()) return;
+
+    // check if product is disabled
+    if (isset($form['submit']['#attributes']['disabled']) && ($form['submit']['#attributes']['disabled'] == 'disabled')) {
+      return;
+    }
+
+    // Check if is a product
+    $product_type = $form_state['default_product']->type;
+    $product_id = $form_state['default_product']->product_id;
+
+    // check for a given product does the user already has custom pricing
+    $user_info = user_load($user->uid);
+    $user_entity = entity_metadata_wrapper('user', $user_info);
+    $customPricingCollection = field_get_items('user', $user_info, 'field_custom_pricing');
+
+    if(!$customPricingCollection) {
+      $form += commerce_custom_product_price_add_form();
+      //unset($form['submit']);
+    } else {
+      $found_entry = array_filter($customPricingCollection, function($entry, $delta) use (&$user_entity, &$product_id, &$form) {
+        $product = $user_entity->field_custom_pricing[ $delta ]->field_cp_product_ref->value();
+        $custom_price = $user_entity->field_custom_pricing[ $delta ]->field_cp_product_price->value();
+        if($product->product_id == $product_id && $custom_price) {
+          //do nothing
+          return true;
+        } elseif($product->product_id == $product_id && !$custom_price) {
+          $form += commerce_custom_product_price_add_message_form();
+          //unset($form['submit']);
+          return true;
+        }
+      },ARRAY_FILTER_USE_BOTH);
+
+      if(!$found_entry) {
+        $form += commerce_custom_product_price_add_form();
+        //unset($form['submit']);
+      }
+    }    
+  }
+
+  if($form_id == 'views_form_commerce_cart_form_default') {
+    $form['#attached']['js'] = array(
+      drupal_get_path('module', 'commerce_custom_product_price') . '/js/custom_price_cart.js',
+    );
+  }
+}
+
+function commerce_custom_product_price_views_post_execute(&$view) {
+  global $user;
+
+  if($view->name == 'commerce_cart_form') {
+    foreach ($view->result as $result) {
+      $sql="SELECT * FROM {field_data_field_cp_product_price} a INNER JOIN {field_data_field_custom_pricing} b ON a.entity_id = b.field_custom_pricing_value AND a.revision_id = b.field_custom_pricing_revision_id INNER JOIN {field_data_field_cp_product_ref} c ON b.field_custom_pricing_value = c.entity_id AND b.field_custom_pricing_revision_id = c.revision_id AND c.field_cp_product_ref_product_id = :product_id AND b.entity_id = :user_id";
+      $args = array(':product_id'=>$result->_field_data['commerce_line_item_field_data_commerce_line_items_line_item_']['entity']->commerce_product[LANGUAGE_NONE][0]['product_id'],':user_id'=>$user->uid);
+
+      $count = db_query($sql,$args)->rowCount();
+
+      if($count == 0) {
+        $result->field_commerce_unit_price[0]['rendered']['#markup'] = 'Pending Price Request';
+        $result->field_commerce_total[0]['rendered']['#markup'] = 'Pending Price Request';
+      }
+    }
+  }
+}
+
+function commerce_custom_product_price_preprocess_views_view(&$vars) {
+  $view = &$vars['view'];
+  // Make sure it's the correct view
+  if($view->name == 'commerce_cart_block') {
+    drupal_add_js(drupal_get_path('module', 'commerce_custom_product_price') . '/js/custom_price_cart_block.js');
+  }
+}
+
+/**
+ * Form callback for add a new button of commerce_cart_add_to_cart_form()
+ */
+function commerce_custom_product_price_add_form() {
+  $form['add_to_custom_price'] = array(
+    '#type' => 'submit',
+    '#value' => t('Request My Special Price'),
+    '#validate' => array('commerce_custom_product_price_add_form_validate'),
+    '#submit' => array('commerce_custom_product_price_add_form_submit'),
+  );
+
+  return $form;
+}
+
+function commerce_custom_product_price_add_message_form() {
+    $form['add_to_custom_price'] = array(
+    '#type' => 'markup',
+    '#markup' => t('Pending Price Setup'),
+  );
+
+  return $form;
+}
+
+/**
+ * Validate callback for commerce_cart_add_to_cart_form().
+ */
+function commerce_custom_product_price_add_form_validate($form, &$form_state) {
+  global $user;
+  if ($form_state['values']['op'] == t('Request My Special Price')) {
+    // Verify if is a registed user_access
+    if (!$user->uid) {
+      form_set_error('request_special_price',
+        t('<a href="@login">Log in</a> or <a href="@register">register</a> to request special product price.',
+          array('@login' => url('user/login', array('query' => drupal_get_destination())), '@register' => url('user/register'))
+        )
+      );
+    }
+
+    $in_request = commerce_custom_product_price_in_request($user->uid, $form_state['values']['product_id']);
+
+    if($in_request) {
+      form_set_error('request_special_price', t('You already request special price for this product.'));
+    }
+  }  
+}
+
+function commerce_custom_product_price_add_form_submit($form, &$form_state) {
+  global $user;
+
+  $user_info = user_load($user->uid);
+
+  if(empty($user_info->user_commerce_pricelists)) {
+    commerce_custom_product_price_add_price_list($user_info);
+  }
+
+  //create new field collection entry
+  $field_collection_item = entity_create('field_collection_item', array('field_name' => 'field_custom_pricing'));
+  $field_collection_item->field_cp_product_ref[LANGUAGE_NONE][] = array('product_id'=>$form_state['values']['product_id']);
+  $field_collection_item->setHostEntity('user', $user_info);
+  $field_collection_item->save(TRUE);
+
+  //trigger user save to save field collection changes.  not other field are edited.
+  $edit = array();
+  user_save($user_info, $edit);
+
+  drupal_set_message(t('Your request has been send to %site_name administrator. We will respond to your request shortly.', array('%site_name'=>variable_get('site_name', 'PM Distributor'))),'status');
+
+  /*
+  $role = user_role_load_by_name('administrator');
+  $query = db_select('users','a');
+  $query->fields('a',array('mail'));
+  $query->join('users_roles','b','a.uid = b.uid');
+  $query->condition('b.rid',$role->rid,'=');
+  $results = $query->execute()->fetchAll(PDO::FETCH_ASSOC);       
+  $mails = array();
+  foreach($results as $result) {
+    $mails[] = $result['mail'];
+  }
+
+  drupal_mail('commerce_custom_product_price', 'request_price', $mails, language_default(), $params = array());
+  */
+}
+
+function commerce_custom_product_price_add_price_list($user_info) {
+  $entity = commerce_pricelist_list_new();
+  $entity->title = 'pricelist_for_user_' . $user_info->name;
+  $entity->weight = 0;
+  $entity->status = 1;
+  //field_attach_submit('commerce_pricelist_list', $entity, $form, $form_state);
+  $result = commerce_pricelist_list_save($entity);
+  if ($result != FALSE) {
+    drupal_set_message(t('Price list saved'));
+
+    $edit = array(
+      'user_commerce_pricelists' => array(
+        'und'=>array(
+          0=>array(
+            'target_id' => $result
+          )
+        )
+      )
+    );
+
+    user_save($user_info, $edit);
+  }
+}
+
+/**
+ *
+ */
+function commerce_custom_product_price_in_request($uid, $product_id) {
+  $in_request = false;
+
+  $user_info = user_load($uid);
+  $user_entity = entity_metadata_wrapper('user', $user_info);
+  $customPricingCollection = field_get_items('user', $user_info, 'field_custom_pricing');
+
+  if($customPricingCollection) {
+    $found_entry = array_filter($customPricingCollection, function($entry, $delta) use (&$user_entity, &$product_id) {
+      $product = $user_entity->field_custom_pricing[ $delta ]->field_cp_product_ref->value();
+      return $product->product_id == $product_id;
+    },ARRAY_FILTER_USE_BOTH);
+
+    if($found_entry) {
+      $in_request = true;
+    }
+  }
+
+  return $in_request;
+}
+
+function commerce_custom_product_price_mail($key, &$message, $params) {
+  global $user;
+
+  switch($key) {
+    case 'request_price':
+      $message['subject'] = t('Pending custom product price requests');
+      $message['body'][] = t('The following user(s) had submitted product price request.');
+      foreach($params['users'] as $customer) {
+        $profile = commerce_customer_profile_load($customer->field_company_information[LANGUAGE_NONE][0]['profile_id']);
+        $message['body'][] = t('<a href="@login">@company_name</a>', array(
+          '@login' => url('user/' . $customer->uid, array('query' => drupal_get_destination())),
+          '@company_name' => $profile->field_company_name[LANGUAGE_NONE][0]['value'],
+        ));
+      }
+      $message['body'][] = t('<a href="@login">Log in</a> to set custom price.',
+        array('@login' => url('user/' . $user->uid, array('query' => drupal_get_destination())))
+      );
+    break;
+  }
+}
+
+function commerce_custom_product_price_price_list_item($form, &$form_state) {
+  $custom_product_prices = $form_state['values']['field_custom_pricing'][LANGUAGE_NONE];
+  $price_list_id = $form_state['values']['user_commerce_pricelists'][LANGUAGE_NONE][0]['target_id'];
+
+  $results = db_query('SELECT sku FROM commerce_pricelist_item WHERE pricelist_id = :pricelist_id GROUP BY item_id',array(':pricelist_id'=>$price_list_id));
+  $sku_list = array();
+
+  foreach($results as $result) {
+    $sku_list[] = $result->sku;
+  }
+
+  //$sku_list = explode($result['sku_list']);
+  foreach($custom_product_prices as $custom_product_price) {
+    $product = commerce_product_load($custom_product_price['field_cp_product_ref'][LANGUAGE_NONE][0]['product_id']);
+
+    if(!empty($custom_product_price['field_cp_product_price']) && !in_array($product->sku, $sku_list)) {
+      $entity = commerce_pricelist_item_new(NULL, $product->sku);
+      $entity->pricelist_id = $price_list_id;
+      $entity->price_amount = $custom_product_price['field_cp_product_price'][LANGUAGE_NONE][0]['amount'];
+      $entity->currency_code = $custom_product_price['field_cp_product_price'][LANGUAGE_NONE][0]['currency_code'];
+      $entity = commerce_pricelist_item_save($entity);
+    }
+  }
+}
+
+/***
+ * Implement hook_cron_queue_info
+ ***/
+function commerce_custom_product_price_cron_queue_info() {
+  $queue['notifypricerequest'] = array(
+    'worker callback'=> 'commerce_custom_product_price_request_notification',
+    'time'=>180,
+  );
+}
+
+/***
+ * Implement hook_cron
+ ***/
+function commerce_custom_product_price_cron() {
+  $query = db_select('users', 'u');
+  $query->join('users_roles','ur','u.uid = ur.uid');
+  $query->join('role','r','r.rid = ur.rid');  
+  $query->fields('u', array('uid'));
+  $query->condition('r.name','administrator','!=');
+  $result = $query->execute();
+  $users = array();
+  while($record = $result->fetchAssoc()) {
+    $user = user_load($record['uid']);
+    $requested = db_query("SELECT COUNT(*) AS requested FROM field_data_field_cp_product_ref a INNER JOIN field_data_field_custom_pricing b ON a.entity_id = b.field_custom_pricing_value AND a.revision_id = b.field_custom_pricing_revision_id AND b.entity_id = :uid", array(":uid"=>$record['uid']));
+
+    $assigned = db_query("SELECT COUNT(*) AS assigned FROM field_data_field_cp_product_ref a INNER JOIN field_data_field_cp_product_price b ON a.entity_id = b.entity_id AND a.revision_id = b.revision_id INNER JOIN field_data_field_custom_pricing c ON a.entity_id = c.field_custom_pricing_value AND a.revision_id = c.field_custom_pricing_revision_id AND c.entity_id = :uid", array(":uid"=>$record['uid']));
+
+    if($requested['requested'] != $assigned['assigned']) {
+      $user = user_load($record['uid']);
+      $users[] = $user;
+    }
+  }
+
+  $queue = DrupalQueue::get('notifypricerequest');
+  $queue->createItem($users);
+  /*
+SELECT COUNT(*) AS requested FROM field_data_field_cp_product_ref a INNER JOIN field_data_field_custom_pricing b ON 
+a.entity_id = b.field_custom_pricing_value AND a.revision_id = b.field_custom_pricing_revision_id AND b.entity_id = 4
+
+
+SELECT COUNT(*) AS assigned FROM field_data_field_cp_product_ref a INNER JOIN field_data_field_cp_product_price b ON a.entity_id = b.entity_id AND a.revision_id = b.revision_id
+INNER JOIN field_data_field_custom_pricing c ON a.entity_id = c.field_custom_pricing_value AND a.revision_id = c.field_custom_pricing_revision_id AND c.entity_id = 4
+  */
+}
+
+function commerce_custom_product_price_request_notification($users) {
+  $role = user_role_load_by_name('administrator');
+  $query = db_select('users','a');
+  $query->fields('a',array('mail'));
+  $query->join('users_roles','b','a.uid = b.uid');
+  $query->condition('b.rid',$role->rid,'=');
+  $results = $query->execute()->fetchAll(PDO::FETCH_ASSOC);       
+  $mails = array();
+  foreach($results as $result) {
+    $mails[] = $result['mail'];
+  }
+
+  drupal_mail('commerce_custom_product_price', 'request_price', $mails, language_default(), $params = array('users'=>$users));
+}

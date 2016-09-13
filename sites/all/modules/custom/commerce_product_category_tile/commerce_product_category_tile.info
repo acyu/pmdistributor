@@ -1,0 +1,4 @@
+name = Commerce Product Category Tile Display
+description = Provide a grid tile display of product category
+core = 7.x
+package = Commerce Custom

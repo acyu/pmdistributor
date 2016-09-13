@@ -1,0 +1,43 @@
+CLASS,ITEM NUMBER,,,DESCRIPTION,LENGTH,WIDTH,LOAD POINT,QUANTITY/CASE,CASES/PALLET,WEIGHT (Pounds),UNIT OF MEASURE,COST
+PLE,45FI,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,7.3,Box,#N/A
+PLE,45FP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,8.1,Box,#N/A
+PLE,45IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,7.9,Box,#N/A
+PLE,45IP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,7.8,Box,#N/A
+PLE,45NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,8.2,Box,#N/A
+PLE,45P,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,5.5,Back," 1,000 ",252,6.5,Box,10.00
+PLE,20P,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,8.8,Box,#N/A
+PLE,22FP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,7.5,Box,#N/A
+PLE,24IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,9.1,Box,#N/A
+PLE,46FP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,7.5,Box,#N/A
+PLE,46IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,7.5,Box,#N/A
+PLE,46NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,8.8,Box,#N/A
+PLE,46P,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,8.6,Box,#N/A
+PLE,74IP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,6,Back," 1,000 ",252,8.6,Box,#N/A
+PLE,47P,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,7.5,Back," 1,000 ",210,10.1,Box,#N/A
+PLE,47NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,7.5,Back," 1,000 ",210,11,Box,#N/A
+PLE,510IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.5,10,Back," 1,000 ",168,15.95,Box,#N/A
+PLE,510NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.5,10,Back," 1,000 ",168,15.95,Box,47.40
+PLE,510P,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.5,10,Back," 1,000 ",168,15.95,Box,37.91
+PLE,65P,Packing List Envelope,Shipping Supplies,Packing List Envelope,6.75,5,Top," 1,000 ",252,9.4,Box,#N/A
+PLE,65NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,6.75,5,Top," 1,000 ",252,9.4,Box,#N/A
+PLE,76P,Packing List Envelope,Shipping Supplies,Packing List Envelope,7,6,Top," 1,000 ",189,12.9,Box,#N/A
+PLE,76NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,7,6,Top," 1,000 ",189,13.6,Box,#N/A
+PLE,62IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,7,6,Top," 1,000 ",160,10.7,Box,#N/A
+PLE,57FP,Packing List Envelope,Shipping Supplies,Packing List Envelope,7,6,Top," 1,000 ",252,12.1,Box,#N/A
+PLE,710NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,7,10,Top," 1,000 ",168,18.3,Box,#N/A
+PLE,75P,Packing List Envelope,Shipping Supplies,Packing List Envelope,7.5,5.5,Top," 1,000 ",210,11.2,Box,30.01
+PLE,75IE,Packing List Envelope,Shipping Supplies,Packing List Envelope,7.5,5.5,Top," 1,000 ",210,13.2,Box,#N/A
+PLE,75NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.5,5.5,Top," 1,000 ",210,11.2,Box,#N/A
+PLE,912NP,Packing List Envelope,Shipping Supplies,Packing List Envelope,9.5,12,Top, 500 ,96,17.1,Box,#N/A
+PLE,106C,Packing List Envelope,Shipping Supplies,Packing List Envelope,10.75,6.75,Top," 1,000 ",154,10.2,Box,#N/A
+PLE,IBM2,Packing List Envelope,Shipping Supplies,Packing List Envelope,4,8,Open End," 1,000 ",140,10.1,Box,#N/A
+PLE,IBM3,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,9,Open End," 1,000 ",140,11.4,Box,#N/A
+PLE,IBM5,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.25,3,Open End," 1,000 ",140,3.9,Box,#N/A
+PLE,GSA-20,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.25,8,Open End," 1,000 ",105,11.4,Box,#N/A
+PLE,GSA-30,Packing List Envelope,Shipping Supplies,Packing List Envelope,8.5,10.25,Open End," 1,000 ",90,11.3,Box,#N/A
+PLE,R46,Packing List Envelope,Shipping Supplies,Packing List Envelope,4.5,7,Reclosable," 1,000 ",175,6.1,Box,#N/A
+PLE,R66,Packing List Envelope,Shipping Supplies,Packing List Envelope,6.5,7,Reclosable, 500 ,175,8.6,Box,#N/A
+PLE,R69,Packing List Envelope,Shipping Supplies,Packing List Envelope,6.5,10,Reclosable, 500 ,100,10.8,Box,#N/A
+PLE,R510,Packing List Envelope,Shipping Supplies,Packing List Envelope,5.5,11,Reclosable, 500 ,100,11.3,Box,#N/A
+PLE,R810,Packing List Envelope,Shipping Supplies,Packing List Envelope,8.5,11,Reclosable, 500 ,100,18,Box,#N/A
+PLE,R912,Packing List Envelope,Shipping Supplies,Packing List Envelope,9.5,12,Reclosable, 500 ,96,23.5,Box,#N/A

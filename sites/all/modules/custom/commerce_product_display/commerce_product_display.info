@@ -1,0 +1,4 @@
+name = Commerce Product Display
+description = Customize commerce product display page rendering
+core = 7.x
+package = Commerce Custom

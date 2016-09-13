@@ -1,0 +1,11 @@
+<?php
+
+function commerce_customize_registration_form_alter(&$form, &$form_state, $form_id) {
+  if(!path_is_admin(current_path())) {
+    unset($form['field_billing_information']['und']['profiles'][0]['field_profile_email']);
+    unset($form['field_billing_information']['und']['profiles'][0]['field_profile_phone']);
+
+    unset($form['field_shipping_information']['und']['profiles'][0]['field_profile_email']);
+    unset($form['field_shipping_information']['und']['profiles'][0]['field_profile_phone']);
+  }
+}

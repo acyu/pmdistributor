@@ -1,0 +1,4 @@
+name = Commerce Custom Product Variation Field Modification
+description = Provide modification to product variation field on edit form to get around the autocomplete character limitation
+core = 7.x
+package = Commerce Custom

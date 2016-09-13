@@ -1,0 +1,48 @@
+CLASS,ITEM NUMBER,Hangers,,DESCRIPTION,PRINT,QUANTITY/UOM,UNIT OF MEASURE,COST
+HP,SZRCRNBLK/0,Black Crown Sizers,Hangers,Black Crown Sizers,0,1000,Bag,0.013
+HP,SZRCRNBLK/2,Black Crown Sizers,Hangers,Black Crown Sizers,2,1000,Bag,0.016
+HP,SZRCRNBLK/3,Black Crown Sizers,Hangers,Black Crown Sizers,3,1000,Bag,0.013
+HP,SZRCRNBLK/4,Black Crown Sizers,Hangers,Black Crown Sizers,4,1000,Bag,0.016
+HP,SZRCRNBLK/5,Black Crown Sizers,Hangers,Black Crown Sizers,5,1000,Bag,0.013
+HP,SZRCRNBLK/6,Black Crown Sizers,Hangers,Black Crown Sizers,6,1000,Bag,0.016
+HP,SZRCRNBLK/7,Black Crown Sizers,Hangers,Black Crown Sizers,7,1000,Bag,0.014
+HP,SZRCRNBLK/8,Black Crown Sizers,Hangers,Black Crown Sizers,8,1000,Bag,0.016
+HP,SZRCRNBLK/8,Black Crown Sizers,Hangers,Black Crown Sizers,8,1000,Bag,0.016
+HP,SZRCRNBLK/9,Black Crown Sizers,Hangers,Black Crown Sizers,9,1000,Bag,0.013
+HP,SZRCRNBLK/10,Black Crown Sizers,Hangers,Black Crown Sizers,10,1000,Bag,0.016
+HP,SZRCRNBLK/11,Black Crown Sizers,Hangers,Black Crown Sizers,11,1000,Bag,0.013
+HP,SZRCRNBLK/12,Black Crown Sizers,Hangers,Black Crown Sizers,12,1000,Bag,0.016
+HP,SZRCRNBLK/14,Black Crown Sizers,Hangers,Black Crown Sizers,14,1000,Bag,0.016
+HP,SZRCRNBLK/16,Black Crown Sizers,Hangers,Black Crown Sizers,16,1000,Bag,0.016
+HP,SZRCRNBLK/18,Black Crown Sizers,Hangers,Black Crown Sizers,18,1000,Bag,0.016
+HP,SZRCRNBLK/30,Black Crown Sizers,Hangers,Black Crown Sizers,30,1000,Bag,0.016
+HP,SZRCRNBLK/32,Black Crown Sizers,Hangers,Black Crown Sizers,32,1000,Bag,0.016
+HP,SZRCRNBLK/34,Black Crown Sizers,Hangers,Black Crown Sizers,34,1000,Bag,0.016
+HP,SZRCRNBLK/36,Black Crown Sizers,Hangers,Black Crown Sizers,36,1000,Bag,0.016
+HP,SZRCRNBLK/38,Black Crown Sizers,Hangers,Black Crown Sizers,38,1000,Bag,0.016
+HP,SZRCRNBLK/40,Black Crown Sizers,Hangers,Black Crown Sizers,40,1000,Bag,0.016
+HP,SZRCRNBLK/12M,Black Crown Sizers,Hangers,Black Crown Sizers,12M,1000,Bag,0.02
+HP,SZRCRNBLK/18M,Black Crown Sizers,Hangers,Black Crown Sizers,18M,1000,Bag,0.02
+HP,SZRCRNBLK/24M,Black Crown Sizers,Hangers,Black Crown Sizers,24M,1000,Bag,0.02
+HP,SZRCRNBLK/1X,Black Crown Sizers,Hangers,Black Crown Sizers,1X,1000,Bag,0.014
+HP,SZRCRNBLK/2X,Black Crown Sizers,Hangers,Black Crown Sizers,2X,1000,Bag,0.014
+HP,SZRCRNBLK/3X,Black Crown Sizers,Hangers,Black Crown Sizers,3X,1000,Bag,0.014
+HP,SZRCRNBLK/XS,Black Crown Sizers,Hangers,Black Crown Sizers,XS,1000,Bag,0.02
+HP,SZRCRNBLK/S,Black Crown Sizers,Hangers,Black Crown Sizers,S,1000,Bag,0.013
+HP,SZRCRNBLK/M,Black Crown Sizers,Hangers,Black Crown Sizers,M,1000,Bag,0.014
+HP,SZRCRNBLK/S/M,Black Crown Sizers,Hangers,Black Crown Sizers,S/M,1000,Bag,0.017
+HP,SZRCRNBLK/L,Black Crown Sizers,Hangers,Black Crown Sizers,L,1000,Bag,0.014
+HP,SZRCRNBLK/L/XL,Black Crown Sizers,Hangers,Black Crown Sizers,L/XL,1000,Bag,0.013
+HP,SZRCRNBLK/XL,Black Crown Sizers,Hangers,Black Crown Sizers,XL,1000,Bag,0.013
+HP,SZRCRNBLK/XXL,Black Crown Sizers,Hangers,Black Crown Sizers,XXL,1000,Bag,0.013
+HP,SZR-18MO,Side Sizer,Hangers,Side Sizer,18MO,1000,Bag,8
+HP,SZR-24MO,Side Sizer,Hangers,Side Sizer,24MO,1000,Bag,8
+HP,SZR-2T,Side Sizer,Hangers,Side Sizer,2T,1000,Bag,8
+HP,SZR-3T,Side Sizer,Hangers,Side Sizer,3T,1000,Bag,8
+HP,SZR-4T,Side Sizer,Hangers,Side Sizer,4T,1000,Bag,8
+HP,SZR-5T,Side Sizer,Hangers,Side Sizer,5T,1000,Bag,8
+HP,SZR-6X,Side Sizer,Hangers,Side Sizer,6X,1000,Bag,8
+HP,SZR-LRG,Side Sizer,Hangers,Side Sizer,LRG,1000,Bag,8
+HP,SZR-MED,Side Sizer,Hangers,Side Sizer,MED,1000,Bag,10
+HP,SZR-SML,Side Sizer,Hangers,Side Sizer,SML,1000,Bag,8
+HP,SZR-XL,Side Sizer,Hangers,Side Sizer,XL,1000,Bag,8

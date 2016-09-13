@@ -1,0 +1,46 @@
+CLASS,ITEM NUMBER,,,DESCRIPTION,SIZE (Inches),COLOR,LENGTH (Feet),THICKNESS (Gauge),ROLLS/CASE,NET WEIGHT (Kg),UNIT OF MEASURE,COST
+SF,FLM-8018,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,15,Black," 1,500 ",80,4,28.80,Case,#N/A
+SF,FLM-100160,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,15,Blue," 1,500 ",80,4,28.80,Case,#N/A
+SF,FLM-100175,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,15,Red," 1,500 ",80,4,28.80,Case,#N/A
+SF,FLM-115110,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,Black," 1,500 ",80,4,34.60,Case,44.12
+SF,FLM-115160,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,Blue," 1,500 ",80,4,34.60,Case,44.12
+SF,FLM-115175,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,Green," 1,500 ",80,4,34.60,Case,#N/A
+SF,FLM-12020-35M,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,Red," 1,500 ",80,4,34.60,Case,47.58
+SF,FLM-140160,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,White," 1,500 ",80,4,34.60,Case,45.85
+SF,FLM-140175,Colored Hand Stretch Film,Stretch Film,Colored Hand Stretch Film,18,Black, 550 ,80,4,21.00,Case,27.00
+SF,FLM-160160,Colored Machine Stretch Film,Stretch Film,Colored Machine Stretch Film,20,Black Opaque," 5,000 ",80,1,32.00,Roll,#N/A
+SF,FLM-160175,Hand Stretch Film,Stretch Film,Hand Stretch Film,16,Clear," 1,500 ",39,4,15.36,Case,#N/A
+SF,FLM-170160,Hand Stretch Film,Stretch Film,Hand Stretch Film,17.5,Clear," 1,500 ",39,4,16.80,Case,#N/A
+SF,FLM-170175,Hand Stretch Film,Stretch Film,Hand Stretch Film,11,Clear," 1,500 ",45,4,11.88,Case,#N/A
+SF,FLM-6015-2M,Hand Stretch Film,Stretch Film,Hand Stretch Film,16,Clear," 1,500 ",45,4,17.28,Case,#N/A
+SF,FLM-6018-2M,Hand Stretch Film,Stretch Film,Hand Stretch Film,17.5,Clear," 1,500 ",45,4,18.90,Case,#N/A
+SF,FLM-6420-5M,Hand Stretch Film,Stretch Film,Hand Stretch Film,16,Clear," 1,500 ",55,4,21.12,Case,#N/A
+SF,FLM-6520-7M,Hand Stretch Film,Stretch Film,Hand Stretch Film,17.5,Clear," 1,500 ",55,4,23.10,Case,#N/A
+SF,FLM-7012,Hand Stretch Film,Stretch Film,Hand Stretch Film,16,Clear," 1,500 ",63,4,24.19,Case,#N/A
+SF,FLM-7015,Hand Stretch Film,Stretch Film,Hand Stretch Film,17.5,Clear," 1,500 ",63,4,25.70,Case,#N/A
+SF,FLM-7018,Hand Stretch Film,Stretch Film,Hand Stretch Film,16,Clear," 1,500 ",67,4,25.73,Case,#N/A
+SF,FLM-7020-5M,Hand Stretch Film,Stretch Film,Hand Stretch Film,17.5,Clear," 1,500 ",67,4,27.34,Case,#N/A
+SF,FLM-7020-6M,Hand Stretch Film,Stretch Film,Hand Stretch Film,15,Clear," 2,000 ",60,4,28.80,Case,#N/A
+SF,FLM-7030-6M,Hand Stretch Film,Stretch Film,Hand Stretch Film,18,Clear," 2,000 ",60,4,34.60,Case,#N/A
+SF,FLM-7520-5M,Hand Stretch Film,Stretch Film,Hand Stretch Film,12,Clear," 1,500 ",70,4,20.20,Case,#N/A
+SF,FLM-7520-6M,Hand Stretch Film,Stretch Film,Hand Stretch Film,15,Clear," 1,500 ",70,4,25.20,Case,#N/A
+SF,FLM-8012,Hand Stretch Film,Stretch Film,Hand Stretch Film,18,Clear," 1,500 ",70,4,30.24,Case,#N/A
+SF,FLM-8015,Hand Stretch Film,Stretch Film,Hand Stretch Film,12,Clear," 1,500 ",80,4,23.10,Case,#N/A
+SF,FLM-8015-BLK,Hand Stretch Film,Stretch Film,Hand Stretch Film,15,Clear," 1,500 ",80,4,28.80,Case,#N/A
+SF,FLM-8015-BLU,Hand Stretch Film,Stretch Film,Hand Stretch Film,12,Clear," 1,500 ",90,4,25.92,Case,#N/A
+SF,FLM-8015-RED,Hand Stretch Film,Stretch Film,Hand Stretch Film,15,Clear," 1,500 ",90,4,32.40,Case,#N/A
+SF,FLM-8018-BLK,Hand Stretch Film,Stretch Film,Hand Stretch Film,18,Clear," 1,500 ",90,4,38.90,Case,#N/A
+SF,FLM-8018-BLU,Hand Stretch Film with Hand Protectors,Stretch Film,Hand Stretch Film with Hand Protectors,18,Clear, 800 ,80,4,8.00,Case,16.15
+SF,FLM-8018-GRN,High Performance Machine Stretch Film,Stretch Film,High Performance Machine Stretch Film,20,Clear," 5,000 ",64,1,25.60,Roll,30.80
+SF,FLM-8018-RED,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 3,500 ",115,1,33.07,Roll,#N/A
+SF,FLM-8018-WHT,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 7,000 ",65,1,36.72,Roll,#N/A
+SF,FLM-8020-5M,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 5,000 ",70,1,28.00,Roll,#N/A
+SF,FLM-8020-6M,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 6,000 ",70,1,33.60,Roll,#N/A
+SF,FLM-8020-BLK-5M,Machine Stretch Film,Stretch Film,Machine Stretch Film,30,Clear," 6,000 ",70,1,50.40,Roll,#N/A
+SF,FLM-8030-5M,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 5,000 ",75,1,30.00,Roll,#N/A
+SF,FLM-9012,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 6,000 ",75,1,36.00,Roll,#N/A
+SF,FLM-9015,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 5,000 ",80,1,32.00,Roll,40.11
+SF,FLM-9018,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 6,000 ",80,1,38.40,Roll,#N/A
+SF,FLM-9020-5M,Machine Stretch Film,Stretch Film,Machine Stretch Film,30,Clear," 5,000 ",80,1,48.00,Roll,#N/A
+SF,FLM-8018-BLK2,Machine Stretch Film,Stretch Film,Machine Stretch Film,20,Clear," 5,000 ",90,1,36.00,Roll,#N/A
+SF,FLM-803,Mini Hand Stretch Film,Stretch Film,Mini Hand Stretch Film,3,Clear," 1,000 ",80,18,17.28,Case,25.44

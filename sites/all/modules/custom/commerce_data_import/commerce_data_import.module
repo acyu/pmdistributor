@@ -1,0 +1,1677 @@
+<?php
+
+function commerce_data_import_menu() {
+  $items = array();
+
+  //assume different product type will pass in different param, so link will be commerce_data_import/box, commerce_data_import/label, commerce_data_import/shipping_supply, etc
+  $items['commerce_data_import/%'] = array(
+    'page callback' => 'run_commerce_data_import',
+    'page arguments' => array(1),
+    'access arguments' => array('access administration pages'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+
+ function run_commerce_data_import($type) {
+  //assume each type of product has it's own excel file
+  $file_name = '';  
+  if($type == 'box') {
+    $product_type = $type;
+    $file_name = 'Boxes.csv';
+  } elseif($type == 'box_rett') {
+    $product_type = 'box';
+    $file_name = 'Boxes-RETT.csv';
+  } elseif($type == 'box_chipboard') {
+    $product_type = 'box';
+    $file_name = 'Boxes-chipboard.csv';
+  } elseif ($type == 'bubble_wrap') {
+    $product_type = $type;
+    $file_name = 'Bubble-Wrap.csv';
+  } elseif ($type == 'chipboard') {
+    $product_type = $type;
+    $file_name = 'Chipboard.csv';
+  } elseif($type == 'label-sheet') {
+    $product_type = 'label';
+    $file_name = 'Labels-Sheet.csv';
+  } elseif($type == 'label-direct-thermal-fanfold') {
+    $product_type = 'label';
+    $file_name = 'Labels-Direct-Thermal-Fanfold.csv';
+  } elseif($type == 'labels_direct_thermal_roll') {
+    $product_type = 'label';
+    $file_name = 'Labels-Direct-Thermal-Roll.csv';
+  } elseif($type == 'labels_thermal_transfer_fanfold') {
+    $product_type = 'label';
+    $file_name = 'Labels-Thermal-Transfer-Fanfold.csv';
+  } elseif($type == 'labels_thermal_printer') {
+    $product_type = 'label';
+    $file_name = 'Labels-Thermal-Printer-Ribbon.csv';
+  } elseif($type == 'hangers') {
+    $product_type = 'hanger';
+    $file_name = 'Hangers.csv';
+  } elseif($type == 'hangers_sizers') {
+    $product_type = 'hanger';
+    $file_name = 'Hangers-sizers.csv';
+  } elseif($type == 'mailers') {
+    $product_type = 'mailer';
+    $file_name = 'Mailers.csv';
+  } elseif($type == 'stretch_film') {
+    $product_type = 'stretch_film';
+    $file_name = 'Stretch-Film.csv';
+  } elseif($type == 'tape-masking') {
+    $product_type = 'tape';
+    $file_name = 'tape-masking.csv';
+  } elseif($type == 'tape-reinforced') {
+    $product_type = 'tape';
+    $file_name = 'tape-reinforced.csv';
+  } elseif($type == 'tape-security') {
+    $product_type = 'tape';
+    $file_name = 'tape-security.csv';
+  } elseif($type == 'tape-machine') {
+    $product_type = 'tape';
+    $file_name = 'tape-machine.csv';
+  } elseif($type == 'shipping_supply_clips') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Clips.csv';
+  } elseif($type == 'shipping_supply_edge_protectors') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Edge-Protectors.csv';
+  } elseif($type == 'shipping_supply_fasteners') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Fasteners.csv';
+  } elseif($type == 'shipping_supply_foam') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Foam.csv';
+  } elseif($type == 'shipping_supply_loose_fill') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Loose-Fill.csv';
+  } elseif($type == 'shipping_supply_office_supplies') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Office-Supplies.csv';
+  } elseif($type == 'shipping_supply_packing') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Packing.csv';
+  } elseif($type == 'shipping_supply_packing_list') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Packing-list.csv';
+  } elseif($type == 'shipping_supply_packing_tissue') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Packing-Tissue.csv';
+  } elseif($type == 'shipping_supply_pallets') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Pallets.csv';
+  } elseif($type == 'shipping_supply_Paper') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Paper.csv';
+  } elseif($type == 'shipping_supply_rubber_bands') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Rubber-Bands.csv';
+  } elseif($type == 'shipping_supply_seals') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Seals.csv';
+  } elseif($type == 'shipping_supply_slip_sheets') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Slip-Sheets.csv';
+  } elseif($type == 'shipping_supply_strapping') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Strapping.csv';
+  } elseif($type == 'shipping_supply_tagging_gun_needles') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Tagging-Gun-Needles.csv';
+  } elseif($type == 'shipping_supply_tagging_guns') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Tagging-Guns.csv';
+  } elseif($type == 'shipping_supply_tape_guns') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Tape-Guns.csv';
+  } elseif($type == 'shipping_supply_tape_machines') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Tape-Machines.csv';
+  } elseif($type == 'shipping_supply_truck_seals') {
+    $product_type = 'shipping_supply';
+    $file_name = 'Shipping-Supplies-Truck-Seals.csv';
+  }
+
+  $rowIndex = 0;
+  if (($handle = fopen( dirname(__FILE__) . "/xlsx/" . $file_name, "r")) !== FALSE) {    
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {      
+      //if(!is_numeric($data[0])): continue; endif; 
+      if($type == 'hangers' || $type == 'hangers_sizers' || $type == 'stretch_film' || $type == 'tape-masking' || $type == 'tape-reinforced' || $type == 'tape-security' || $type == 'tape-machine' || substr($type,0,strlen('shipping_supply')) == 'shipping_supply') {
+        if($rowIndex < 1): $rowIndex++; continue; endif; //ignore first 3 row, assume column label
+      } else {
+        if($rowIndex < 2): $rowIndex++; continue; endif; //ignore first 3 row, assume column label
+      }      
+
+      $result = db_select('commerce_product','cp')
+                ->fields('cp')
+                ->condition('sku',trim($data[1]),'=')
+                ->execute();
+      if($data[1] == '20302021') {
+        print_r('product:20302021');
+        print_r('<br/>');
+        print_r($result->rowCount());
+        print_r('<br/>');        
+      }
+      //if($result->rowCount() > 0): $rowIndex++; continue; endif;
+      if($result->rowCount() > 0) {
+        print_r('<pre>');
+        print_r('found');
+        print_r('<br/>');
+        print_r($data[1]);
+        print_r('<br/>');
+        print_r($result->rowCount());
+        print_r('<br/>');
+        print_r($product_type);
+        print_r('</pre>');
+        //$product = commerce_product_load_by_sku($data[1]);
+        while($p = $result->fetchAssoc()) {
+        $product = commerce_product_load($p['product_id']);
+        /*commerce_product_delete($p['product_id']);
+        $product = commerce_product_new($product_type);*/
+
+        /*$product->sku = trim($data[1]); //assign excel column mapping
+        $product->language = LANGUAGE_NONE;
+        $product->uid = 1;
+        $product->status = 1;*/
+        }
+
+      } else {
+        $product = commerce_product_new($product_type);
+        $product->sku = $data[1]; //assign excel column mapping
+        $product->language = LANGUAGE_NONE;
+        $product->uid = 1;
+        $product->status = 1;
+      }          
+
+      $product->commerce_price[LANGUAGE_NONE][0] = array(
+        'amount' =>100 * 100, //depend on the format, if in dollar, * 100
+        'currency_code' => 'USD'
+      );
+
+      $import_image_dir = variable_get('file_public_path', conf_path() . '/files') . '/product-images-import';
+
+      //print_r('<pre>');
+     // print_r('$import_image_dir: ' . $import_image_dir . '<br/>');      
+     // $destination_image_dir = variable_get('file_public_path', conf_path() . '/files') . '/product-images' . "/$product_type";
+      $destination_image_dir = "public://product-images/$product_type";
+      file_prepare_directory($destination_image_dir, FILE_CREATE_DIRECTORY);
+      //$destination_image = $destination_image_dir . '/' . $data[1] . '.jpg';
+      //$import_image = $import_image_dir . '/' . $data[1] . '.jpg';
+      $import_image_exists = true;
+      try {
+        $import_image = file_get_contents($import_image_dir . '/' . $data[1] . '.jpg');         
+      } catch (Exception $ex) {
+        $import_image_exists = false;
+      }
+      
+      //print_r('$import_image: ' . $import_image . '<br/>');
+      //print_r(file_exists($import_image));
+     // print_r('</pre>');
+      //if(file_exists($import_image)) {
+      if($import_image_exists == true) {
+       // print_r('$destination_image: ' . $destination_image_dir . '/' . $data[1] . '.jpg' . '<br/>');
+        $saved_file = file_save_data($import_image, $destination_image_dir . '/' . $data[1] . '.jpg', FILE_EXISTS_REPLACE);
+
+        $file = array(
+          'fid' => $saved_file->fid,
+          'uid' => 1,          
+          'uri' => $saved_file->uri,
+          'filename' => $saved_file->filename,
+          'filemime' => $saved_file->filemime,
+          'status' => 1,
+          'display' => 1
+        );
+
+        //$imgdir = $destination_image_dir . "/$product_type"; 
+        
+        // We save the file to the root of the files directory.
+        //file_copy($file, $imgdir);
+        //copy($import_image, $destination_image);
+/*print_r('<pre>');
+print_r('dump $file:');
+print_r($file);
+print_r('</pre>');*/
+        $product->field_product_image[LANGUAGE_NONE][0] = $file;        
+      }
+
+      //different product with different fields
+      if($type == 'box') {        
+        $product->title = $data[7];
+
+        $data[3] = 'Boxes';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_print[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+/*
+        $product->field_bdl[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+*/
+        if($data[17] && is_numeric($data[17])):
+        $product->field_weight_per_m[LANGUAGE_NONE][0] = array(
+          'value'=>$data[17]
+        );
+        endif;
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[4],
+          'width'=>$data[5],
+          'height'=>$data[6], //use height to store depth
+          'unit'=>'in'
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_strength[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_flute[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        $product->field_style[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+/*
+        $product->field_code[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+*/
+        $product->field_product_desc[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_bdl[LANGUAGE_NONE][0] = array(
+          'value'=>$data[18]
+        );
+
+        $product->field_plt[LANGUAGE_NONE][0] = array(
+          'value'=>$data[19]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[20]
+        );
+
+        $product->field_cost[LANGUAGE_NONE][0] = array(
+          'value'=>$data[21]
+        );
+      }
+
+      if($type == 'box_rett') {
+        $product->title = $data[7];
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $data[3] = 'Roll End Tuck Top (RETT) Boxes';
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[4],
+          'width'=>$data[5],
+          'height'=>$data[6], //use height to store depth
+          'unit'=>'in'
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_strength[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        if(is_numeric($data[13])):
+        $product->field_weight_per_m[LANGUAGE_NONE][0] = array(
+          'value'=>$data[13]
+        );
+        endif;
+
+        $product->field_bdl[LANGUAGE_NONE][0] = array(
+          'value'=>$data[14]
+        );
+
+        $product->field_bdl[LANGUAGE_NONE][0] = array(
+          'value'=>$data[15]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[16]
+        );
+
+        $product->field_cost[LANGUAGE_NONE][0] = array(
+          'value'=>$data[17]
+        );
+      }
+
+      if($type == 'box_chipboard') {
+        $product->title = $data[7];
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $data[3] = 'Chipboard Boxes';
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[4],
+          'width'=>$data[5],
+          'height'=>$data[6], //use height to store depth
+          'unit'=>'in'
+        );
+
+        $product->field_style[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_caliber[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        if(is_numeric($data[11])):
+        $product->field_weight_per_m[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+        endif;
+
+        if(is_numeric($data[12])):
+        $product->field_count_per_bundle[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+        endif;
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[13]
+        );
+
+        $product->field_cost[LANGUAGE_NONE][0] = array(
+          'value'=>$data[14]
+        );
+      }
+
+      if($type == 'bubble_wrap') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_bubble_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_bundle_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        if(is_numeric($data[7])) {
+          $product->field_cut[LANGUAGE_NONE][0] = array(
+            'value'=>$data[7]
+          );
+        }
+
+        $product->field_perforation[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_cost[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[10], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+      }
+
+      if($type == 'chipboard') {
+        $product->title = $data[4];
+/*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[11], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'height'=>$data[7],
+          'unit'=>'in'
+        );        
+
+        $product->field_count_per_bundle[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        if(is_numeric($data[9])) {
+        $product->field_weight_per_bundle[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+        }
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        if(is_numeric($data[11])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[11]
+          );
+        }
+      }
+
+      if($type == 'label-sheet') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Sheet Labels';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size_of_sheet[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_size_of_labels[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_count_per_sheet[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_count_per_pack[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_label_shape[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[15]
+        );
+
+        if(is_numeric($data[16])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[16]
+          );
+        }
+      }
+
+      if($type == 'label-direct-thermal-fanfold') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Direct Thermal Fanfold Labels';
+/*
+        if(is_numeric($data[19])) {
+          $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[19], //depend on the format, if in dollar, * 100
+            'currency_code' => 'USD'
+          );
+        }
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'unit'=>'in'
+        );  
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_perforation[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_labels_across[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_labels_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_labels_per_stack[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        $product->field_stacks_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+/*
+        $product->field_stacks_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );*/
+
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[16]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[17]
+        );
+
+        if(is_numeric($data[18])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[18]
+          );
+        }
+      }
+
+      if($type == 'labels_direct_thermal_roll') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Direct Thermal Roll Labels';
+/*
+        if(is_numeric($data[18])) {
+          $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[18], //depend on the format, if in dollar, * 100
+            'currency_code' => 'USD'
+          );
+        }
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'unit'=>'in'
+        ); 
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_perforation[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        ); 
+
+        $product->field_labels_across[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        ); 
+
+        $product->field_core[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        ); 
+
+        $product->field_labels_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        ); 
+
+        $product->field_labels_per_roll[LANGUAGE_NONE][0] = array(
+          'value'=> preg_replace("/[^0-9,.]/", "", $data[12])
+        ); 
+
+        $product->field_rolls_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[13]
+        );
+
+        if(is_numeric($data[17])) {
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[17]
+        );
+        } 
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[18]
+        ); 
+
+        if(is_numeric($data[19])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[19]
+          );
+        }
+      }
+
+      if($type == 'labels_thermal_transfer_fanfold') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Thermal Transfer Fanfold Labels';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'unit'=>'in'
+        ); 
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_perforation[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        ); 
+
+        $product->field_labels_across[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        ); 
+
+        $product->field_labels_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>preg_replace("/[^0-9,.]/", "", $data[10])
+        );
+
+        $product->field_labels_per_stack[LANGUAGE_NONE][0] = array(
+          'value'=>preg_replace("/[^0-9,.]/", "", $data[11])
+        ); 
+
+        $product->field_stacks_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[16]
+        ); 
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[17]
+        ); 
+
+        if(is_numeric($data[18])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[18]
+          );
+        }
+      }
+
+      if($type == 'labels_thermal_printer') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Thermal Printer Ribbons';
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => '0.001', //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[6],
+          'width'=>$data[4],
+          'unit'=>'in'
+        ); 
+
+        $product->field_material[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_printer[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        ); 
+
+        $product->field_rolls_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[14]
+        ); 
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[15]
+        ); 
+      }
+
+      if($type == 'hangers') {
+        $product->title = $data[2] . ' ' . $data[1];
+/*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[11], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_clips[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_hook[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[9])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        if(is_numeric($data[11])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[11]
+          );
+        }
+      }
+
+      if($type == 'hangers_sizers') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Sizers';
+/*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[8], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_print[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_qty_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'mailers') {
+        $product->title = $data[4];
+
+        if(strrpos('Kraft Bubble',$data[3]) >= 0): $data[3] = 'Kraft Bubble Mailers'; endif;
+        if(strrpos('Poly Bubble',$data[3]) >= 0): $data[3] = 'Poly Bubble Mailers'; endif;
+        if(strrpos('Poly Mailers',$data[3]) >= 0): $data[3] = 'Poly Mailers'; endif;
+/*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[9], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+*/
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[6],
+          'width'=>$data[5],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[7])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );   
+
+        if(is_numeric($data[9])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[9]
+          );
+        }
+      }
+
+      if($type == 'stretch_film') {
+        $product->title = $data[2] . ' ' . $data[1];
+        /*
+        if(is_numeric($data[12])) {
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[12], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        }
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>intval($data[7]),
+          'unit'=>'in'
+        );
+
+        $product->field_thickness[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[9])
+        );
+
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        if(is_numeric($data[12])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[12]
+          );
+        }
+      }
+
+      if($type == 'tape-masking') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Masking Tape';
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[10], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );   
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[6],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[7])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        if(is_numeric($data[10])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[10]
+          );
+        }
+      }
+
+      if($type == 'tape-reinforced') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Reinforced Tape';
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[12], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[7],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[8])
+        );
+
+        $product->field_print[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        if(is_numeric($data[12])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[12]
+          );
+        }
+      }
+
+      if($type == 'tape-security') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Security Tape';
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => $data[12], //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[7],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[8])
+        );
+
+        $product->field_print[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        if(is_numeric($data[12])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[12]
+          );
+        }
+      }
+
+      if($type == 'tape-machine') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Machine Tape';
+        /*
+        $product->commerce_price[LANGUAGE_NONE][0] = array(
+          'amount' => '0.001', //depend on the format, if in dollar, * 100
+          'currency_code' => 'USD'
+        );
+        */
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[7],
+          'unit'=>'in'
+        );
+
+        $product->field_thickness[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[9])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+      }
+
+      if($type == 'shipping_supply_clips') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Clips';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_count_per_bag[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[6])
+        );
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_edge_protectors') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_thickness[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[7],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_pallet[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[8])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        if(is_numeric($data[10])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[10]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_fasteners') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Shipping Supplies';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[7])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        if(is_numeric($data[9])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[9]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_foam') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Foam';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[7])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        if(is_numeric($data[9])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[9]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_loose_fill') {
+        $product->title = utf8_encode($data[2] . ' ' . $data[1]);
+
+        $data[3] = 'Loose Fill';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_office_supplies' || $type == 'shipping_supply_truck_seals') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        if($type == 'shipping_supply_office_supplies'): $data[3] = 'Paper'; endif;
+        if($type == 'shipping_supply_truck_seals'): $data[3] = 'Truck Seals'; endif;
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[6])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_packing' || $type == 'shipping_supply_packing_list') {
+        $product->title = $data[2] . ' ' . $data[1];
+
+        $data[3] = 'Packing List Envelopes';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'unit'=>'in'
+        );
+
+        $product->field_load_point[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[8])
+        );
+
+        $product->field_count_per_pallet[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[9])
+        );
+
+        $product->field_weight[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        if(is_numeric($data[12])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[12]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_packing_tissue') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[5],
+          'width'=>$data[6],
+          'unit'=>'in'
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[7])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        if(is_numeric($data[9])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[9]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_pallets' || $type == 'shipping_supply_tape_guns') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        if($type == 'shipping_supply_pallets'): $data[3] = 'Pallets'; endif;
+        if($type == 'shipping_supply_tape_guns'): $data[3] = 'Strapping Accessories'; endif;
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        if(is_numeric($data[7])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[7]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_Paper') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Paper';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>intval($data[6]),
+          'unit'=>'in'
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_rubber_bands') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Shipping Supplies';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_size_number[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[6])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_seals') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Seals';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>$data[6],
+          'unit'=>'in'
+        );
+
+        $product->field_type[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_count_per_case[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[8])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );        
+
+        if(is_numeric($data[8])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[8]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_slip_sheets' || $type == 'shipping_supply_tagging_guns') {
+        $product->title = utf8_encode($data[4] . ' ' . $data[1]);
+
+        if($type == 'shipping_supply_slip_sheets'): $data[3] = 'Slip Sheets'; endif;
+        if($type == 'shipping_supply_tagging_guns'): $data[3] = 'Strapping Accessories'; endif;
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );        
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        ); 
+
+        if(is_numeric($data[6])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[6]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_strapping') {
+       $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Strapping';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_size[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_core[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_physical_dimension[LANGUAGE_NONE][0] = array(
+          'length'=>intval($data[7]),
+          'unit'=>'in'
+        );
+
+        $product->field_color[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[9])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        if(is_numeric($data[11])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[11]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_tagging_gun_needles') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Strapping Accessories';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_overall_length[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_effective_length[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        $product->field_outside_diameter[LANGUAGE_NONE][0] = array(
+          'value'=>$data[7]
+        );
+
+        $product->field_paddle[LANGUAGE_NONE][0] = array(
+          'value'=>$data[8]
+        );
+
+        $product->field_tend[LANGUAGE_NONE][0] = array(
+          'value'=>$data[9]
+        );
+
+        $product->field_hook[LANGUAGE_NONE][0] = array(
+          'value'=>$data[10]
+        );
+
+        $product->field_loop[LANGUAGE_NONE][0] = array(
+          'value'=>$data[11]
+        );
+
+        $product->field_buttoneer[LANGUAGE_NONE][0] = array(
+          'value'=>$data[12]
+        );
+
+        $product->field_count_per_uom[LANGUAGE_NONE][0] = array(
+          'value'=>intval($data[13])
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[14]
+        );
+
+        if(is_numeric($data[15])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[15]
+          );
+        }
+      }
+
+      if($type == 'shipping_supply_tape_machines') {
+        $product->title = $data[4] . ' ' . $data[1];
+
+        $data[3] = 'Strapping Accessories';
+
+        $product->field_item_class[LANGUAGE_NONE][0] = array(
+          'value'=>$data[0]
+        );
+
+        $product->field_tape_widths[LANGUAGE_NONE][0] = array(
+          'value'=>$data[5]
+        );
+
+        $product->field_uom[LANGUAGE_NONE][0] = array(
+          'value'=>$data[6]
+        );
+
+        if(is_numeric($data[7])) {
+          $product->field_cost[LANGUAGE_NONE][0] = array(
+            'value'=>$data[7]
+          );
+        }
+      }
+print_r('<pre>');
+print_r($data[2]);
+print_r('</pre>');
+      commerce_product_save($product);
+
+      // create product display, this needs additional logic so we can group multiple products into one display
+      // assume product display uses one of the excel column value as title
+      $result = db_select('node','n')
+                ->fields('n')
+                ->condition('title',utf8_encode($data[2]),'=')
+                ->execute();
+
+      if($result->rowCount() < 1) {        
+        // depending on type, create different product display node
+        $node = (object)array('type' => 'product_display');
+        node_object_prepare($node);
+        $node->title = utf8_encode($data[2]); //assume using one of the excel column as title value
+        $node->uid = 1;
+        $node->status = 1;
+        $node->field_product_variation[LANGUAGE_NONE][]['product_id'] = $product->product_id;
+        $node->language = LANGUAGE_NONE;
+
+        // need additional logic to tag the display to the proper category
+        $entityFieldQry = new EntityFieldQuery;
+        $result = $entityFieldQry
+          ->entityCondition('entity_type', 'taxonomy_term')
+          ->propertyCondition('name', $data[3]) //assume category name is part of the excel column value, category name example: Boxes, Apparel Boxes, RETT, etc
+          ->propertyCondition('vid', taxonomy_vocabulary_machine_name_load('product_category')->vid)
+          ->execute();
+
+        print_r($data[2]);
+        print_r('<br/>');
+        print_r($product->product_id);
+        print_r('<br/>');
+        print_r($data[3]);
+        print_r('<br/>');
+
+        $term = array_shift($result['taxonomy_term']);
+
+        $node->field_product_category[LANGUAGE_NONE][0] = array(
+          'tid'=> $term->tid,
+        );
+
+        node_save($node);    
+      } else {
+        // we should only have 1 record of display product node, if we have more then we need to restrict the query with more condition
+
+        while($record = $result->fetchAssoc()) {
+          $node = node_load($record['nid']);
+          print_r('<pre>');
+          print_r($product->product_id);
+          //print_r($node);      
+
+          $entityFieldQry = new EntityFieldQuery;
+          $search_term = $entityFieldQry
+            ->entityCondition('entity_type', 'taxonomy_term')
+            ->propertyCondition('name', $data[3]) //assume category name is part of the excel column value, category name example: Boxes, Apparel Boxes, RETT, etc
+            ->propertyCondition('vid', taxonomy_vocabulary_machine_name_load('product_category')->vid)
+            ->execute();
+print_r($search_term['taxonomy_term']);
+          $term = array_shift($search_term['taxonomy_term']);
+print_r('</pre>');
+
+          $node->field_product_category[LANGUAGE_NONE][0] = array(
+            'tid'=> $term->tid,
+          );
+
+          $node->field_product_variation[LANGUAGE_NONE][]['product_id'] = $product->product_id;
+          node_save($node);
+        } 
+      }
+      
+      $rowIndex++;
+    }
+  }  
+}

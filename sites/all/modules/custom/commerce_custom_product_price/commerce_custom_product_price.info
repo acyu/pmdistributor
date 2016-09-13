@@ -1,0 +1,4 @@
+name = Commerce Custom Product Price
+description = Provide customization PM Distributor prodcut pricing functionality
+core = 7.x
+package = Commerce Custom

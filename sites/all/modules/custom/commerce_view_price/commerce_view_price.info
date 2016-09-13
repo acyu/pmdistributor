@@ -1,0 +1,4 @@
+name = Commerce Views Price Field
+description = Alter commerce views that shows price/total cost by hide/show price base on role
+core = 7.x
+package = Commerce Custom

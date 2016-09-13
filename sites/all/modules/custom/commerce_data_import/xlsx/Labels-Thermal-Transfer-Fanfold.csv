@@ -1,0 +1,29 @@
+,,,,,,,,,,,,,CASE DIMENSIONS,,,,,
+CLASS,ITEM NUMBER,,,DESCRIPTION,LENGTH (Inches),WIDTH (Inches),COLOR,PERFORATION,LABELS ACROSS,LABELS/CASE,LABELS/STACK,STACKS/CASE,LENGTH,WIDTH,DEPTH,WEIGHT,UNIT OF MEASURE,COST
+LA,TTF-200-16-2P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,2,1,White,Yes,2,"42,000","21,000",2,,,,20,Case,#N/A
+LA,TTF-300-16P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3,1,White,Yes,1,"21,000","10,500",2,,,,15,Case,#N/A
+LA,TTF-300-24P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3,1.5,White,Yes,1,"15,000","7,500",2,,,,16,Case,#N/A
+LA,TTF-300-32P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3,2,White,Yes,1,"12,000","6,000",2,,,,16,Case,#N/A
+LA,TTF-300-80P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3,5,White,Yes,1,"5,000","2,500",2,,,,17,Case,#N/A
+LA,TTF-350-128P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3.5,8,White,Yes,1,"3,000","1,000",3,,,,20,Case,#N/A
+LA,TTF-350-16P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,3.5,1,White,Yes,1,"21,000","10,500",2,,,,18,Case,#N/A
+LA,TTF-400-104P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6.5,White,Yes,1,"4,000","2,000",2,,,,12,Case,#N/A
+LA,TTF-400-128P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,8,White,Yes,1,"3,000","1,000",3,,,,22,Case,#N/A
+LA,TTF-400-16P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,1,White,Yes,1,"21,000","10,500",2,,,,20,Case,#N/A
+LA,TTF-400-208P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,13,White,Yes,1,"2,000","1,000",2,,,,22,Case,#N/A
+LA,TTF-400-32P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,2,White,Yes,1,"12,000","6,000",2,,,,22,Case,#N/A
+LA,TTF-400-40P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,2.5,White,Yes,1,"8,000","4,000",2,,,,22,Case,#N/A
+LA,TTF-400-48P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,3,White,Yes,1,"8,000","4,000",2,,,,22,Case,#N/A
+LA,TTF-400-64P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,4,White,Yes,1,"6,000","3,000",2,,,,23,Case,#N/A
+LA,TTF-400-80P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,5,White,Yes,1,"4,000","2,000",2,,,,22,Case,#N/A
+LA,TTF-400-96P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,White,Yes,1,"4,000","2,000",2,,,,23,Case,32.00
+LA,TTF-400-96P-BLU,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Blue,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-400-96P-GRN,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Green,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-400-96P-ORG,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Orange,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-400-96P-PNK,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Pink,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-400-96P-RED,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Red,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-400-96P-YEL,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,4,6,Yellow,Yes,1,"4,000","2,000",2,,,,23,Case,#N/A
+LA,TTF-500-48P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,5,3,White,Yes,1,"8,000","4,000",2,,,,27,Case,#N/A
+LA,TTF-500-64P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,5,4,White,Yes,1,"6,000","3,000",2,,,,27,Case,#N/A
+LA,TTF-600-64P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,6,4,White,Yes,1,"6,000","3,000",2,,,,27,Case,#N/A
+LA,TTF-650-64P,Fan-folded Thermal Transfer Labels,Thermal Transfer,Fan-folded Thermal Transfer Labels,6.5,4,White,Yes,1,"6,000","3,000",2,,,,36,Case,#N/A

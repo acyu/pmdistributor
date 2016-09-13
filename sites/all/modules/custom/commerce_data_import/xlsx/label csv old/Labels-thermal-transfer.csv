@@ -1,0 +1,17 @@
+,,,,,,,,,,,CASE DIMENSIONS,,,,
+CLASS,ITEM NUMBER,,,WIDTH (Inches),WIDTH (Millimeters),LENGTH (Feet),LENGTH (Meters),MATERIAL,PRINTER,ROLLS/CASE,LENGTH,WIDTH,DEPTH,WEIGHT,UNIT OF MEASURE
+LA,RBN-Z040450,Thermal Printer Ribbon,Color,1.57,40,1476,450,Wax,Zebra,36,,,,16,Case
+LA,RBN-Z060450,Thermal Printer Ribbon,Color,2.36,60,1476,450,Wax,Zebra,36,,,,23,Case
+LA,RBN-Z080300,Thermal Printer Ribbon,Color,3.15,80,984,300,Wax,Zebra,24,,,,15,Case
+LA,RBN-Z080450,Thermal Printer Ribbon,Color,3.15,80,1476,450,Wax,Zebra,24,,,,21,Case
+LA,RBN-Z095300,Thermal Printer Ribbon,Color,3.74,95,984,300,Wax,Zebra,24,,,,18,Case
+LA,RBN-Z102300,Thermal Printer Ribbon,Color,4.02,101.6,984,300,Wax,Zebra,24,,,,19,Case
+LA,RBN-Z102450,Thermal Printer Ribbon,Color,4.02,101.6,1476,450,Wax,Zebra,24,,,,26,Case
+LA,RBN-Z106450,Thermal Printer Ribbon,Color,4.17,106,1476,450,Wax,Zebra,6,,,,7,Case
+LA,RBN-Z110300,Thermal Printer Ribbon,Color,4.33,110,984,300,Wax,Zebra,24,,,,20,Case
+LA,RBN-Z110450,Thermal Printer Ribbon,Color,4.33,110,1476,450,Wax,Zebra,24,,,,28,Case
+LA,RBN-Z152450,Thermal Printer Ribbon,Color,5.98,152,1476,450,Wax,Zebra,12,,,,20,Case
+LA,RBN-D076360,Thermal Printer Ribbon,Color,2.99,76,1181,360,Wax,Datamax,24,,,,16,Case
+LA,RBN-D090360,Thermal Printer Ribbon,Color,3.54,90,1181,360,Wax,Datamax,24,,,,19,Case
+LA,RBN-D102360,Thermal Printer Ribbon,Color,4.02,102,1181,360,Wax,Datamax,24,,,,22,Case
+LA,RBN-D110360,Thermal Printer Ribbon,Color,4.33,110,1181,360,Wax,Datamax,24,,,,23,Case

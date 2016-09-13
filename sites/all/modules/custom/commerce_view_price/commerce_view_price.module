@@ -1,0 +1,17 @@
+<?php
+
+function commerce_view_price_views_pre_build(&$view) { 
+  global $user; 
+  if($view->name == 'commerce_cart_form') {
+    if(!user_is_logged_in()) {
+      $field_to_remove = array('commerce_total','commerce_unit_price');
+      foreach($field_to_remove as $field_name) {
+        unset($view->field[$field_name]);
+        unset($view->display_handler->handlers['field'][$field_name]);
+      }
+
+      unset($view->footer['order_total']);
+      unset($view->display_handler->handlers['footer']['order_total']);
+    }
+  }
+}
